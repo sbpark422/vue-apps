@@ -1,4 +1,11 @@
 
+#edit[data-v-214c13a8] {
+  color: #bea7d1;
+}
+#edit.upclose[data-v-214c13a8] {
+  color: #cc0a0a;
+}
+
 button[data-v-d5ef8e02] {
     width: 120px;
     color: -internal-light-dark(black, white);
@@ -17,13 +24,6 @@ button[data-v-d5ef8e02] {
 .fakeButton[data-v-d5ef8e02]:hover {
   color: #a78e06;
   background: #9803a5;
-}
-
-#edit[data-v-214c13a8] {
-  color: #bea7d1;
-}
-#edit.upclose[data-v-214c13a8] {
-  color: #cc0a0a;
 }
 /* http://meyerweb.com/eric/tools/css/reset/
    v4.0 | 20180602
