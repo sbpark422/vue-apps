@@ -47,7 +47,7 @@ footer, header, hgroup, main, menu, nav, section {
 }
 /* Now, our styles */
 #room {
-    font-family: 'Roboto', sans-serif;
+    font-family: Avenir,  Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
