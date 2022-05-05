@@ -4,7 +4,7 @@ var NetworkedHelloWorld_vue_vue_type_style_index_0_scoped_true_lang = "";
 var top = "";
 var room = "";
 async function logAndFollow(id, url) {
-  await window.APP.scene.systems["data-logging"].logCLink(id, url);
+  await window.APP.scene.systems["data-logging"].logCLick(id, url);
   if (url.length > 0) {
     window.open(url, "_blank");
   }
