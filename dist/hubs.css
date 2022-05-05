@@ -1,12 +1,12 @@
 
-#edit[data-v-214c13a8] {
+#edit[data-v-08f6e824] {
   color: #bea7d1;
 }
-#edit.upclose[data-v-214c13a8] {
+#edit.upclose[data-v-08f6e824] {
   color: #cc0a0a;
 }
 
-button[data-v-d5ef8e02] {
+button[data-v-1d144fe5] {
     width: 120px;
     color: -internal-light-dark(black, white);
     text-indent: 0px;
@@ -16,12 +16,12 @@ button[data-v-d5ef8e02] {
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-radius: 2px;
 }
-.fakeButton[data-v-d5ef8e02] {
+.fakeButton[data-v-1d144fe5] {
   color: #9803a5;
   background: #a78e06;
   /* transition: color 1s; */
 }
-.fakeButton[data-v-d5ef8e02]:hover {
+.fakeButton[data-v-1d144fe5]:hover {
   color: #a78e06;
   background: #9803a5;
 }
@@ -275,16 +275,16 @@ button[data-v-06a9f319] {
   color: #a78e06;
 }
 
-a[data-v-0b72a6b4] {
+a[data-v-9ffe3f52] {
   color: #b542b9;
 }
-button[data-v-0b72a6b4] {
+button[data-v-9ffe3f52] {
   width: 150px;
 }
-.fade[data-v-0b72a6b4] {
+.fade[data-v-9ffe3f52] {
   color: #9803a5;
   /* transition: color 1s; */
 }
-.fade[data-v-0b72a6b4]:hover {
+.fade[data-v-9ffe3f52]:hover {
   color: #06a71b;
 }

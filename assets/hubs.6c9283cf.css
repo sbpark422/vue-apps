@@ -228,28 +228,28 @@ img.centerImg {
   color: white;
   background:#78cfa8;
 }
-a[data-v-05e47e44] {
+a[data-v-fd77e8fe] {
   color: #b542b9;
 }
-button[data-v-05e47e44] {
+button[data-v-fd77e8fe] {
   width: 150px;
 }
-.fade[data-v-05e47e44] {
+.fade[data-v-fd77e8fe] {
   color: #9803a5;
   /* transition: color 1s; */
 }
-.fade[data-v-05e47e44]:hover {
+.fade[data-v-fd77e8fe]:hover {
   color: #06a71b;
 }
 
-#edit[data-v-2a0e1798] {
+#edit[data-v-6a6efdc8] {
   color: #bea7d1;
 }
-#edit.upclose[data-v-2a0e1798] {
+#edit.upclose[data-v-6a6efdc8] {
   color: #cc0a0a;
 }
 
-button[data-v-01a8534e] {
+button[data-v-f3c1f56a] {
     width: 120px;
     color: -internal-light-dark(black, white);
     text-indent: 0px;
@@ -259,12 +259,12 @@ button[data-v-01a8534e] {
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-radius: 2px;
 }
-.fakeButton[data-v-01a8534e] {
+.fakeButton[data-v-f3c1f56a] {
   color: #9803a5;
   background: #a78e06;
   /* transition: color 1s; */
 }
-.fakeButton[data-v-01a8534e]:hover {
+.fakeButton[data-v-f3c1f56a]:hover {
   color: #a78e06;
   background: #9803a5;
 }
