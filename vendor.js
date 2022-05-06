@@ -84,6 +84,7 @@ class WebLayer {
     __publicField(this, "previousDOMStateKey");
     __publicField(this, "desiredDOMStateKey");
     __publicField(this, "currentDOMStateKey");
+    __publicField(this, "lastSVGUrl");
     __publicField(this, "domMetrics", {
       bounds: new Bounds(),
       padding: new Edges(),
