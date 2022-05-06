@@ -1,7 +1,7 @@
 /* Now, our styles */
-@import url('https://fonts.googleapis.com/css2?family=Buenard&family=Montserrat:wght@100&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Buenard&family=Montserrat:wght@100&family=Roboto+Slab&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&family=Source+Code+Pro&display=swap');
 #room {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -186,6 +186,7 @@
 
 /* title vue-app */
 .titleStyle {
+  font-family: 'Roboto Slab', serif;
   font-size: 2em;
   font-weight: bold;
   padding: 5px;
