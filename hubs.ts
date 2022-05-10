@@ -63,9 +63,6 @@ import cybersickness from './src/apps/Room6/cybersickness/hubs'
 import cybersickness_pic from './src/apps/Room6/cybersickness_pic/hubs'
 import Empathy from './src/apps/Room6/Empathy/hubs'
 import Mainmap_black from './src/apps/Room6/Mainmap_black/hubs'
-import Presence_map from './src/apps/Room6/Room6_map/hubs'
-import Presence_map2 from './src/apps/Room6/Room6_map_2/hubs'
-import Presence_map3 from './src/apps/Room6/Room6_map_3/hubs'
 import Milk from './src/apps/Room6/Milk/hubs'
 import Milk_pic from './src/apps/Room6/Milk_pic/hubs'
 import Nonnie from './src/apps/Room6/Nonnie/hubs'
@@ -76,7 +73,6 @@ import Presence from './src/apps/Room6/Presence/hubs'
 import Treehugger from './src/apps/Room6/Treehugger/hubs'
 import Laciotat from './src/apps/Room6/Laciotat/hubs'
 import PlaceandSpace from './src/apps/Room6/PlaceandSpace/hubs'
-import Parthenon from './src/apps/Room6/Parthenon/hubs'
 import TerracottaPic from './src/apps/Room6/TerracottaPic/hubs'
 import Terracotta from './src/apps/Room6/Terracotta/hubs'
 import Quote1 from './src/apps/Room6/Quote1/hubs'
@@ -107,11 +103,12 @@ import Sharing from './src/apps/Onboarding/Sharing/hubs'
 import rotundaMap from './src/apps/Onboarding/rotundaMap/hubs'
 import Overview from './src/apps/Onboarding/Overview/hubs'
 import Back from './src/apps/Onboarding/Back/hubs'
-import Exit from './src/apps/Room6/Exit/hubs'
 
 //test
 import AudioPad from './src/apps/AudioPad/hubs'
 import Label from './src/apps/Label/hubs'
+
+import Label_vid from './src/apps/Label_vid/hubs'
 import Label_bk from './src/apps/Label_bk/hubs'
 import Label_lg from './src/apps/Label_lg_text/hubs'
 import Title from './src/apps/Title/hubs'
@@ -124,7 +121,7 @@ export {
     exportCache, loadCache,
 
     //General Use
-    Label,Title,Label_lg,Label_bk,
+    Label,Title,Label_lg,Label_bk,Label_vid,
     // Rotunda
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
@@ -133,10 +130,10 @@ export {
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope,
 
     // Presence and Aura
-    Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness, Presence_map, Presence_map2, Presence_map3, Milk_pic,  Nonnie_pic, AudioText, Parthenon, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
+    Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness,  Milk_pic,  Nonnie_pic, AudioText, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
     
     //Onboarding and Rotunda
-    Exit, Welcome, MitPress, HubsPlatform, HubsFeatures,rotundaMap, Sharing, HubsPlatform2, Overview, Back,
+    Welcome, MitPress, HubsPlatform, HubsFeatures,rotundaMap, Sharing, HubsPlatform2, Overview, Back,
    
     //Pit 
     Pit, PitInstruction, pitSign1,pitSign2,pitSign3,

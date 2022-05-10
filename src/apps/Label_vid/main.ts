@@ -1,4 +1,4 @@
-import WebAppProto from "../../WebApp";
+import WebAppProto from "../WebApp";
 import App from './App.vue'
 
 class WebApp extends WebAppProto {

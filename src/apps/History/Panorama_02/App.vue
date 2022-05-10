@@ -10,10 +10,7 @@
   <br/>
   
 <div class="squareoff">
- The panorama conceived by English painter Robert Barker was one of the ways to represent reality at the end of the 18th century. Barker used perspective painting to create a panorama on a canvas stretched around the cylindrical surface. Viewers stood in the middle and experienced the scene in either direction. Therefore, the panoramas were fully immersive virtual environments consisting of a painted canvas.
-<br />
-<br />
-* Go through the portal to view his paintings of Edinburgh in the panorama building.
+ The panorama conceived by artist Robert Barker was one of the ways to represent reality at the end of the 18th century. Barker used perspective painting to create a panorama on a canvas stretched around the cylindrical surface. Viewers stood in the middle and experienced the scene in either direction. Therefore, the panoramas were fully immersive virtual environments consisting of a painted canvas.
 </div>
 </div>
 	</div>
