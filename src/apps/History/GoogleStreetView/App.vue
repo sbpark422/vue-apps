@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
-Google Street View, which was first launched in 2007, provides the user interactive panoramas that are created through stitching photographs together seamlessly. In Google Maps, the user could feel as if they are on the streets of the place they select, looking around the world.
+<span xr-layer @click="linkClick" class="alink"><a href="https://www.google.com/streetview/" target="_blank">Google Street View,</a></span> which was first launched in 2007, provides the user interactive panoramas that are created through stitching photographs together seamlessly. In Google Maps, the user could feel as if they are on the streets of the place they select, looking around the world.
 </div>
 </div>
 	</div>
