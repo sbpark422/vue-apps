@@ -3,13 +3,15 @@
   <div id="room" class="ivorywall"> 
   <div style="padding-top: 10px">
   <div class="history_spacer-side">
-  <Title class="history_title" msg="3D Movies" />
+  <Title class="history_title" msg="Dome theater" />
   
   <hr class="history_hr">
   <br/>
   
 <div class="squareoff">
-3D films are motion pictures that are made to give an illusion of three-dimensional depth with the help of 3D glasses worn by viewers. Using color filters or polarized lenses, the 3D glasses send different perspectives of the same image to each eye of the viewer to emulate the illusion of depth. </div>
+It is a 360 immersive VR theater created by a camera system that simultaneously records the scene in 360 degrees. It is designed to be used by multiple people and without the use of VR headsets. In the dome, the view could rotate and watch the film from any angle, enjoying different perspectives. 
+
+</div>
 </div>
 	</div>
   <br />

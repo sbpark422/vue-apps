@@ -3,13 +3,18 @@
   <div id="room" class="ivorywall"> 
   <div style="padding-top: 10px">
   <div class="history_spacer-side">
-  <Title class="history_title" msg="3D Movies" />
+  <Title class="history_title" msg="Skybox" />
   
+
   <hr class="history_hr">
   <br/>
   
 <div class="squareoff">
-3D films are motion pictures that are made to give an illusion of three-dimensional depth with the help of 3D glasses worn by viewers. Using color filters or polarized lenses, the 3D glasses send different perspectives of the same image to each eye of the viewer to emulate the illusion of depth. </div>
+A skybox is a cuboid that makes up the sky or background in a video game. The sky and other environmental elements are projected onto the faces of the cuboid, creating an illusion of the 3-dimensional spaces. 
+<br />
+<br />
+* Go through the portal to view his paintings in the panorama building.
+</div>
 </div>
 	</div>
   <br />

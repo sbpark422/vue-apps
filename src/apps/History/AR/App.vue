@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
-Augmented Reality
+Ivan Sutherland’s ‘The Sword of Damocles’ is considered the first head-mounted display for AR and VR. In the beginning, AR was most utilized for training purposes in the Air force. Now, its application could be seen everywhere, especially with the help of mobile devices and AR frameworks like ARkit and ARCore, developed by Apple and Google respectively. With this software development kit, AR became more widespread as AR could easily be incorporated into mobile applications.
 </div>
 </div>
 	</div>

@@ -3,13 +3,18 @@
   <div id="room" class="ivorywall"> 
   <div style="padding-top: 10px">
   <div class="history_spacer-side">
-  <Title class="history_title" msg="3D Movies" />
+  <Title class="history_title" msg="Metaverse" />
   
   <hr class="history_hr">
   <br/>
   
 <div class="squareoff">
-3D films are motion pictures that are made to give an illusion of three-dimensional depth with the help of 3D glasses worn by viewers. Using color filters or polarized lenses, the 3D glasses send different perspectives of the same image to each eye of the viewer to emulate the illusion of depth. </div>
+ Facebook announced it was rebranding to Meta and would focus its future on the upcoming “metaverse.”
+ 
+<br />
+<br />
+* Go through the portal to view his paintings in the panorama building.
+</div>
 </div>
 	</div>
   <br />

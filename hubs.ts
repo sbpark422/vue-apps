@@ -44,6 +44,10 @@ import Equirectangular from './src/apps/History/EquirectangularProjection/hubs'
 import Sensorama from './src/apps/History/Sensorama/hubs'
 import ImmersiveRides from './src/apps/History/ImmersiveRides/hubs'
 import Theaters from './src/apps/History/Theaters/hubs'
+import Theater_dome from './src/apps/History/Theater_dome/hubs'
+import Skybox from './src/apps/History/Skybox/hubs'
+import Metaverse from './src/apps/History/Metaverse/hubs'
+
 import VR from './src/apps/History/VR/hubs'
 import AR from './src/apps/History/AR/hubs'
 import GoogleStreetView from './src/apps/History/GoogleStreetView/hubs'
@@ -127,7 +131,7 @@ export {
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
     
     //History
-    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope,
+    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
 
     // Presence and Aura
     Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness,  Milk_pic,  Nonnie_pic, AudioText, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
