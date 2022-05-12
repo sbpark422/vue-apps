@@ -370,7 +370,7 @@ export default class HubsApp extends VueApp {
 
 async function logAndFollow(id: string | null, url: string) {
     //@ts-ignore
-    await window.APP.scene.systems["data-logging"].logClick(id, url);
+    await window.APP.scene.systems["data-logging"].logLink(id, url);
     
     if (url.length > 0) {
         window.open(url, "_blank");
