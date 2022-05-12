@@ -22,8 +22,10 @@ import css from 'rollup-plugin-css-only'
 // import cssImport from "postcss-import"
 // import cssUrl from 'postcss-url'
 
+var componentPath
 var serverPath
 if ((process.env.BUILD !== 'production')) {
+  componentPath = ""
     // your ngrok host name for local testing
     serverPath = "https://blair-vue-apps.ngrok.io";
 } else {

@@ -2,7 +2,7 @@
   <div> 
   <div id="room" class="darkwall">
   <div class="spacer">
-  <img src="../../../assets/images/Room5/Alyx-splash.png" width="400" >
+  <img xr-layer width="400" src="../../../assets/images/Room5/Alyx-splash.jpg">
   <br><br>
   <Title msg="HalfLife: Alyx" />
 	<div class="squareoff"> First person shooter games such as  <a href="https://www.half-life.com/en/alyx/" target="_blank">HalfLife: Alyx </a> have long used 3-D graphics to create an immersive experience for millions of players. And for decades, 
