@@ -79,7 +79,6 @@ class WebLayer {
     __publicField(this, "needsRemoval", false);
     __publicField(this, "parentLayer");
     __publicField(this, "childLayers", []);
-    __publicField(this, "pixelRatio");
     __publicField(this, "allStateHashes", /* @__PURE__ */ new Set());
     __publicField(this, "previousDOMStateKey");
     __publicField(this, "desiredDOMStateKey");
@@ -108,6 +107,22 @@ class WebLayer {
     if (recurse)
       for (const c of this.childLayers)
         c.setNeedsRefresh(recurse);
+  }
+  set pixelRatio(val) {
+    const isNumber = typeof val === "number";
+    if (isNumber) {
+      this.element.setAttribute(WebRenderer.PIXEL_RATIO_ATTRIBUTE, val.toString());
+    } else {
+      this.element.removeAttribute(WebRenderer.PIXEL_RATIO_ATTRIBUTE);
+    }
+  }
+  get pixelRatio() {
+    const val = this.element.getAttribute(WebRenderer.PIXEL_RATIO_ATTRIBUTE);
+    return val ? parseFloat(val) : null;
+  }
+  get computedPixelRatio() {
+    var _a2, _b, _c;
+    return (_c = (_b = this.pixelRatio) != null ? _b : (_a2 = this.parentLayer) == null ? void 0 : _a2.computedPixelRatio) != null ? _c : 1;
   }
   get previousDOMState() {
     return this.previousDOMStateKey ? this.manager.getLayerState(this.previousDOMStateKey) : void 0;
@@ -456,7 +471,7 @@ var gatherActiveObservationsAtDepth = function(depth) {
     });
   });
 };
-var process = function() {
+var process$1 = function() {
   var depth = 0;
   gatherActiveObservationsAtDepth(depth);
   while (hasActiveObservations()) {
@@ -545,7 +560,7 @@ var Scheduler = function() {
     queueResizeObserver(function() {
       var elementsHaveResized = false;
       try {
-        elementsHaveResized = process();
+        elementsHaveResized = process$1();
       } finally {
         scheduled = false;
         timeout = until - time();
@@ -1208,7 +1223,6 @@ __publicField(WebRenderer, "dataURLMap", /* @__PURE__ */ new Map());
 __publicField(WebRenderer, "embeddedCSSMap", /* @__PURE__ */ new Map());
 const ON_BEFORE_UPDATE = Symbol("ON_BEFORE_UPDATE");
 const scratchVector = new Vector3$1();
-const scratchMatrix = new Matrix4$1();
 function flipY(geometry) {
   const uv = geometry.attributes.uv;
   for (let i = 0; i < uv.count; i++) {
@@ -1446,6 +1460,15 @@ const _WebLayer3D = class extends Object3D {
     this._webLayer.update();
     this.container.manager.scheduleTasksIfNeeded();
   }
+  get pixelRatio() {
+    return this._webLayer.pixelRatio;
+  }
+  set pixelRatio(number) {
+    this._webLayer.pixelRatio = number;
+  }
+  get computedPixelRatio() {
+    return this._webLayer.computedPixelRatio;
+  }
   update(recurse = false) {
     if (recurse)
       this.traverseLayersPreOrder(this._doUpdate);
@@ -1556,7 +1579,7 @@ const _WebLayer3D = class extends Object3D {
     const currentState = this._webLayer.currentDOMState;
     if (!currentState)
       return;
-    const { bounds: currentBounds, margin: currentMargin } = currentState;
+    const { bounds: currentBounds, margin: currentMargin, cssTransform } = currentState;
     const isMedia = this._webLayer.isMediaElement;
     this.domLayout.position.set(0, 0, 0);
     this.domLayout.scale.set(1, 1, 1);
@@ -1583,15 +1606,10 @@ const _WebLayer3D = class extends Object3D {
     const parentLeftEdge = -parentFullWidth / 2 + parentMargin.left;
     const parentTopEdge = parentFullHeight / 2 - parentMargin.top;
     this.domLayout.position.set(pixelSize * (parentLeftEdge + fullWidth / 2 + bounds.left - marginLeft), pixelSize * (parentTopEdge - fullHeight / 2 - bounds.top + marginTop), 0);
-    const computedStyle = getComputedStyle(this.element);
-    const transform = computedStyle.transform;
-    if (transform && transform !== "none") {
-      const cssTransform = WebRenderer.parseCSSTransform(computedStyle, bounds.width, bounds.height, pixelSize, scratchMatrix);
-      if (cssTransform) {
-        this.domLayout.updateMatrix();
-        this.domLayout.matrix.multiply(cssTransform);
-        this.domLayout.matrix.decompose(this.domLayout.position, this.domLayout.quaternion, this.domLayout.scale);
-      }
+    if (cssTransform) {
+      this.domLayout.updateMatrix();
+      this.domLayout.matrix.multiply(cssTransform);
+      this.domLayout.matrix.decompose(this.domLayout.position, this.domLayout.quaternion, this.domLayout.scale);
     }
   }
 };
@@ -2025,7 +2043,7 @@ var __assign = function() {
   };
   return __assign.apply(this, arguments);
 };
-function __spreadArray(to, from, pack) {
+function __spreadArray$1(to, from, pack) {
   if (pack || arguments.length === 2)
     for (var i = 0, l = from.length, ar; i < l; i++) {
       if (ar || !(i in from)) {
@@ -6114,9 +6132,9 @@ var hooksMiddleware = {
             throw new Error("Keys missing");
           req2 = req2.type === "add" || req2.type === "put" ? __assign(__assign({}, req2), { keys: keys2 }) : __assign({}, req2);
           if (req2.type !== "delete")
-            req2.values = __spreadArray([], req2.values, true);
+            req2.values = __spreadArray$1([], req2.values, true);
           if (req2.keys)
-            req2.keys = __spreadArray([], req2.keys, true);
+            req2.keys = __spreadArray$1([], req2.keys, true);
           return getExistingValues(downTable, req2, keys2).then(function(existingValues) {
             var contexts = keys2.map(function(key, i) {
               var existingValue = existingValues[i];
@@ -7124,7 +7142,7 @@ if (typeof BroadcastChannel !== "undefined") {
           }));
         }
         if (typeof self["clients"] === "object") {
-          __spreadArray([], self["clients"].matchAll({ includeUncontrolled: true }), true).forEach(function(client) {
+          __spreadArray$1([], self["clients"].matchAll({ includeUncontrolled: true }), true).forEach(function(client) {
             return client.postMessage({
               type: STORAGE_MUTATED_DOM_EVENT_NAME,
               changedParts
@@ -10310,3 +10328,201 @@ const _z = /* @__PURE__ */ new Vector3();
 new Matrix4();
 new Vector3$1();
 new Vector3$1();
+var __spreadArray = globalThis && globalThis.__spreadArray || function(to, from, pack) {
+  if (pack || arguments.length === 2)
+    for (var i = 0, l = from.length, ar; i < l; i++) {
+      if (ar || !(i in from)) {
+        if (!ar)
+          ar = Array.prototype.slice.call(from, 0, i);
+        ar[i] = from[i];
+      }
+    }
+  return to.concat(ar || Array.prototype.slice.call(from));
+};
+var BrowserInfo = function() {
+  function BrowserInfo2(name, version, os) {
+    this.name = name;
+    this.version = version;
+    this.os = os;
+    this.type = "browser";
+  }
+  return BrowserInfo2;
+}();
+var NodeInfo = function() {
+  function NodeInfo2(version) {
+    this.version = version;
+    this.type = "node";
+    this.name = "node";
+    this.os = process.platform;
+  }
+  return NodeInfo2;
+}();
+var SearchBotDeviceInfo = function() {
+  function SearchBotDeviceInfo2(name, version, os, bot) {
+    this.name = name;
+    this.version = version;
+    this.os = os;
+    this.bot = bot;
+    this.type = "bot-device";
+  }
+  return SearchBotDeviceInfo2;
+}();
+var BotInfo = function() {
+  function BotInfo2() {
+    this.type = "bot";
+    this.bot = true;
+    this.name = "bot";
+    this.version = null;
+    this.os = null;
+  }
+  return BotInfo2;
+}();
+var ReactNativeInfo = function() {
+  function ReactNativeInfo2() {
+    this.type = "react-native";
+    this.name = "react-native";
+    this.version = null;
+    this.os = null;
+  }
+  return ReactNativeInfo2;
+}();
+var SEARCHBOX_UA_REGEX = /alexa|bot|crawl(er|ing)|facebookexternalhit|feedburner|google web preview|nagios|postrank|pingdom|slurp|spider|yahoo!|yandex/;
+var SEARCHBOT_OS_REGEX = /(nuhk|curl|Googlebot|Yammybot|Openbot|Slurp|MSNBot|Ask\ Jeeves\/Teoma|ia_archiver)/;
+var REQUIRED_VERSION_PARTS = 3;
+var userAgentRules = [
+  ["aol", /AOLShield\/([0-9\._]+)/],
+  ["edge", /Edge\/([0-9\._]+)/],
+  ["edge-ios", /EdgiOS\/([0-9\._]+)/],
+  ["yandexbrowser", /YaBrowser\/([0-9\._]+)/],
+  ["kakaotalk", /KAKAOTALK\s([0-9\.]+)/],
+  ["samsung", /SamsungBrowser\/([0-9\.]+)/],
+  ["silk", /\bSilk\/([0-9._-]+)\b/],
+  ["miui", /MiuiBrowser\/([0-9\.]+)$/],
+  ["beaker", /BeakerBrowser\/([0-9\.]+)/],
+  ["edge-chromium", /EdgA?\/([0-9\.]+)/],
+  [
+    "chromium-webview",
+    /(?!Chrom.*OPR)wv\).*Chrom(?:e|ium)\/([0-9\.]+)(:?\s|$)/
+  ],
+  ["chrome", /(?!Chrom.*OPR)Chrom(?:e|ium)\/([0-9\.]+)(:?\s|$)/],
+  ["phantomjs", /PhantomJS\/([0-9\.]+)(:?\s|$)/],
+  ["crios", /CriOS\/([0-9\.]+)(:?\s|$)/],
+  ["firefox", /Firefox\/([0-9\.]+)(?:\s|$)/],
+  ["fxios", /FxiOS\/([0-9\.]+)/],
+  ["opera-mini", /Opera Mini.*Version\/([0-9\.]+)/],
+  ["opera", /Opera\/([0-9\.]+)(?:\s|$)/],
+  ["opera", /OPR\/([0-9\.]+)(:?\s|$)/],
+  ["pie", /^Microsoft Pocket Internet Explorer\/(\d+\.\d+)$/],
+  ["pie", /^Mozilla\/\d\.\d+\s\(compatible;\s(?:MSP?IE|MSInternet Explorer) (\d+\.\d+);.*Windows CE.*\)$/],
+  ["netfront", /^Mozilla\/\d\.\d+.*NetFront\/(\d.\d)/],
+  ["ie", /Trident\/7\.0.*rv\:([0-9\.]+).*\).*Gecko$/],
+  ["ie", /MSIE\s([0-9\.]+);.*Trident\/[4-7].0/],
+  ["ie", /MSIE\s(7\.0)/],
+  ["bb10", /BB10;\sTouch.*Version\/([0-9\.]+)/],
+  ["android", /Android\s([0-9\.]+)/],
+  ["ios", /Version\/([0-9\._]+).*Mobile.*Safari.*/],
+  ["safari", /Version\/([0-9\._]+).*Safari/],
+  ["facebook", /FB[AS]V\/([0-9\.]+)/],
+  ["instagram", /Instagram\s([0-9\.]+)/],
+  ["ios-webview", /AppleWebKit\/([0-9\.]+).*Mobile/],
+  ["ios-webview", /AppleWebKit\/([0-9\.]+).*Gecko\)$/],
+  ["curl", /^curl\/([0-9\.]+)$/],
+  ["searchbot", SEARCHBOX_UA_REGEX]
+];
+var operatingSystemRules = [
+  ["iOS", /iP(hone|od|ad)/],
+  ["Android OS", /Android/],
+  ["BlackBerry OS", /BlackBerry|BB10/],
+  ["Windows Mobile", /IEMobile/],
+  ["Amazon OS", /Kindle/],
+  ["Windows 3.11", /Win16/],
+  ["Windows 95", /(Windows 95)|(Win95)|(Windows_95)/],
+  ["Windows 98", /(Windows 98)|(Win98)/],
+  ["Windows 2000", /(Windows NT 5.0)|(Windows 2000)/],
+  ["Windows XP", /(Windows NT 5.1)|(Windows XP)/],
+  ["Windows Server 2003", /(Windows NT 5.2)/],
+  ["Windows Vista", /(Windows NT 6.0)/],
+  ["Windows 7", /(Windows NT 6.1)/],
+  ["Windows 8", /(Windows NT 6.2)/],
+  ["Windows 8.1", /(Windows NT 6.3)/],
+  ["Windows 10", /(Windows NT 10.0)/],
+  ["Windows ME", /Windows ME/],
+  ["Windows CE", /Windows CE|WinCE|Microsoft Pocket Internet Explorer/],
+  ["Open BSD", /OpenBSD/],
+  ["Sun OS", /SunOS/],
+  ["Chrome OS", /CrOS/],
+  ["Linux", /(Linux)|(X11)/],
+  ["Mac OS", /(Mac_PowerPC)|(Macintosh)/],
+  ["QNX", /QNX/],
+  ["BeOS", /BeOS/],
+  ["OS/2", /OS\/2/]
+];
+function detect(userAgent) {
+  if (!!userAgent) {
+    return parseUserAgent(userAgent);
+  }
+  if (typeof document === "undefined" && typeof navigator !== "undefined" && navigator.product === "ReactNative") {
+    return new ReactNativeInfo();
+  }
+  if (typeof navigator !== "undefined") {
+    return parseUserAgent(navigator.userAgent);
+  }
+  return getNodeVersion();
+}
+function matchUserAgent(ua) {
+  return ua !== "" && userAgentRules.reduce(function(matched, _a2) {
+    var browser = _a2[0], regex = _a2[1];
+    if (matched) {
+      return matched;
+    }
+    var uaMatch = regex.exec(ua);
+    return !!uaMatch && [browser, uaMatch];
+  }, false);
+}
+function parseUserAgent(ua) {
+  var matchedRule = matchUserAgent(ua);
+  if (!matchedRule) {
+    return null;
+  }
+  var name = matchedRule[0], match = matchedRule[1];
+  if (name === "searchbot") {
+    return new BotInfo();
+  }
+  var versionParts = match[1] && match[1].split(".").join("_").split("_").slice(0, 3);
+  if (versionParts) {
+    if (versionParts.length < REQUIRED_VERSION_PARTS) {
+      versionParts = __spreadArray(__spreadArray([], versionParts, true), createVersionParts(REQUIRED_VERSION_PARTS - versionParts.length), true);
+    }
+  } else {
+    versionParts = [];
+  }
+  var version = versionParts.join(".");
+  var os = detectOS(ua);
+  var searchBotMatch = SEARCHBOT_OS_REGEX.exec(ua);
+  if (searchBotMatch && searchBotMatch[1]) {
+    return new SearchBotDeviceInfo(name, version, os, searchBotMatch[1]);
+  }
+  return new BrowserInfo(name, version, os);
+}
+function detectOS(ua) {
+  for (var ii = 0, count = operatingSystemRules.length; ii < count; ii++) {
+    var _a2 = operatingSystemRules[ii], os = _a2[0], regex = _a2[1];
+    var match = regex.exec(ua);
+    if (match) {
+      return os;
+    }
+  }
+  return null;
+}
+function getNodeVersion() {
+  var isNode = typeof process !== "undefined" && process.version;
+  return isNode ? new NodeInfo(process.version.slice(1)) : null;
+}
+function createVersionParts(count) {
+  var output = [];
+  for (var ii = 0; ii < count; ii++) {
+    output.push("0");
+  }
+  return output;
+}
+export { detect as d };
