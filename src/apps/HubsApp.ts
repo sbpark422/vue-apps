@@ -33,7 +33,7 @@ if (browser) {
             if (navigator.userAgent.search(/Quest 2/) >= 0) {
                 //@ts-ignore
                 browser.os = "LinuxQuest2"
-                maxTextureSize = 256
+                maxTextureSize = 512
             } else {
                 //@ts-ignore
                 browser.os = "LinuxQuest"
@@ -133,7 +133,11 @@ export default class HubsApp extends VueApp {
     static initializeEthereal() {
         let scene: Scene = window.APP.scene;
         WebLayerManager.initialize(scene.renderer)
-
+        //WebLayerManager.instance.ktx2Encoder.pool.setWorkerLimit(0)
+        //@ts-ignore
+        if (browser && browser.name == "oculus") {
+            WebLayerManager.instance.MAX_SERIALIZE_TASK_COUNT = 2;
+        }
         // WebLayerManager.instance.MAX_RASTERIZE_TASK_COUNT = 25;
         // WebLayerManager.instance.MAX_SERIALIZE_TASK_COUNT = 25;
 
