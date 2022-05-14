@@ -153,7 +153,7 @@ export default class HubsApp extends VueApp {
         //WebLayerManager.instance.ktx2Encoder.pool.setWorkerLimit(0)
         //@ts-ignore
         if (browser && browser.name == "oculus") {
-            WebLayerManager.instance.MAX_SERIALIZE_TASK_COUNT = 1;
+            WebLayerManager.instance.MAX_SERIALIZE_TASK_COUNT = 2;
         }
         // WebLayerManager.instance.MAX_RASTERIZE_TASK_COUNT = 25;
         // WebLayerManager.instance.MAX_SERIALIZE_TASK_COUNT = 25;
