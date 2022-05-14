@@ -13,11 +13,12 @@
     "serve": "npm run buildDev && npm run serveV"
   },
   "dependencies": {
-    "@etherealjs/web-layer": "^3.3.12",
+    "@etherealjs/web-layer": "^3.4.1",
     "reveal.js": "^4",
     "three": "^0.136.0",
     "vue": "^3.0.5",
     "mathjs": "^9.4.2",
+    "detect-browser": "^5.3",
     "fast-text-encoding": "latest"
   },
   "devDependencies": {

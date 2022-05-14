@@ -3,6 +3,8 @@ import { Scene, Entity } from 'aframe'
 //import { EtherealLayoutSystem } from "ethereal";
 import { WebContainer3D, WebLayerManager } from "@etherealjs/web-layer/three";
 
+import { detectOS, detect } from "detect-browser";
+
 import VueApp  from "./VueApp"
 
 // create init method for ethereal
@@ -20,8 +22,39 @@ export function systemTick(time: number, deltaTime: number) {
    HubsApp.systemTick(time, deltaTime)
 }
 
+var maxTextureSize = 1024
+console.log("User Agent: " + navigator.userAgent)
+const browser = detect();
+if (browser) {
+    if (browser.os == "Linux") {
+        if (navigator.userAgent.search(/OculusBrowser/) >= 0) {
+            //@ts-ignore
+            browser.name = "oculus";
+            if (navigator.userAgent.search(/Quest 2/) >= 0) {
+                //@ts-ignore
+                browser.os = "LinuxQuest2"
+                maxTextureSize = 512
+            } else {
+                //@ts-ignore
+                browser.os = "LinuxQuest"
+                maxTextureSize = 256
+            }
+        }
+    }
+    console.log("Running on OS '" + browser.os + "' in browser '" + browser.name + "' version '" + browser.version + "'") 
+} else {
+    console.log("Browser Detect didn't work?!")
+}
 export async function loadCache(url: string) {
-    await WebLayerManager.instance.importCache(url)
+    // const detectedOS = detectOS(navigator.userAgent);
+    // const browser = detect();
+
+    if (browser) {
+        console.log ("loading weblayer cache: " + url + "-" + browser.name + ".cache")
+        await WebLayerManager.instance.importCache(url + "-" + browser.name + ".cache")
+    }
+    console.log ("loading weblayer cache: " + url)
+    //await WebLayerManager.instance.importCache(url + ".cache")
 }
 
 export async function exportCache(states: Array<string> | undefined) {
@@ -81,6 +114,7 @@ export default class HubsApp extends VueApp {
         width: number,
         height: number
     }
+    pixelRatio = 1.0
 
     //takeOwnership:  () => boolean
     //setSharedData: (object: {}) => boolean
@@ -99,7 +133,11 @@ export default class HubsApp extends VueApp {
     static initializeEthereal() {
         let scene: Scene = window.APP.scene;
         WebLayerManager.initialize(scene.renderer)
-
+        //WebLayerManager.instance.ktx2Encoder.pool.setWorkerLimit(0)
+        //@ts-ignore
+        if (browser && browser.name == "oculus") {
+            WebLayerManager.instance.MAX_SERIALIZE_TASK_COUNT = 1;
+        }
         // WebLayerManager.instance.MAX_RASTERIZE_TASK_COUNT = 25;
         // WebLayerManager.instance.MAX_SERIALIZE_TASK_COUNT = 25;
 
@@ -161,6 +199,10 @@ export default class HubsApp extends VueApp {
             }
 
         }
+        //@ts-ignore
+        if (browser && browser.name == "oculus") {
+
+        }
         super(App, width, height, createOptions)
         this.isEthereal = false;
 
@@ -178,15 +220,31 @@ export default class HubsApp extends VueApp {
 
     mount(useEthereal?: boolean) {
         this.isEthereal = useEthereal === true
-        
         this.vueRoot = this.vueApp.mount(this.headDiv);
 
         var style = ""
-        this.width > 0 ? style = "width: " + this.width + "px; " : style = "width: fit-content; "
-        this.height > 0 ? style = style + "height: " + this.height + "px;" : style = style + "height: fit-content;"
-
+        if (this.width > 0) {
+            style = "width: " + this.width + "px; "
+            if (this.width > maxTextureSize) {
+                this.pixelRatio = maxTextureSize / this.width
+            }
+        } else {
+            this.pixelRatio = 0.01
+            style = "width: fit-content; "
+        }
+        if (this.height > 0) {
+            style = style + "height: " + this.height + "px; ";
+            if (this.height > maxTextureSize) { 
+                this.pixelRatio = Math.min(maxTextureSize / this.height, this.pixelRatio)
+            }
+        } else {
+            this.pixelRatio = Math.min(this.pixelRatio, 0.01);
+            style = style + "height: fit-content; "
+        }
         console.log("setting style: ", style)
+        console.log("setting pixelRatio = ", this.pixelRatio.toFixed(2));
         this.vueRoot.$el.setAttribute("style", style)
+        this.vueRoot.$el.setAttribute("xr-pixel-ratio", this.pixelRatio.toFixed(2));
 
         // // add a link to the shared css
         let l = document.createElement("link")
@@ -224,13 +282,24 @@ export default class HubsApp extends VueApp {
             let rect = this.vueRoot?.$el.getBoundingClientRect()
             console.log("mounted has rect: ", rect)
 
-            this.height = this.height > 0 ? this.height : Math.ceil(rect.height*1.0)
-            this.width = this.width > 0 ? this.width : Math.ceil(rect.width*1.0)
+            this.height = this.height > 0 ? this.height : Math.ceil(rect.height*1.05)
+            this.width = this.width > 0 ? this.width : Math.ceil(rect.width*1.05)
             this.size = { width: this.width/1000, height: this.height/1000}
 
-            style = "width: " + this.width + "px; height: " + this.height + "px;"
+            this.pixelRatio = 1.0
+            if (this.width > maxTextureSize) {
+                this.pixelRatio = maxTextureSize / this.width
+            }
+            if (this.height > maxTextureSize) { 
+                this.pixelRatio = Math.min(maxTextureSize / this.height, this.pixelRatio)
+            }
+            style = "width: " + this.width + "px; height: " + this.height + "px; "
+
             console.log("setting style: ", style)
+            console.log("setting pixelRatio = ", this.pixelRatio.toFixed(2));
+
             this.vueRoot?.$el.setAttribute("style", style)
+            this.vueRoot?.$el.setAttribute("xr-pixel-ratio", this.pixelRatio.toFixed(2));
             this.webLayer3D?.rootLayer.setNeedsRefresh();
         })
     }
@@ -370,9 +439,12 @@ export default class HubsApp extends VueApp {
 
 async function logAndFollow(id: string | null, url: string) {
     //@ts-ignore
-    await window.APP.scene.systems["data-logging"].logClick(id, url);
+    await window.APP.scene.systems["data-logging"].logLink(id, url);
+    //@ts-ignore
     
     if (url.length > 0) {
+        //@ts-ignore
+        await window.APP.utils.handleExitTo2DInterstitial(false, () => {}, true);
         window.open(url, "_blank");
     }
 }
