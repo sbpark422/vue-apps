@@ -26,7 +26,7 @@ import "../../assets/room.css"
 
 let params = inject("params")
 var title = params && params.parameter1 ? params.parameter1 : "Click here to learn more"
-var link = params && params.parameter2 ? params.parameter2 : ""
+var link = params && params.parameter2 ? params.parameter2 : "https://www.google.com/"
 
 </script>
 
