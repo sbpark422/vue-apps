@@ -57,9 +57,26 @@ export async function loadCache(url: string) {
     //await WebLayerManager.instance.importCache(url + ".cache")
 }
 
-export async function exportCache(states: Array<string> | undefined) {
+export const downloadBlob = function (blob: Blob, filename: string) {
+    //@ts-ignore
+    const a = document.createElement('a') as HTMLAnchorElement;
+    a.download = filename;
+    a.href = window.URL.createObjectURL(blob);
+    a.dataset.downloadurl = ['application/octet-stream', a.download, a.href].join(':');
+    a.click();
+};
+
+export async function exportCache(url: string, states: Array<string> | undefined) {
     await WebLayerManager.instance.saveStore()
-    return await WebLayerManager.instance.exportCache(states)
+    let blob = await WebLayerManager.instance.exportCache(states)
+
+    if (browser) {
+        console.log ("downloading weblayer cache: " + url + "-" + browser.name + ".cache")
+        downloadBlob(blob, url + "-" + browser.name + ".cache" );
+    } else {
+        console.log ("downloading weblayer cache: " + url + ".cache")
+        downloadBlob(blob, url + "-" + ".cache" );
+    }
 }
 
 function copyCamera(source: THREE.PerspectiveCamera, target: THREE.PerspectiveCamera) {
