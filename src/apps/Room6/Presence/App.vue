@@ -14,7 +14,6 @@
   <br>
   (2) social interaction and engagement with others</div>
   <br>
-  <br>
   The first category includes presence as transportation, as immersion and as realism.
   </div>
   <br>

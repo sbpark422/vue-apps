@@ -49,6 +49,10 @@ import Equirectangular from './src/apps/History/EquirectangularProjection/hubs'
 import Sensorama from './src/apps/History/Sensorama/hubs'
 import ImmersiveRides from './src/apps/History/ImmersiveRides/hubs'
 import Theaters from './src/apps/History/Theaters/hubs'
+import Theater_dome from './src/apps/History/Theater_dome/hubs'
+import Skybox from './src/apps/History/Skybox/hubs'
+import Metaverse from './src/apps/History/Metaverse/hubs'
+
 import VR from './src/apps/History/VR/hubs'
 import AR from './src/apps/History/AR/hubs'
 import GoogleStreetView from './src/apps/History/GoogleStreetView/hubs'
@@ -68,9 +72,6 @@ import cybersickness from './src/apps/Room6/cybersickness/hubs'
 import cybersickness_pic from './src/apps/Room6/cybersickness_pic/hubs'
 import Empathy from './src/apps/Room6/Empathy/hubs'
 import Mainmap_black from './src/apps/Room6/Mainmap_black/hubs'
-import Presence_map from './src/apps/Room6/Room6_map/hubs'
-import Presence_map2 from './src/apps/Room6/Room6_map_2/hubs'
-import Presence_map3 from './src/apps/Room6/Room6_map_3/hubs'
 import Milk from './src/apps/Room6/Milk/hubs'
 import Milk_pic from './src/apps/Room6/Milk_pic/hubs'
 import Nonnie from './src/apps/Room6/Nonnie/hubs'
@@ -81,7 +82,6 @@ import Presence from './src/apps/Room6/Presence/hubs'
 import Treehugger from './src/apps/Room6/Treehugger/hubs'
 import Laciotat from './src/apps/Room6/Laciotat/hubs'
 import PlaceandSpace from './src/apps/Room6/PlaceandSpace/hubs'
-import Parthenon from './src/apps/Room6/Parthenon/hubs'
 import TerracottaPic from './src/apps/Room6/TerracottaPic/hubs'
 import Terracotta from './src/apps/Room6/Terracotta/hubs'
 import Quote1 from './src/apps/Room6/Quote1/hubs'
@@ -89,6 +89,17 @@ import Quote2 from './src/apps/Room6/Quote2/hubs'
 import Quote3 from './src/apps/Room6/Quote3/hubs'
 import Quote4 from './src/apps/Room6/Quote4/hubs'
 import Quote5 from './src/apps/Room6/Quote5/hubs'
+// Presence and Aura - video links
+import casa_vid from './src/apps/Room6/casa_vid_link/hubs'
+import metaverse_vid from './src/apps/Room6/metaverse_vid_link/hubs'
+import milk_vid from './src/apps/Room6/milk_vid_link/hubs'
+import mother_vid from './src/apps/Room6/mother_vid_link/hubs'
+import nonnie_vid from './src/apps/Room6/nonnie_vid_link/hubs'
+import plank_vid from './src/apps/Room6/plank_vid_link/hubs'
+import rollercoaster_vid from './src/apps/Room6/rollercoaster_vid_link/hubs'
+import terracotta_vid from './src/apps/Room6/terracotta_vid_link/hubs'
+import tree_vid from './src/apps/Room6/tree_vid_link/hubs'
+
 
 
 
@@ -102,6 +113,8 @@ import pitSign3 from './src/apps/Room_Pit/pitSign3/hubs'
 //Onboarding Room
 import Welcome from './src/apps/Onboarding/Welcome/hubs'
 import MitPress from './src/apps/Onboarding/MitPress/hubs'
+//test
+import MitPress1 from './src/apps/Onboarding/MitPress_test1/hubs'
 
 import HubsPlatform from './src/apps/Onboarding/HubsPlatform/hubs'
 import HubsPlatform2 from './src/apps/Onboarding/HubsPlatform2/hubs'
@@ -112,11 +125,12 @@ import Sharing from './src/apps/Onboarding/Sharing/hubs'
 import rotundaMap from './src/apps/Onboarding/rotundaMap/hubs'
 import Overview from './src/apps/Onboarding/Overview/hubs'
 import Back from './src/apps/Onboarding/Back/hubs'
-import Exit from './src/apps/Room6/Exit/hubs'
-
+import Portals from './src/apps/Onboarding/Portals/hubs'
 //test
 import AudioPad from './src/apps/AudioPad/hubs'
 import Label from './src/apps/Label/hubs'
+
+import Label_vid from './src/apps/Label_vid/hubs'
 import Label_bk from './src/apps/Label_bk/hubs'
 import Label_lg from './src/apps/Label_lg_text/hubs'
 import Title from './src/apps/Title/hubs'
@@ -129,23 +143,27 @@ export {
     exportCache, loadCache,
 
     //General Use
-    Label,Title,Label_lg,Label_bk,
+    Label,Title,Label_lg,Label_bk,Label_vid,
     // Rotunda
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena,
     
     //History
-    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope,
+    LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
 
     // Presence and Aura
-    Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness, Presence_map, Presence_map2, Presence_map3, Milk_pic,  Nonnie_pic, AudioText, Parthenon, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
-    
+    Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness,  Milk_pic,  Nonnie_pic, AudioText, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
+    // Presence and Aura - video links
+    casa_vid, metaverse_vid, milk_vid, mother_vid, nonnie_vid, plank_vid, rollercoaster_vid, terracotta_vid, tree_vid,
+
     //Onboarding and Rotunda
-    Exit, Welcome, MitPress, HubsPlatform, HubsFeatures,rotundaMap, Sharing, HubsPlatform2, Overview, Back,
+    Welcome, MitPress, HubsPlatform, HubsFeatures,rotundaMap, Sharing, HubsPlatform2, Overview, Back,
+    MitPress1,Portals,
    
     //Pit 
     Pit, PitInstruction, pitSign1,pitSign2,pitSign3,
+    
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
