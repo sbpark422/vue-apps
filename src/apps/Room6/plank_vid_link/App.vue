@@ -1,10 +1,19 @@
 <template>
   <div> 
   <div id="room" class="darkwall">
-
-   <div class="squareoff"><span xr-layer @click="linkClick" class="alink"><a href="https://www.oculus.com/experiences/quest/1642239225880682/" target="_blank">Click here to visit the website</a></span>
+  <div class="spacer-side">
+  <Title msg="Richie's Plank Experience" />
+  <br>
+	<div class="squareoff">Commercial VR experience that is close to the pit experiment.
   <br />
+  <br />
+  <div style="float: right;">
+<span xr-layer @click="linkClick" class="alink"><a href="https://www.youtube.com/watch?v=faNsP7ExSt0" target="_blank">Click here to learn more about the video</a></span>
+  </div>
+  </div>
 
+
+  <!-- In this experience, users find themselves on the threshold of forgetting that we are having a VR experience. Being on that threshold is a sence of presence in a reality medium. -->
   </div>
   </div>
   </div> 
@@ -18,20 +27,6 @@ import "../../../assets/room.css"
 </script>
 
 <style scoped>
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
+
 </style>
+
