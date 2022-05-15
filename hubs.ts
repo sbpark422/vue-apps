@@ -125,7 +125,7 @@ import Sharing from './src/apps/Onboarding/Sharing/hubs'
 import rotundaMap from './src/apps/Onboarding/rotundaMap/hubs'
 import Overview from './src/apps/Onboarding/Overview/hubs'
 import Back from './src/apps/Onboarding/Back/hubs'
-
+import Portals from './src/apps/Onboarding/Portals/hubs'
 //test
 import AudioPad from './src/apps/AudioPad/hubs'
 import Label from './src/apps/Label/hubs'
@@ -159,7 +159,7 @@ export {
 
     //Onboarding and Rotunda
     Welcome, MitPress, HubsPlatform, HubsFeatures,rotundaMap, Sharing, HubsPlatform2, Overview, Back,
-    MitPress1,
+    MitPress1,Portals,
    
     //Pit 
     Pit, PitInstruction, pitSign1,pitSign2,pitSign3,
