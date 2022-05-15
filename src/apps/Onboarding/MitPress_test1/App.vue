@@ -10,6 +10,13 @@
       </a>
     </span>
   </div>
+    <div  style="float:left; margin-right:20px">
+   <span xr-layer @click="linkClick">
+      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+        <img class="img_Hover2" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+      </a>
+    </span>
+  </div>
    <div style="float:left; margin-right:20px">
    <span class="img_Hover2">
       <a xr-layer @click="linkClick" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
@@ -47,10 +54,13 @@
 </template>
 
 <script setup>
-import Title from '../../../components/CenterTitle.vue'
+import { inject } from 'vue'
 
+import Title from '../../../components/CenterTitle.vue'
 import "../../../assets/top.css"
 import "../../../assets/room.css"
+
+const linkClick = inject('linkClick')
 </script>
 
 <style scoped>
