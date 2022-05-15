@@ -230,11 +230,15 @@
   text-shadow: 1px 0 2px black, 1px 0 4px white, 0 1px 2px black, 0 1px 4px white, -1px 0 2px black, -1px 0 4px white, 0 -1px  2px black, 0 -1px  4px white;
 }
 
+/* anchor styles */
+a:hover {
+  color: white;
+  background:#2370FD ;
+}
 .alink {
   color: #2370FD ;
   text-decoration: underline;
 }
-
 .alink:hover {
   color: white;
   background:#2370FD ;
@@ -243,7 +247,6 @@
   color: white;
   background:#2370FD ;
 }
-
 .alink_img:hover {
   outline: #333 solid 4px;
 }
