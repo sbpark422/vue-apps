@@ -2,24 +2,45 @@
   <div> 
   <div id="room" class="darkwall">
   <div class="spacer">
-  <Title msg="Reality Media" />
   <br />
   <div  style="float:left; margin-right:20px">
-   <span class="img_Hover2">
-      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
+   <span xr-layer @click="linkClick">
+      <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
       </a>
     </span>
   </div>
+   <div style="float:left; margin-right:20px">
+   <span class="img_Hover2">
+      <a xr-layer @click="linkClick" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+      </a>
+    </span>
+  </div>
+     <div style="float:left; margin-right:20px">
+      <a xr-layer @click="linkClick" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+        <img class="img_Hover2" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+      </a>
+  </div>
+   <div style="float:left; margin-right:20px">
+   <span class="img_Hover2">
+      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+      </a>
+    </span>
+  </div>
+   <div style="float:left; margin-right:20px">
+      <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+      </a>
+  </div> <div  style="float:left; margin-right:20px">
+   <div class="img_Hover2">
+      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+      </a>
+    </div>
+  </div>
 
-   <div class="squareoff"><div style="margin-left:30px">Published by <span xr-layer @click="linkClick" class="alink"><a href="https://mitpress.mit.edu/books/reality-media" target="_blank">MIT Press.</a></span></div>
-  <br />
-
-  <div class="oblique">By Jay David Bolter, Maria Engberg and Blair MacIntyre</div> 
-  <br>
-  <br>
-  How augmented reality and virtual reality are taking their places in contemporary media culture alongside film and television.
-</div>
   </div>
   </div>
   </div> 

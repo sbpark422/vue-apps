@@ -4,7 +4,7 @@
   <div class="spacer">
   <Title msg="Reality Media" />
   <br />
-  <div  style="float:left; margin-right:20px">
+  <div style="float:left; margin-right:20px">
     <a class="img_h" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
       <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
     </a>
