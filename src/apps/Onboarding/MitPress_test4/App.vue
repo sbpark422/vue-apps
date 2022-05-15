@@ -5,9 +5,9 @@
   <Title msg="Reality Media" />
   <br />
   <div  style="float:left; margin-right:20px">
-   <span class="alink_img">
+   <span class="img_Hover2">
       <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img xr-layer class="img_Hover" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
+        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
       </a>
     </span>
   </div>
@@ -33,5 +33,8 @@ import "../../../assets/room.css"
 </script>
 
 <style scoped>
+.img_Hover2:hover{
+outline: #333 solid 4px;
+}
 
 </style>

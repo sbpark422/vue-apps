@@ -239,7 +239,12 @@
   color: white;
   background:#2370FD ;
 }
+.alink a:hover {
+  color: white;
+  background:#2370FD ;
+}
 
 .alink_img:hover {
-  opacity: 0.8;
+  outline: #333 solid 4px;
 }
+
