@@ -4,6 +4,9 @@ import HubsAppProto from "../../HubsApp";
 class HubsApp extends HubsAppProto {
     constructor (width: number, height: number, params: any = {}) {
         super(App, width, height, params)
+        this.isInteractive = true;
+        // @ts-ignore
+        this.vueApp.provide('linkClick', window.APP.utils.followLinkClick)
     }
 }
 

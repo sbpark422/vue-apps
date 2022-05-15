@@ -17,13 +17,16 @@
   </div>
   </div> 
 </template>
+cript setup>
+import { inject } from 'vue'
 
-<script setup>
 import Title from '../../../components/CenterTitle.vue'
-
 import "../../../assets/top.css"
 import "../../../assets/room.css"
+
+const linkClick = inject('linkClick')
 </script>
+
 
 <style scoped>
 

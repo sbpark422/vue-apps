@@ -18,10 +18,13 @@ Gandy, Maribeth, et al. 2010. “Experiences with an AR Evaluation Test Bed: Pre
 </template>
 
 <script setup>
-import Title from '../../../components/CenterTitle.vue'
+import { inject } from 'vue'
 
+import Title from '../../../components/CenterTitle.vue'
 import "../../../assets/top.css"
 import "../../../assets/room.css"
+
+const linkClick = inject('linkClick')
 </script>
 
 <style scoped>
