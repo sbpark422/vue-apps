@@ -389,23 +389,6 @@ button[data-v-f3c1f56a] {
   padding: 16px 32px;
 }
 
-.middle[data-v-3e84211a] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-3e84211a] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
 .middle[data-v-7c0c6e20] {
   transition: .5s ease;
   opacity: 0;
@@ -417,40 +400,6 @@ button[data-v-f3c1f56a] {
   text-align: center;
 }
 .textx[data-v-7c0c6e20] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.middle[data-v-eea0c1e2] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-eea0c1e2] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.middle[data-v-2c64b7f6] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-2c64b7f6] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;

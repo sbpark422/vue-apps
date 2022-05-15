@@ -77,23 +77,6 @@ button[data-v-1d144fe5] {
   padding: 16px 32px;
 }
 
-.middle[data-v-65ee74a0] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-65ee74a0] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
 .middle[data-v-73d8a0fc] {
   transition: .5s ease;
   opacity: 0;
@@ -105,40 +88,6 @@ button[data-v-1d144fe5] {
   text-align: center;
 }
 .textx[data-v-73d8a0fc] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.middle[data-v-7b43c36b] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-7b43c36b] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.middle[data-v-2b3b95d5] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-2b3b95d5] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;

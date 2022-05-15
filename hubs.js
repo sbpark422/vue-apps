@@ -44,9 +44,6 @@ window.APP.utils.followLinkClick = function(event) {
   }
 };
 var HelloWorld_vue_vue_type_style_index_0_scoped_true_lang = "";
-var App_vue_vue_type_style_index_0_scoped_true_lang$a = "";
-var App_vue_vue_type_style_index_0_scoped_true_lang$9 = "";
-var App_vue_vue_type_style_index_0_scoped_true_lang$8 = "";
 var App_vue_vue_type_style_index_0_scoped_true_lang$7 = "";
 var App_vue_vue_type_style_index_0_scoped_true_lang$6 = "";
 var App_vue_vue_type_style_index_0_scoped_true_lang$5 = "";
