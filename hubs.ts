@@ -101,10 +101,6 @@ import terracotta_vid from './src/apps/Room6/terracotta_vid_link/hubs'
 import tree_vid from './src/apps/Room6/tree_vid_link/hubs'
 
 
-//test
-import MitPress1 from './src/apps/Onboarding/MitPress_test1/hubs'
-import MitPress2 from './src/apps/Onboarding/MitPress_test2/hubs'
-import MitPress3 from './src/apps/Onboarding/MitPress_test3/hubs'
 
 
 //Pit
@@ -117,6 +113,8 @@ import pitSign3 from './src/apps/Room_Pit/pitSign3/hubs'
 //Onboarding Room
 import Welcome from './src/apps/Onboarding/Welcome/hubs'
 import MitPress from './src/apps/Onboarding/MitPress/hubs'
+//test
+import MitPress1 from './src/apps/Onboarding/MitPress_test1/hubs'
 
 import HubsPlatform from './src/apps/Onboarding/HubsPlatform/hubs'
 import HubsPlatform2 from './src/apps/Onboarding/HubsPlatform2/hubs'
@@ -161,7 +159,7 @@ export {
 
     //Onboarding and Rotunda
     Welcome, MitPress, HubsPlatform, HubsFeatures,rotundaMap, Sharing, HubsPlatform2, Overview, Back,
-    MitPress1,MitPress2,MitPress3,
+    MitPress1,
    
     //Pit 
     Pit, PitInstruction, pitSign1,pitSign2,pitSign3,

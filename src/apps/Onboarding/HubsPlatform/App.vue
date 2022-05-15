@@ -4,10 +4,10 @@
   <div class="spacer">
   <Title msg="The Hubs Platform" />
   <br />
-    <div xr-layer>
-    <span @click="linkClick" class="alink_img">
+    <div >
+    <span class="alink_img">
       <a href="https://hubs.mozilla.com/docs/welcome.html" target="_blank">
-        <img src="../../../assets/images/Onboarding/MozillaHubs.jpg" height="212">
+        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/MozillaHubs.jpg" height="212">
       </a>
     </span>
    </div>
