@@ -5,8 +5,8 @@
   <Title msg="Reality Media" />
   <br />
   <div  style="float:left; margin-right:20px">
-   <span xr-layer @click="linkClick" class="alink_img">
-      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+   <span @click="linkClick" class="alink_img">
+      <a xr-layer href="https://mitpress.mit.edu/books/reality-media" target="_blank">
         <img class="img_Hover" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
       </a>
     </span>

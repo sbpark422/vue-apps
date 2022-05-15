@@ -89,7 +89,22 @@ import Quote2 from './src/apps/Room6/Quote2/hubs'
 import Quote3 from './src/apps/Room6/Quote3/hubs'
 import Quote4 from './src/apps/Room6/Quote4/hubs'
 import Quote5 from './src/apps/Room6/Quote5/hubs'
+// Presence and Aura - video links
+import casa_vid from './src/apps/Room6/casa_vid_link/hubs'
+import metaverse_vid from './src/apps/Room6/metaverse_vid_link/hubs'
+import milk_vid from './src/apps/Room6/milk_vid_link/hubs'
+import mother_vid from './src/apps/Room6/mother_vid_link/hubs'
+import nonnie_vid from './src/apps/Room6/nonnie_vid_link/hubs'
+import plank_vid from './src/apps/Room6/plank_vid_link/hubs'
+import rollercoaster_vid from './src/apps/Room6/rollercoaster_vid_link/hubs'
+import terracotta_vid from './src/apps/Room6/terracotta_vid_link/hubs'
+import tree_vid from './src/apps/Room6/tree_vid_link/hubs'
 
+
+//test
+import MitPress1 from './src/apps/Onboarding/MitPress_test1/hubs'
+import MitPress2 from './src/apps/Onboarding/MitPress_test2/hubs'
+import MitPress3 from './src/apps/Onboarding/MitPress_test3/hubs'
 
 
 //Pit
@@ -141,12 +156,16 @@ export {
 
     // Presence and Aura
     Milk, Nonnie, Treehugger, Presence, Empathy, Aura,  cybersickness,  Milk_pic,  Nonnie_pic, AudioText, Terracotta, TerracottaPic, AudioPad, Gaudi, Gaudi_pic, cybersickness_pic,  Pit_AR, Laciotat, PlaceandSpace, Mainmap_black,Pit_Experiment, Absence_Mediation, Quote1, Quote2,Quote3, Quote4, Quote5,
-    
+    // Presence and Aura - video links
+    casa_vid, metaverse_vid, milk_vid, mother_vid, nonnie_vid, plank_vid, rollercoaster_vid, terracotta_vid, tree_vid,
+
     //Onboarding and Rotunda
     Welcome, MitPress, HubsPlatform, HubsFeatures,rotundaMap, Sharing, HubsPlatform2, Overview, Back,
+    MitPress1,MitPress2,MitPress3,
    
     //Pit 
     Pit, PitInstruction, pitSign1,pitSign2,pitSign3,
+    
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
