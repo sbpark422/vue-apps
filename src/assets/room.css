@@ -1,7 +1,42 @@
 /* Now, our styles */
-@import url('https://fonts.googleapis.com/css2?family=Buenard&family=Montserrat:wght@100&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+/* Load google fonts*/
+@font-face {
+  font-family: 'Buenard';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/buenard/v17/OD5DuM6Cyma8FnnsDzD3qQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw5aXo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotoflex/v8/NaNeepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGfttPZktqc2VdZ80KvCLZaPcSBZtOx2MifRuWR28sPJtUMbsFEK6cRrleUx9Xgbm3WLHa_F4Ep4Fm0PN19Ik5Dntczx0wZGzhPlL1YNMYKbv9_1IQXOw7AiUJVXRrV8cWW4O8LJCoXjCnwSRSaLshNP1d9-EmFw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotoflex/v8/NaNeepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGfttPZktqc2VdZ80KvCLZaPcSBZtOx2MifRuWR28sPJtUMbsFEK6cRrleUx9Xgbm3WLHa_F4Ep4Fm0PN19Ik5Dntczx0wZGzhPlL1YNMYKbv9_1IQXOw7AiUJVXRrV8cWW4O8LJCoXjCnwSRSaLshNP1d9-EmFw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 #room {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -86,7 +121,7 @@
     margin-right: 25px;
     }
     .lgquote{
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto Flex', sans-serif;
       font-size: 5rem;
       font-weight: 900;
       color: #8E9097;
@@ -128,6 +163,9 @@
       font-size:1.2em;
       font-weight: bold;
       line-height: 1.6;
+    }
+    .labelVid{
+      font-size: 2.5rem;
     }
     .labelLgTitle{
       font-size:6em;
@@ -192,14 +230,24 @@
   text-shadow: 1px 0 2px black, 1px 0 4px white, 0 1px 2px black, 0 1px 4px white, -1px 0 2px black, -1px 0 4px white, 0 -1px  2px black, 0 -1px  4px white;
 }
 
-.alink {
-  color: #fdfd96;
-  text-decoration: underline;
+/* anchor styles */
+a:hover {
+  color: white;
+  background:#2370FD ;
 }
-.alinklink {
-  color:#fdfd96;
+.alink {
+  color: #2370FD ;
+  text-decoration: underline;
 }
 .alink:hover {
   color: white;
-  background:#78cfa8;
+  background:#2370FD ;
 }
+.alink a:hover {
+  color: white;
+  background:#2370FD ;
+}
+.alink_img:hover {
+  outline: #333 solid 4px;
+}
+
