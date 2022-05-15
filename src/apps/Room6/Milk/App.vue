@@ -16,7 +16,7 @@
   </div> 
 </template>
 
-cript setup>
+<script setup>
 import { inject } from 'vue'
 
 import Title from '../../../components/CenterTitle.vue'
