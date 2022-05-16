@@ -6,9 +6,17 @@
   
   <div  style="float:left; margin-right:20px">
    <span xr-layer @click="linkClick">
-    <span style="position:relative; bottom: 40px;">
+    <span style="position:relative;">
       <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+<br /><br />
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" width="50" height="80">
       </a>
     </span>
     </span>
@@ -22,18 +30,27 @@
       <br />
       <br />
       <br />
-      <br /><br />
-      
-        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" width="40" height="80">
+      <br />
+      <br />
+<br /><br />
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
       </a>
     </span>
     </span>
   </div>  
    <div  style="float:left; margin-right:20px">
    <span xr-layer @click="linkClick">
-    <span style="position:relative; bottom: 40px;">
+    <span style="position:relative;">
       <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" width="60"  height="80">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+<br /><br />
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg"  height="80">
       </a>
     </span>
     </span>
