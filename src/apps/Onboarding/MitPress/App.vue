@@ -6,7 +6,7 @@
   <br />
   <div  style="float:left; margin-right:20px">
    <span xr-layer @click="linkClick"  class="alink_img">
-   <span style="position:relative; bottom: 60px;">
+   <span style="position:relative; bottom: 60px; right: 30px">
       <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
       <br />
       <br />
@@ -16,10 +16,6 @@
       <br />
       <br /> 
       <br />
-      <br />
-      <br />
-      <br />
-<br /><br />
         <img  class="img_Hover" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
       </a>
       </span>
