@@ -17,6 +17,13 @@
    <span xr-layer @click="linkClick">
     <span style="position:relative; bottom: 40px;">
       <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /><br />
+      
         <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" width="40" height="80">
       </a>
     </span>
