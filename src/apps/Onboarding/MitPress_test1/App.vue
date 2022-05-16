@@ -17,7 +17,7 @@
    <span xr-layer @click="linkClick">
     <span style="position:relative; bottom: 40px;">
       <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="160">
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" width="40" height="80">
       </a>
     </span>
     </span>
@@ -26,7 +26,7 @@
    <span xr-layer @click="linkClick">
     <span style="position:relative; bottom: 40px;">
       <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="240">
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" width="60"  height="80">
       </a>
     </span>
     </span>
