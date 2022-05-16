@@ -4,7 +4,7 @@ var __publicField = (obj, key, value) => {
   __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
   return value;
 };
-import { Matrix4 as Matrix4$1, Vector3 as Vector3$1, Object3D, PlaneGeometry, Mesh, MeshBasicMaterial, DoubleSide, VideoTexture, CanvasTexture, TextureLoader, ClampToEdgeWrapping, LinearFilter, MeshDepthMaterial, RGBADepthPacking, RGBAFormat, RGBA_ASTC_4x4_Format, RGBA_BPTC_Format, RGBA_ETC2_EAC_Format, RGBA_PVRTC_4BPPV1_Format, RGBA_S3TC_DXT5_Format, RGB_ETC1_Format, RGB_ETC2_Format, RGB_PVRTC_4BPPV1_Format, RGB_S3TC_DXT1_Format, Loader, FileLoader, CompressedTexture, UnsignedByteType, LinearMipmapLinearFilter, sRGBEncoding, LinearEncoding } from "three";
+import { Matrix4 as Matrix4$1, Vector3 as Vector3$1, Object3D, PlaneGeometry, Mesh, MeshBasicMaterial, DoubleSide, VideoTexture, CanvasTexture, TextureLoader, ClampToEdgeWrapping, LinearMipMapLinearFilter, MeshDepthMaterial, RGBADepthPacking, RGBAFormat, RGBA_ASTC_4x4_Format, RGBA_BPTC_Format, RGBA_ETC2_EAC_Format, RGBA_PVRTC_4BPPV1_Format, RGBA_S3TC_DXT5_Format, RGB_ETC1_Format, RGB_ETC2_Format, RGB_PVRTC_4BPPV1_Format, RGB_S3TC_DXT1_Format, Loader, FileLoader, CompressedTexture, UnsignedByteType, LinearFilter, LinearMipmapLinearFilter, sRGBEncoding, LinearEncoding } from "three";
 function traverseChildElements(element, each, bind, level = 0) {
   var _a2;
   level++;
@@ -1318,7 +1318,7 @@ const _WebLayer3D = class extends Object3D {
         t = _layer.isVideoElement ? new VideoTexture(media) : _layer.isCanvasElement ? new CanvasTexture(media) : new TextureLoader().load(media.src);
         t.wrapS = ClampToEdgeWrapping;
         t.wrapT = ClampToEdgeWrapping;
-        t.minFilter = LinearFilter;
+        t.minFilter = LinearMipMapLinearFilter;
         if (manager.textureEncoding)
           t.encoding = manager.textureEncoding;
         this._mediaTexture = t;
@@ -2178,7 +2178,7 @@ function setByKeyPath(obj, keyPath, value) {
           obj[currentKeyPath] = value;
       else {
         var innerObj = obj[currentKeyPath];
-        if (!innerObj)
+        if (!innerObj || !hasOwn(obj, currentKeyPath))
           innerObj = obj[currentKeyPath] = {};
         setByKeyPath(innerObj, remainingKeyPath, value);
       }
@@ -3288,7 +3288,7 @@ function tempTransaction(db, mode, storeNames, fn) {
     });
   }
 }
-var DEXIE_VERSION = "3.2.1";
+var DEXIE_VERSION = "3.2.2";
 var maxString = String.fromCharCode(65535);
 var minKey = -Infinity;
 var INVALID_KEY_ARGUMENT = "Invalid key provided. Keys must be of type string, number, Date or Array<string | number | Date>.";
@@ -7153,13 +7153,15 @@ if (typeof BroadcastChannel !== "undefined") {
     } catch (_a2) {
     }
   });
-  addEventListener("storage", function(ev) {
-    if (ev.key === STORAGE_MUTATED_DOM_EVENT_NAME) {
-      var data = JSON.parse(ev.newValue);
-      if (data)
-        propagateLocally(data.changedParts);
-    }
-  });
+  if (typeof addEventListener !== "undefined") {
+    addEventListener("storage", function(ev) {
+      if (ev.key === STORAGE_MUTATED_DOM_EVENT_NAME) {
+        var data = JSON.parse(ev.newValue);
+        if (data)
+          propagateLocally(data.changedParts);
+      }
+    });
+  }
   var swContainer = self.document && navigator.serviceWorker;
   if (swContainer) {
     swContainer.addEventListener("message", propagateMessageLocally);
@@ -7207,6 +7209,12 @@ class C1Type {
 const C1 = new C1Type();
 C1.name = "MessagePack 0xC1";
 var sequentialMode = false;
+var inlineObjectReadThreshold = 2;
+try {
+  new Function("");
+} catch (error) {
+  inlineObjectReadThreshold = Infinity;
+}
 class Unpackr {
   constructor(options) {
     if (options) {
@@ -7576,7 +7584,7 @@ function read() {
 const validName = /^[a-zA-Z_$][a-zA-Z\d_$]*$/;
 function createStructureReader(structure, firstId) {
   function readObject() {
-    if (readObject.count++ > 2) {
+    if (readObject.count++ > inlineObjectReadThreshold) {
       let readObject2 = structure.read = new Function("r", "return function(){return {" + structure.map((key) => validName.test(key) ? key + ":r()" : "[" + JSON.stringify(key) + "]:r()").join(",") + "}}")(read);
       if (structure.highByte === 0)
         structure.read = createSecondByteReader(firstId, structure.read);
@@ -8106,6 +8114,9 @@ class Packr extends Unpackr {
       maxSharedStructures = hasSharedStructures ? 32 : 0;
     if (maxSharedStructures > 8160)
       throw new Error("Maximum maxSharedStructure is 8160");
+    if (options.structuredClone && options.moreTypes == void 0) {
+      options.moreTypes = true;
+    }
     let maxOwnStructures = options.maxOwnStructures;
     if (maxOwnStructures == null)
       maxOwnStructures = hasSharedStructures ? 32 : 64;
@@ -8729,7 +8740,7 @@ extensions = [{
       target2[position2++] = 214;
       target2[position2++] = 255;
       targetView2.setUint32(position2, seconds);
-    } else if (seconds > 0 && seconds < 17179869184) {
+    } else if (seconds > 0 && seconds < 4294967296) {
       let { target: target2, targetView: targetView2, position: position2 } = allocateForWrite(10);
       target2[position2++] = 215;
       target2[position2++] = 255;
@@ -8756,8 +8767,8 @@ extensions = [{
 }, {
   pack(set, allocateForWrite, pack) {
     let array = Array.from(set);
-    let { target: target2, position: position2 } = allocateForWrite(this.structuredClone ? 3 : 0);
-    if (this.structuredClone) {
+    let { target: target2, position: position2 } = allocateForWrite(this.moreTypes ? 3 : 0);
+    if (this.moreTypes) {
       target2[position2++] = 212;
       target2[position2++] = 115;
       target2[position2++] = 0;
@@ -8766,8 +8777,8 @@ extensions = [{
   }
 }, {
   pack(error, allocateForWrite, pack) {
-    let { target: target2, position: position2 } = allocateForWrite(this.structuredClone ? 3 : 0);
-    if (this.structuredClone) {
+    let { target: target2, position: position2 } = allocateForWrite(this.moreTypes ? 3 : 0);
+    if (this.moreTypes) {
       target2[position2++] = 212;
       target2[position2++] = 101;
       target2[position2++] = 0;
@@ -8776,8 +8787,8 @@ extensions = [{
   }
 }, {
   pack(regex, allocateForWrite, pack) {
-    let { target: target2, position: position2 } = allocateForWrite(this.structuredClone ? 3 : 0);
-    if (this.structuredClone) {
+    let { target: target2, position: position2 } = allocateForWrite(this.moreTypes ? 3 : 0);
+    if (this.moreTypes) {
       target2[position2++] = 212;
       target2[position2++] = 120;
       target2[position2++] = 0;
@@ -8786,7 +8797,7 @@ extensions = [{
   }
 }, {
   pack(arrayBuffer, allocateForWrite) {
-    if (this.structuredClone)
+    if (this.moreTypes)
       writeExtBuffer(arrayBuffer, 16, allocateForWrite);
     else
       writeBuffer(hasNodeBuffer ? Buffer.from(arrayBuffer) : new Uint8Array(arrayBuffer), allocateForWrite);
@@ -8794,7 +8805,7 @@ extensions = [{
 }, {
   pack(typedArray, allocateForWrite) {
     let constructor = typedArray.constructor;
-    if (constructor !== ByteArray && this.structuredClone)
+    if (constructor !== ByteArray && this.moreTypes)
       writeExtBuffer(typedArray, typedArrays.indexOf(constructor.name), allocateForWrite);
     else
       writeBuffer(typedArray, allocateForWrite);
