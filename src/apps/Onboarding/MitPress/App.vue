@@ -5,10 +5,24 @@
   <Title msg="Reality Media" />
   <br />
   <div  style="float:left; margin-right:20px">
-   <span class="alink_img">
+   <span xr-layer @click="linkClick"  class="alink_img">
+   <span style="position:relative; bottom: 60px;">
       <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img  xr-layer @click="linkClick" class="img_Hover" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> 
+      <br />
+      <br />
+      <br />
+      <br />
+<br /><br />
+        <img  class="img_Hover" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
       </a>
+      </span>
     </span>
   </div>
 
