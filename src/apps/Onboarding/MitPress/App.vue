@@ -5,20 +5,10 @@
   <Title msg="Reality Media" />
   <br />
   <div  style="float:left; margin-right:20px">
-   <span xr-layer @click="linkClick"  class="alink_img">
-   <span style="position:relative; bottom: 60px; right: 30px">
+   <span class="alink_img">
       <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br /> 
-      <br />
-        <img  class="img_Hover" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
+        <img  xr-layer @click="linkClick" class="img_Hover" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
       </a>
-      </span>
     </span>
   </div>
 
@@ -37,14 +27,11 @@
 
 <script setup>
 import { inject } from 'vue'
-
 import Title from '../../../components/CenterTitle.vue'
 import "../../../assets/top.css"
 import "../../../assets/room.css"
-
 const linkClick = inject('linkClick')
 </script>
 
 <style scoped>
-
 </style>
