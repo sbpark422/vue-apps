@@ -50,8 +50,19 @@ export async function loadCache(url: string) {
     // const browser = detect();
 
     if (browser) {
-        console.log ("loading weblayer cache: " + url + "-" + browser.name + ".cache")
-        await WebLayerManager.instance.importCache(url + "-" + browser.name + ".cache")
+        console.log ("loading weblayer cache: " + url + "-" + browser.name + "-" + browser.os + ".cache")
+        let retVal = await WebLayerManager.instance.importCache(url + "-" + browser.name + "-" + browser.os + ".cache")
+        if (!retVal) {
+            console.log ("failed: loading weblayer cache: " + url + "-" + browser.name + ".cache")
+            retVal = await WebLayerManager.instance.importCache(url + "-" + browser.name + ".cache")
+            if (!retVal) {
+                console.log ("failed: loading weblayer cache: " + url + ".cache")
+                retVal = await WebLayerManager.instance.importCache(url + ".cache")
+                if (!retVal) {
+                    console.log("failed: no cache for url '" + url + "'")
+                }
+            }
+        }
     }
     console.log ("loading weblayer cache: " + url)
     //await WebLayerManager.instance.importCache(url + ".cache")
