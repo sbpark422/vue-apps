@@ -1,4 +1,11 @@
 
+#edit[data-v-08f6e824] {
+  color: #bea7d1;
+}
+#edit.upclose[data-v-08f6e824] {
+  color: #cc0a0a;
+}
+
 button[data-v-1d144fe5] {
     width: 120px;
     color: -internal-light-dark(black, white);
@@ -17,13 +24,6 @@ button[data-v-1d144fe5] {
 .fakeButton[data-v-1d144fe5]:hover {
   color: #a78e06;
   background: #9803a5;
-}
-
-#edit[data-v-08f6e824] {
-  color: #bea7d1;
-}
-#edit.upclose[data-v-08f6e824] {
-  color: #cc0a0a;
 }
 
 .middle[data-v-4cf857ef] {
@@ -400,20 +400,6 @@ a:hover {
 }
 
 
-a[data-v-06a9f319] {
-  color: #b542b9;
-}
-button[data-v-06a9f319] {
-  width: 150px;
-}
-.fade[data-v-06a9f319] {
-  color: #9803a5;
-  /* transition: color 1s; */
-}
-.fade[data-v-06a9f319]:hover {
-  color: #a78e06;
-}
-
 a[data-v-9ffe3f52] {
   color: #b542b9;
 }
@@ -426,4 +412,18 @@ button[data-v-9ffe3f52] {
 }
 .fade[data-v-9ffe3f52]:hover {
   color: #06a71b;
+}
+
+a[data-v-06a9f319] {
+  color: #b542b9;
+}
+button[data-v-06a9f319] {
+  width: 150px;
+}
+.fade[data-v-06a9f319] {
+  color: #9803a5;
+  /* transition: color 1s; */
+}
+.fade[data-v-06a9f319]:hover {
+  color: #a78e06;
 }
