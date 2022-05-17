@@ -3,50 +3,58 @@
   <div id="room" class="darkwall">
   <div class="spacer">
   <br />
+  
   <div  style="float:left; margin-right:20px">
    <span xr-layer @click="linkClick">
+    <span style="position:relative;">
       <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+<br /><br />
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" width="50" height="80">
       </a>
     </span>
-  </div>
-    <div  style="float:left; margin-right:20px">
+    </span>
+  </div>  
+ <div  style="float:left; margin-right:20px">
    <span xr-layer @click="linkClick">
-      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img class="img_Hover2" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
-      </a>
-    </span>
-  </div>
-   <div style="float:left; margin-right:20px">
-   <span class="img_Hover2">
-      <a xr-layer @click="linkClick" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+    <span style="position:relative; bottom: 40px;">
+      <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+<br /><br />
         <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
       </a>
     </span>
-  </div>
-     <div style="float:left; margin-right:20px">
-      <a xr-layer @click="linkClick" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img class="img_Hover2" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
-      </a>
-  </div>
-   <div style="float:left; margin-right:20px">
-   <span class="img_Hover2">
-      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
+    </span>
+  </div>  
+   <div  style="float:left; margin-right:20px">
+   <span xr-layer @click="linkClick">
+    <span style="position:relative;">
+      <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+<br /><br />
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg"  height="80">
       </a>
     </span>
-  </div>
-   <div style="float:left; margin-right:20px">
-      <a class="img_Hover2" href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
-      </a>
-  </div> <div  style="float:left; margin-right:20px">
-   <div class="img_Hover2">
-      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="80">
-      </a>
-    </div>
-  </div>
+    </span>
+  </div>  
 
   </div>
   </div>
