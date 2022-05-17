@@ -33,11 +33,11 @@ if (browser) {
             if (navigator.userAgent.search(/Quest 2/) >= 0) {
                 //@ts-ignore
                 browser.os = "LinuxQuest2"
-                maxTextureSize = 1024
+                maxTextureSize = 512
             } else {
                 //@ts-ignore
                 browser.os = "LinuxQuest"
-                maxTextureSize = 512
+                maxTextureSize = 256
             }
         }
     }
