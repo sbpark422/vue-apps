@@ -37,7 +37,7 @@ if (browser) {
             } else {
                 //@ts-ignore
                 browser.os = "LinuxQuest"
-                maxTextureSize = 256
+                maxTextureSize = 512
             }
         }
     }
