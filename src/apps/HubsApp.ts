@@ -1,7 +1,7 @@
 import { createApp, App, Component, ComponentPublicInstance } from "vue";
 import { Scene, Entity } from 'aframe'
 //import { EtherealLayoutSystem } from "ethereal";
-import { WebContainer3D, WebLayerManager } from "@etherealjs/web-layer/three";
+import { WebContainer3D, WebLayerManager } from "@blairmacintyre/web-layer-blair/three"; //@etherealjs/web-layer/three";
 
 import { detectOS, detect } from "detect-browser";
 
