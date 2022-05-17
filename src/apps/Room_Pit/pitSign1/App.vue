@@ -4,11 +4,7 @@
 <div class="spacer-side">
   <div class="squareoff">
   <br>
-  <span xr-layer @click="linkClick" class="alink_img">
-      <a href="http://wwwx.cs.unc.edu/Research/eve/walk_exp/" target="_blank">
-        <img class="centerImg" height="300" src="../../../assets/images/Pit/Original_pit.jpg">
-      </a>
-  </span>
+  <img class="centerImg" height="300" src="../../../assets/images/Pit/Original_pit.jpg">
   <br />
 A view of the original Pit model shows a side view of the virtual environment. Subjects start in the Training Room and later enter the Pit Room.   
 <br><br>
