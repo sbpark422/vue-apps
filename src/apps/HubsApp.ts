@@ -255,7 +255,7 @@ export default class HubsApp extends VueApp {
         if (this.width > 0) {
             style = "width: " + this.width + "px; "
             if (this.width > maxTextureSize) {
-                this.pixelRatio = maxTextureSize / this.width
+                this.pixelRatio = (maxTextureSize-1) / this.width
             }
         } else {
             this.pixelRatio = 0.01
@@ -264,7 +264,7 @@ export default class HubsApp extends VueApp {
         if (this.height > 0) {
             style = style + "height: " + this.height + "px; ";
             if (this.height > maxTextureSize) { 
-                this.pixelRatio = Math.min(maxTextureSize / this.height, this.pixelRatio)
+                this.pixelRatio = Math.min((maxTextureSize-1) / this.height, this.pixelRatio)
             }
         } else {
             this.pixelRatio = Math.min(this.pixelRatio, 0.01);
@@ -317,10 +317,10 @@ export default class HubsApp extends VueApp {
 
             this.pixelRatio = 1.0
             if (this.width > maxTextureSize) {
-                this.pixelRatio = maxTextureSize / this.width
+                this.pixelRatio = (maxTextureSize-1) / this.width
             }
             if (this.height > maxTextureSize) { 
-                this.pixelRatio = Math.min(maxTextureSize / this.height, this.pixelRatio)
+                this.pixelRatio = Math.min((maxTextureSize-1) / this.height, this.pixelRatio)
             }
             style = "width: " + this.width + "px; height: " + this.height + "px; "
 
