@@ -6,7 +6,7 @@ import { WebContainer3D, WebLayerManager } from "@blairmacintyre/web-layer-blair
 import { detectOS, detect } from "detect-browser";
 
 import VueApp  from "./VueApp"
-
+ 
 // create init method for ethereal
 //import * as ethereal from 'ethereal'
 // import { createPrinter, ThisExpression, ThrowStatement } from "node_modules/typescript/lib/typescript";
