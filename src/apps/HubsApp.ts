@@ -262,7 +262,7 @@ export default class HubsApp extends VueApp {
                 this.pixelRatio = (maxTextureSize-1) / this.width
             }
         } else {
-            this.pixelRatio = 0.01
+            this.pixelRatio = 0.1
             style = "width: fit-content; "
         }
         if (this.height > 0) {
@@ -271,7 +271,7 @@ export default class HubsApp extends VueApp {
                 this.pixelRatio = Math.min((maxTextureSize-1) / this.height, this.pixelRatio)
             }
         } else {
-            this.pixelRatio = Math.min(this.pixelRatio, 0.01);
+            this.pixelRatio = Math.min(this.pixelRatio, 0.1);
             style = style + "height: fit-content; "
         }
         console.log("setting style: ", style)
