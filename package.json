@@ -13,7 +13,7 @@
     "serve": "npm run buildDev && npm run serveV"
   },
   "dependencies": {
-    "@blairmacintyre/web-layer-blair": "^3.4.2",
+    "@blairmacintyre/web-layer-blair": "^3.4.3",
     "reveal.js": "^4",
     "three": "^0.136.0",
     "vue": "^3.0.5",
