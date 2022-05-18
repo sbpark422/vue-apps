@@ -43,6 +43,23 @@ button[data-v-1d144fe5] {
   padding: 16px 32px;
 }
 
+.middle[data-v-60ef9270] {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.textx[data-v-60ef9270] {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
 .middle[data-v-58ef40ae] {
   transition: .5s ease;
   opacity: 0;
@@ -93,23 +110,6 @@ outline: #333 solid 4px;
   text-align: center;
 }
 .textx[data-v-0dfbc872] {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.middle[data-v-60ef9270] {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.textx[data-v-60ef9270] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
