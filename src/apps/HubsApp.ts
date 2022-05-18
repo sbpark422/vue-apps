@@ -12,6 +12,10 @@ import VueApp  from "./VueApp"
 // import { createPrinter, ThisExpression, ThrowStatement } from "node_modules/typescript/lib/typescript";
 // import { create } from "mathjs";
 
+function floorFixed(num: number) {
+    let n = Math.floor(num * 100) / 100;
+    return n.toFixed(2)
+}
 export function initializeEthereal() {
     HubsApp.initializeEthereal()
 }
@@ -271,9 +275,9 @@ export default class HubsApp extends VueApp {
             style = style + "height: fit-content; "
         }
         console.log("setting style: ", style)
-        console.log("setting pixelRatio = ", this.pixelRatio.toFixed(2));
+        console.log("setting pixelRatio = ", floorFixed(this.pixelRatio));
         this.vueRoot.$el.setAttribute("style", style)
-        this.vueRoot.$el.setAttribute("xr-pixel-ratio", this.pixelRatio.toFixed(2));
+        this.vueRoot.$el.setAttribute("xr-pixel-ratio", floorFixed(this.pixelRatio));
 
         // // add a link to the shared css
         let l = document.createElement("link")
@@ -325,10 +329,10 @@ export default class HubsApp extends VueApp {
             style = "width: " + this.width + "px; height: " + this.height + "px; "
 
             console.log("setting style: ", style)
-            console.log("setting pixelRatio = ", this.pixelRatio.toFixed(2));
+            console.log("setting pixelRatio = ", floorFixed(this.pixelRatio));
 
             this.vueRoot?.$el.setAttribute("style", style)
-            this.vueRoot?.$el.setAttribute("xr-pixel-ratio", this.pixelRatio.toFixed(2));
+            this.vueRoot?.$el.setAttribute("xr-pixel-ratio", floorFixed(this.pixelRatio));
             this.webLayer3D?.rootLayer.setNeedsRefresh();
         })
     }
