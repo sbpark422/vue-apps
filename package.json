@@ -12,8 +12,11 @@
     "serveV": "vite preview --port 5001",
     "serve": "npm run buildDev && npm run serveV"
   },
+  "unusedDependencies": {
+    "@blairmacintyre/web-layer-blair": "^3.4.3"
+  },
   "dependencies": {
-    "@blairmacintyre/web-layer-blair": "^3.4.3",
+    "@etherealjs/web-layer": "^3.5.1",
     "reveal.js": "^4",
     "three": "^0.136.0",
     "vue": "^3.0.5",

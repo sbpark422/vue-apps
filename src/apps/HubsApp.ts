@@ -1,7 +1,8 @@
 import { createApp, App, Component, ComponentPublicInstance } from "vue";
 import { Scene, Entity } from 'aframe'
 //import { EtherealLayoutSystem } from "ethereal";
-import { WebContainer3D, WebLayerManager } from "@blairmacintyre/web-layer-blair/three"; //@etherealjs/web-layer/three";
+import { WebContainer3D, WebLayerManager } from "@etherealjs/web-layer/three"; 
+//import { WebContainer3D, WebLayerManager } from "@blairmacintyre/web-layer-blair/three";
 
 import { detectOS, detect } from "detect-browser";
 
@@ -262,7 +263,7 @@ export default class HubsApp extends VueApp {
                 this.pixelRatio = (maxTextureSize-1) / this.width
             }
         } else {
-            this.pixelRatio = 0.1
+            this.pixelRatio = 0.01
             style = "width: fit-content; "
         }
         if (this.height > 0) {
@@ -271,7 +272,7 @@ export default class HubsApp extends VueApp {
                 this.pixelRatio = Math.min((maxTextureSize-1) / this.height, this.pixelRatio)
             }
         } else {
-            this.pixelRatio = Math.min(this.pixelRatio, 0.1);
+            this.pixelRatio = Math.min(this.pixelRatio, 0.01);
             style = style + "height: fit-content; "
         }
         console.log("setting style: ", style)
