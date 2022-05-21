@@ -16,7 +16,7 @@
     "@blairmacintyre/web-layer-blair": "^3.4.3"
   },
   "dependencies": {
-    "@etherealjs/web-layer": "^3.5.1",
+    "@etherealjs/web-layer": "^3.5.4",
     "reveal.js": "^4",
     "three": "^0.136.0",
     "vue": "^3.0.5",
