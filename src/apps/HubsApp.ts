@@ -45,6 +45,16 @@ if (browser) {
                 maxTextureSize = 256
             }
         }
+    } else if (browser.os == "iOS") {
+        if (navigator.userAgent.search(/iPad/) >= 0) {
+            //@ts-ignore
+            browser.os = "iOSiPad"
+            maxTextureSize = 512
+        } else {
+            //@ts-ignore
+            browser.os = "iOSiPhone"
+            maxTextureSize = 512
+        }
     }
     console.log("Running on OS '" + browser.os + "' in browser '" + browser.name + "' version '" + browser.version + "'") 
 } else {
@@ -87,8 +97,8 @@ export async function exportCache(url: string, states: Array<string> | undefined
     let blob = await WebLayerManager.instance.exportCache(states)
 
     if (browser) {
-        console.log ("downloading weblayer cache: " + url + "-" + browser.name + ".cache")
-        downloadBlob(blob, url + "-" + browser.name + ".cache" );
+        console.log ("downloading weblayer cache: " + url + "-" + browser.name + "-" + browser.os + ".cache")
+        downloadBlob(blob, url + "-" + browser.name + "-" + browser.os + ".cache");
     } else {
         console.log ("downloading weblayer cache: " + url + ".cache")
         downloadBlob(blob, url + "-" + ".cache" );
