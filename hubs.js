@@ -15,6 +15,12 @@ if (browser) {
         browser.os = "LinuxQuest";
       }
     }
+  } else if (browser.os == "iOS") {
+    if (navigator.userAgent.search(/iPad/) >= 0) {
+      browser.os = "iOSiPad";
+    } else {
+      browser.os = "iOSiPhone";
+    }
   }
   console.log("Running on OS '" + browser.os + "' in browser '" + browser.name + "' version '" + browser.version + "'");
 } else {
