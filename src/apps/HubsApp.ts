@@ -71,10 +71,14 @@ export async function loadCache(url: string) {
             console.log ("failed: loading weblayer cache: " + url + "-" + browser.name + ".cache")
             retVal = await WebLayerManager.instance.importCache(url + "-" + browser.name + ".cache")
             if (!retVal) {
-                console.log ("failed: loading weblayer cache: " + url + ".cache")
-                retVal = await WebLayerManager.instance.importCache(url + ".cache")
-                if (!retVal) {
-                    console.log("failed: no cache for url '" + url + "'")
+                console.log ("failed: loading weblayer cache: " + url + "-" + browser.os + ".cache")
+                retVal = await WebLayerManager.instance.importCache(url + "-" + browser.os + ".cache")
+                    if (!retVal) {
+                    console.log ("failed: loading weblayer cache: " + url + ".cache")
+                    retVal = await WebLayerManager.instance.importCache(url + ".cache")
+                    if (!retVal) {
+                        console.log("failed: no cache for url '" + url + "'")
+                    }
                 }
             }
         }
@@ -350,12 +354,23 @@ export default class HubsApp extends VueApp {
 
     async waitForReady() {
         this.webLayer3D?.rootLayer.setNeedsRefresh();
-        await this.readyPromise
-        await this.webLayer3D?.updateUntilReady().then(() => {
-            this.webLayer3D?.rootLayer.setNeedsRefresh();
-        }).catch((err) => {
-            console.error("WebLayerUpdate failed: ", err)
-        })
+        await this.readyPromise;
+        await this.webLayer3D?.updateUntilReady();
+
+        // need to do a few layers.  here's how to do hover.
+        // first, find all children of the root layer that have "alink" class
+        // layer.desiredPseudoState.hover = true
+        // 
+
+        var linkNodes = this.webLayer3D?.rootLayer.querySelectorAll('.alink');
+        if (linkNodes) {
+            for (var i = 0; i < linkNodes.length; i++) {
+                linkNodes[i].desiredPseudoStates.hover = true;
+                await this.webLayer3D?.updateUntilReady()
+                linkNodes[i].desiredPseudoStates.hover = false
+            }
+        }
+        this.webLayer3D?.rootLayer.setNeedsRefresh();
     }
 
     setNetworkMethods(takeOwnership: () => boolean, setSharedData: ({}) => boolean) {
