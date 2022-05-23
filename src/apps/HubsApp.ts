@@ -53,7 +53,7 @@ if (browser) {
         } else {
             //@ts-ignore
             browser.os = "iOSiPhone"
-            maxTextureSize = 512
+            maxTextureSize = 256
         }
     }
     console.log("Running on OS '" + browser.os + "' in browser '" + browser.name + "' version '" + browser.version + "'") 
