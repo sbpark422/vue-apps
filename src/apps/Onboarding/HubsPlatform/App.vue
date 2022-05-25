@@ -4,7 +4,7 @@
   <div class="spacer">
   <Title msg="The Hubs Platform" />
   <br />
-  <div xr-layer @click="linkClick" class="xrlink alink_img">
+  <div xr-layer @click="linkClick" class="xrlink alink_img" style="display: inline-block;">
       <a href="https://hubs.mozilla.com/docs/welcome.html" target="_blank">
         <img src="../../../assets/images/Onboarding/MozillaHubs.jpg" height="212">
       </a>
