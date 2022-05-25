@@ -101,6 +101,17 @@ import terracotta_vid from './src/apps/Room6/terracotta_vid_link/hubs'
 import tree_vid from './src/apps/Room6/tree_vid_link/hubs'
 
 
+//What are AR VR
+import Lumiere from './src/apps/Room_ARVR/Lumiere/hubs'
+import MilgramSpectrum from './src/apps/Room_ARVR/Spectrum/hubs'
+import ChainDiagram from './src/apps/Room_ARVR/Chain_Diagram/hubs'
+import PortalTable from './src/apps/Room_ARVR/Portal_Table/hubs'
+import ChainDiagramTitle from './src/apps/Room_ARVR/Chain_Diagram_Title/hubs'
+import PortalTableTitle from './src/apps/Room_ARVR/Portal_Table_Title/hubs'
+import TV_seeit from './src/apps/Room_ARVR/TV_seeit/hubs'
+import LaciotatVR from './src/apps/Room_ARVR/LaciotatVR/hubs'
+import Sutherland from './src/apps/Room_ARVR/Sutherland/hubs'
+import History_map_info from './src/apps/Room_ARVR/Sutherland/hubs'
 
 
 //Pit
@@ -148,7 +159,8 @@ export {
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena,
-    
+    //what are AR VR
+    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,
     //History
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
 
