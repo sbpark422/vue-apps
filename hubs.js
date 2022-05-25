@@ -37,16 +37,17 @@ async function logAndFollow(id, url) {
 window.APP.utils.followLinkClick = function(event) {
   var url = "";
   event.preventDefault();
-  if (event.target instanceof HTMLElement) {
-    if (event.target instanceof HTMLAnchorElement) {
-      url = event.target.href;
+  let target = event.currentTarget;
+  if (target instanceof HTMLElement) {
+    if (target instanceof HTMLAnchorElement) {
+      url = target.href;
     } else {
-      let child = event.target.childNodes[0];
+      let child = target.childNodes[0];
       if (child instanceof HTMLAnchorElement) {
         url = child.href;
       }
     }
-    logAndFollow(event.target.id, url);
+    logAndFollow(target.id, url);
   }
 };
 var HelloWorld_vue_vue_type_style_index_0_scoped_true_lang = "";
