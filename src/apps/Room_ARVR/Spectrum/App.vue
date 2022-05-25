@@ -4,7 +4,6 @@
   <div class="topdown">
   <Title msg="Milgram Spectrum" />
   <br>
-  <img src="../../../assets/images/RoomARVR/milgram-spectrum.png" width="600" >
   </div>
   </div>
   </div> 
