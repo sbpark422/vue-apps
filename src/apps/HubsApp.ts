@@ -513,18 +513,18 @@ window.APP.utils.followLinkClick = function (event: MouseEvent) {
     // Get url from the target element (<a>) href attribute
     var url: string = "";
     event.preventDefault();
-
-    if (event.target instanceof HTMLElement) {
-        if (event.target instanceof HTMLAnchorElement) {
-            url = (event.target as HTMLAnchorElement).href;
+    let target = event.currentTarget;
+    if (target instanceof HTMLElement) {
+        if (target instanceof HTMLAnchorElement) {
+            url = (target as HTMLAnchorElement).href;
             // Prevent default action (e.g. following the link)
-        } else { //if (event.target instanceof HTMLSpanElement) {
-            let child = event.target.childNodes[0]
+        } else { //if (target instanceof HTMLSpanElement) {
+            let child = target.childNodes[0]
             if (child instanceof HTMLAnchorElement) {
                 url = (child as HTMLAnchorElement).href;;
             }
         }
-        logAndFollow(event.target.id, url);
+        logAndFollow(target.id, url);
     }
 }
 
