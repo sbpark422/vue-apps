@@ -19,7 +19,7 @@
    <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/controllers.jpg" height="150">
 </span>
 <br/>
-For other controls and devices, see the <span xr-layer @click="linkClick" class="alink"><a href="https://hubs.mozilla.com/docs/hubs-controls.html#oculus-touch-controls" target="_blank">list of Hubs controls.</a></span><br/>
+For other controls and devices, see the <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://hubs.mozilla.com/docs/hubs-controls.html#oculus-touch-controls" target="_blank">list of Hubs controls.</a></span><br/>
  </div>
   </div>
   </div>

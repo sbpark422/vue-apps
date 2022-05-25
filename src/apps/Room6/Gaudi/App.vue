@@ -6,7 +6,7 @@
   <br>
 	<div class="squareoff">"Casa Batlló, one of the masterpieces of Antoni Gaudí, can be experienced with the mobile AR, which visualizes the reconstructed interior and the design inspirations through 3D animations."
   <br/><br/>
-  <span xr-layer @click="linkClick" class="alink"><a href="https://www.youtube.com/watch?v=dye_YVx2VUg&ab_channel=EricAzares" target="_blank">Click here to learn more about the video</a></span>
+  <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.youtube.com/watch?v=dye_YVx2VUg&ab_channel=EricAzares" target="_blank">Click here to learn more about the video</a></span>
   </div>
   </div> 
   </div>

@@ -2,7 +2,7 @@
   <div> 
   <div id="room" class="darkwall">
 
-   <div class="squareoff"><span xr-layer @click="linkClick" class="alink"><a href="https://www.youtube.com/watch?v=9advEusJB_Y&t=13s&ab_channel=CGTN" target="_blank">Click here to visit the website</a></span>
+   <div class="squareoff"><span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.youtube.com/watch?v=9advEusJB_Y&t=13s&ab_channel=CGTN" target="_blank">Click here to visit the website</a></span>
   <br />
 
   </div>

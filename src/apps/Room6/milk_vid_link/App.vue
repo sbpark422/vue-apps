@@ -2,7 +2,7 @@
   <div> 
   <div id="room" class="darkwall">
 
-   <div class="squareoff"><span xr-layer @click="linkClick" class="alink"><a href="https://www.ted.com/talks/chris_milk_how_virtual_reality_can_create_the_ultimate_empathy_machine?language=yi" target="_blank">Click here to visit the website</a></span>
+   <div class="squareoff"><span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.ted.com/talks/chris_milk_how_virtual_reality_can_create_the_ultimate_empathy_machine?language=yi" target="_blank">Click here to visit the website</a></span>
   <br />
 
   </div>

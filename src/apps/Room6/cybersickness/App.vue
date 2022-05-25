@@ -9,7 +9,7 @@
    <br/>
    <br/>
    <div style="float:right">
-   <span xr-layer @click="linkClick" class="alink"><a href="https://www.youtube.com/watch?v=X9jM4LcwHog&t=55s&ab_channel=FeelVirtual" target="_blank">Click here to learn more about the video</a></span></div>
+   <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.youtube.com/watch?v=X9jM4LcwHog&t=55s&ab_channel=FeelVirtual" target="_blank">Click here to learn more about the video</a></span></div>
 
   </div>
   </div>

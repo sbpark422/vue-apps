@@ -358,11 +358,11 @@ export default class HubsApp extends VueApp {
         await this.webLayer3D?.updateUntilReady();
 
         // need to do a few layers.  here's how to do hover.
-        // first, find all children of the root layer that have "alink" class
+        // first, find all children of the root layer that have "xrlink" class
         // layer.desiredPseudoState.hover = true
         // 
 
-        var linkNodes = this.webLayer3D?.rootLayer.querySelectorAll('.alink');
+        var linkNodes = this.webLayer3D?.rootLayer.querySelectorAll('.xrlink');
         if (linkNodes) {
             for (var i = 0; i < linkNodes.length; i++) {
                 linkNodes[i].desiredPseudoStates.hover = true;
@@ -518,7 +518,7 @@ window.APP.utils.followLinkClick = function (event: MouseEvent) {
         if (event.target instanceof HTMLAnchorElement) {
             url = (event.target as HTMLAnchorElement).href;
             // Prevent default action (e.g. following the link)
-        } else if (event.target instanceof HTMLSpanElement) {
+        } else { //if (event.target instanceof HTMLSpanElement) {
             let child = event.target.childNodes[0]
             if (child instanceof HTMLAnchorElement) {
                 url = (child as HTMLAnchorElement).href;;

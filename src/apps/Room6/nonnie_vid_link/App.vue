@@ -2,7 +2,7 @@
   <div> 
   <div id="room" class="darkwall">
 
-   <div class="squareoff"><span xr-layer @click="linkClick" class="alink"><a href="https://www.ted.com/talks/nonny_de_la_pena_the_future_of_news_virtual_reality?language=en" target="_blank">Click here to visit the website</a></span>
+   <div class="squareoff"><span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.ted.com/talks/nonny_de_la_pena_the_future_of_news_virtual_reality?language=en" target="_blank">Click here to visit the website</a></span>
   <br />
 
   </div>

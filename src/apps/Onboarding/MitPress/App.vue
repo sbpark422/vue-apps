@@ -4,15 +4,13 @@
   <div class="spacer">
   <Title msg="Reality Media" />
   <br />
-  <div  style="float:left; margin-right:20px">
-   <span class="alink_img">
-      <a href="https://mitpress.mit.edu/books/reality-media" target="_blank">
-        <img  xr-layer @click="linkClick" class="img_Hover" src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
+  <div xr-layer @click="linkClick" class="xrlink alink_img" style="float:left; margin-right:20px">
+      <a  href="https://mitpress.mit.edu/books/reality-media" target="_blank">
+        <img src="../../../assets/images/Onboarding/realityMediaBook.jpg" height="383">
       </a>
-    </span>
   </div>
 
-   <div class="squareoff"><div style="margin-left:30px">Published by <span xr-layer @click="linkClick" class="alink"><a href="https://mitpress.mit.edu/books/reality-media" target="_blank">MIT Press.</a></span></div>
+   <div class="squareoff"><div style="margin-left:30px">Published by <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://mitpress.mit.edu/books/reality-media" target="_blank">MIT Press.</a></span></div>
   <br />
 
   <div class="oblique">By Jay David Bolter, Maria Engberg and Blair MacIntyre</div> 

@@ -5,7 +5,7 @@
   <br>
 <!--<Title v-bind:msg="title" />-->
 	<div class="squareoff labelVid">
-    <span xr-layer @click="linkClick" class="alink">
+    <span xr-layer @click="linkClick" class="xrlink alink">
       <a v-bind:href="'' + link" target="_blank"> {{ title }} </a>
     </span>
   </div>
