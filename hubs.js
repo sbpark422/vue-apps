@@ -40,7 +40,7 @@ window.APP.utils.followLinkClick = function(event) {
   if (event.target instanceof HTMLElement) {
     if (event.target instanceof HTMLAnchorElement) {
       url = event.target.href;
-    } else if (event.target instanceof HTMLSpanElement) {
+    } else {
       let child = event.target.childNodes[0];
       if (child instanceof HTMLAnchorElement) {
         url = child.href;

@@ -275,6 +275,9 @@ footer, header, hgroup, main, menu, nav, section {
   text-shadow: 1px 0 2px black, 1px 0 4px white, 0 1px 2px black, 0 1px 4px white, -1px 0 2px black, -1px 0 4px white, 0 -1px  2px black, 0 -1px  4px white;
 }
 
+a img {
+  display: block;
+}
 /* anchor styles */
 a:hover {
   color: white;
@@ -292,11 +295,13 @@ a:hover {
   color: white;
   background:#2370FD ;
 }
-.alink_img:hover {
-  outline: #333 solid 4px;
+
+.alink_img {
+  margin: 2px;
 }
-
-
+.alink_img:hover {
+  outline: #333 solid 2px;
+}
 a[data-v-fd77e8fe] {
   color: #b542b9;
 }
@@ -338,7 +343,7 @@ button[data-v-f3c1f56a] {
   background: #9803a5;
 }
 
-.middle[data-v-742011ef] {
+.middle[data-v-333f5701] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -348,14 +353,14 @@ button[data-v-f3c1f56a] {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-742011ef] {
+.textx[data-v-333f5701] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-.middle[data-v-a3499224] {
+.middle[data-v-c9b95944] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -365,14 +370,14 @@ button[data-v-f3c1f56a] {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-a3499224] {
+.textx[data-v-c9b95944] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-.middle[data-v-257363a7] {
+.middle[data-v-c362600a] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -382,14 +387,14 @@ button[data-v-f3c1f56a] {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-257363a7] {
+.textx[data-v-c362600a] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-.middle[data-v-7c0c6e20] {
+.middle[data-v-4afdffd4] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -399,7 +404,7 @@ button[data-v-f3c1f56a] {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-7c0c6e20] {
+.textx[data-v-4afdffd4] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;

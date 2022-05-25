@@ -26,7 +26,7 @@ button[data-v-1d144fe5] {
   background: #9803a5;
 }
 
-.middle[data-v-4cf857ef] {
+.middle[data-v-6ca75dfe] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -36,14 +36,14 @@ button[data-v-1d144fe5] {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-4cf857ef] {
+.textx[data-v-6ca75dfe] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-.middle[data-v-60ef9270] {
+.middle[data-v-655b619c] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -53,14 +53,14 @@ button[data-v-1d144fe5] {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-60ef9270] {
+.textx[data-v-655b619c] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-.middle[data-v-58ef40ae] {
+.middle[data-v-29a8adb9] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -70,14 +70,14 @@ button[data-v-1d144fe5] {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-58ef40ae] {
+.textx[data-v-29a8adb9] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
 
-.middle[data-v-73d8a0fc] {
+.middle[data-v-94fe1dfc] {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -87,7 +87,7 @@ button[data-v-1d144fe5] {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.textx[data-v-73d8a0fc] {
+.textx[data-v-94fe1dfc] {
   background-color: #04AA6D;
   color: white;
   font-size: 16px;
@@ -378,6 +378,9 @@ footer, header, hgroup, main, menu, nav, section {
   text-shadow: 1px 0 2px black, 1px 0 4px white, 0 1px 2px black, 0 1px 4px white, -1px 0 2px black, -1px 0 4px white, 0 -1px  2px black, 0 -1px  4px white;
 }
 
+a img {
+  display: block;
+}
 /* anchor styles */
 a:hover {
   color: white;
@@ -395,11 +398,13 @@ a:hover {
   color: white;
   background:#2370FD ;
 }
-.alink_img:hover {
-  outline: #333 solid 4px;
+
+.alink_img {
+  margin: 2px;
 }
-
-
+.alink_img:hover {
+  outline: #333 solid 2px;
+}
 a[data-v-06a9f319] {
   color: #b542b9;
 }
