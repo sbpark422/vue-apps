@@ -9,7 +9,7 @@
   <blockquote class="squareoff">"When you’re inside of the headset . . . you see full 360 degrees, in all directions. And when you’re sitting there in her room, watching her, you're not watching it through a television screen, you’re not watching it through a window, <span style="fontWeight:700">you’re sitting there with her.</span> When you look down, you're sitting on the same ground that she’s sitting on. And because of that, you feel her humanity in a deeper way. You empathize with her in a deeper way. (Milk 2015)"</blockquote>
   <br /> <br />
   <div style="float: right;">
-    <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.ted.com/talks/chris_milk_how_virtual_reality_can_create_the_ultimate_empathy_machine?language=yi" target="_blank">Click here to learn more about the video</a></span>  
+    <span xr-layer @click="linkClick" class="xrlink alink" id="Milk_link"><a href="https://www.ted.com/talks/chris_milk_how_virtual_reality_can_create_the_ultimate_empathy_machine?language=yi" target="_blank">Click here to learn more about the video</a></span>  
   </div>
   </div>
   </div>
