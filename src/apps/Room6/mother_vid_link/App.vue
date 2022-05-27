@@ -9,7 +9,7 @@
   <br />
   <div style="float: right;">
 
-  <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.youtube.com/watch?v=NSb6FHzwGdY&t=15s" target="_blank">Click here to learn more about the video</a></span>
+  <span xr-layer @click="linkClick" class="xrlink alink" id="ImetYou_link"><a href="https://www.youtube.com/watch?v=NSb6FHzwGdY&t=15s" target="_blank">Click here to learn more about the video</a></span>
   </div>
   </div>
 

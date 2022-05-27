@@ -16,10 +16,10 @@
 <br>
 -For Quest VR devices, <br/><br/>
 <span style="padding-left:50px">
-   <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/controllers.jpg" height="150">
+   <img xr-layer @click="linkClick" src="../../../assets/images/Onboarding/controllers.jpg" height="150" id="HubsPlatform_link2">
 </span>
 <br/>
-For other controls and devices, see the <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://hubs.mozilla.com/docs/hubs-controls.html#oculus-touch-controls" target="_blank">list of Hubs controls.</a></span><br/>
+For other controls and devices, see the <span xr-layer @click="linkClick" class="xrlink alink" id="HubsPlatform_link3"><a href="https://hubs.mozilla.com/docs/hubs-controls.html#oculus-touch-controls" target="_blank">list of Hubs controls.</a></span><br/>
  </div>
   </div>
   </div>
