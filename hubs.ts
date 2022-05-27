@@ -102,16 +102,16 @@ import tree_vid from './src/apps/Room6/tree_vid_link/hubs'
 
 
 //What are AR VR
-import Lumiere from './src/apps/Room_ARVR/Lumiere/hubs'
-import MilgramSpectrum from './src/apps/Room_ARVR/Spectrum/hubs'
-import ChainDiagram from './src/apps/Room_ARVR/Chain_Diagram/hubs'
-import PortalTable from './src/apps/Room_ARVR/Portal_Table/hubs'
-import ChainDiagramTitle from './src/apps/Room_ARVR/Chain_Diagram_Title/hubs'
-import PortalTableTitle from './src/apps/Room_ARVR/Portal_Table_Title/hubs'
-import TV_seeit from './src/apps/Room_ARVR/TV_seeit/hubs'
-import LaciotatVR from './src/apps/Room_ARVR/LaciotatVR/hubs'
-import Sutherland from './src/apps/Room_ARVR/Sutherland/hubs'
-import History_map_info from './src/apps/Room_ARVR/History_map_info/hubs'
+// import Lumiere from './src/apps/Room_ARVR/Lumiere/hubs'
+// import MilgramSpectrum from './src/apps/Room_ARVR/Spectrum/hubs'
+// import ChainDiagram from './src/apps/Room_ARVR/Chain_Diagram/hubs'
+// import PortalTable from './src/apps/Room_ARVR/Portal_Table/hubs'
+// import ChainDiagramTitle from './src/apps/Room_ARVR/Chain_Diagram_Title/hubs'
+// import PortalTableTitle from './src/apps/Room_ARVR/Portal_Table_Title/hubs'
+// import TV_seeit from './src/apps/Room_ARVR/TV_seeit/hubs'
+// import LaciotatVR from './src/apps/Room_ARVR/LaciotatVR/hubs'
+// import Sutherland from './src/apps/Room_ARVR/Sutherland/hubs'
+// import History_map_info from './src/apps/Room_ARVR/History_map_info/hubs'
 
 
 //Pit
