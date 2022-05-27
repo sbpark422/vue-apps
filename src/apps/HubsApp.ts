@@ -64,27 +64,30 @@ export async function loadCache(url: string) {
     // const detectedOS = detectOS(navigator.userAgent);
     // const browser = detect();
 
+    let retVal = null;
     if (browser) {
         console.log ("loading weblayer cache: " + url + "-" + browser.name + "-" + browser.os + ".cache")
-        let retVal = await WebLayerManager.instance.importCache(url + "-" + browser.name + "-" + browser.os + ".cache")
+        retVal = await WebLayerManager.instance.importCache(url + "-" + browser.name + "-" + browser.os + ".cache")
         if (!retVal) {
             console.log ("failed: loading weblayer cache: " + url + "-" + browser.name + ".cache")
             retVal = await WebLayerManager.instance.importCache(url + "-" + browser.name + ".cache")
             if (!retVal) {
                 console.log ("failed: loading weblayer cache: " + url + "-" + browser.os + ".cache")
                 retVal = await WebLayerManager.instance.importCache(url + "-" + browser.os + ".cache")
-                    if (!retVal) {
-                    console.log ("failed: loading weblayer cache: " + url + ".cache")
-                    retVal = await WebLayerManager.instance.importCache(url + ".cache")
-                    if (!retVal) {
-                        console.log("failed: no cache for url '" + url + "'")
-                    }
+                if (!retVal) {
+                    console.log ("failed: loading weblayer cache: " + url + "-" + maxTextureSize.toFixed() + ".cache")
+                    retVal = await WebLayerManager.instance.importCache(url + "-" + maxTextureSize.toFixed() + ".cache")
                 }
             }
         }
     }
-    console.log ("loading weblayer cache: " + url)
-    //await WebLayerManager.instance.importCache(url + ".cache")
+    if (!retVal) {
+        console.log ("loading weblayer cache: " + url + ".cache")
+        retVal = await WebLayerManager.instance.importCache(url + ".cache")
+    }
+    if (!retVal) {
+        console.log("failed: no cache for url '" + url + "'")
+    }
 }
 
 export const downloadBlob = function (blob: Blob, filename: string) {
