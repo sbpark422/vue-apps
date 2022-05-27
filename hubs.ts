@@ -160,7 +160,7 @@ export {
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena,
     //what are AR VR
-    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,
+    
     //History
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
 
