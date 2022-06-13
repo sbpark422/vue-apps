@@ -1,10 +1,8 @@
 <template>
   <div id="room" class="darkwall">
   <div class="spacer">
-  <a target="_blank" href="https://www.steamvr.com/en/">
-  <img xr-layer width="400" src="../../../assets/images/Room5/SteamVR.jpg" alt="Steam Image">
-  </a>
   <Title msg="Steam" />
+  <br/>
 	  <div class="squareoff"></div> 
   </div>
   </div>
