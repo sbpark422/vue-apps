@@ -1,8 +1,10 @@
 <template>
-  <div id="room" class="darkwall">
-  <div class="spacer">
+  <div id="room" class="lightwall">
+  <div class="shadowbox">
+  <div class="squareoff">
   <Title msg="La Apparizione" />
-	  <div class="squareoff">Like video games and 360-degree video, 
+  <br/>
+	  Like video games and 360-degree video, 
       VR art emphasizes immersion as the feature that makes the experience 
       unique, as in a VR work by Christian Lemmerz entitled La Apparizione (2017).
     </div> 

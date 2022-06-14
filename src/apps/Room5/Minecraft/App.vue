@@ -1,8 +1,10 @@
 <template>
-  <div id="room" class="darkwall">
-  <div class="spacer">
+  <div id="room" class="lightwall">
+  <div class="shadowbox">
+  <div class="squareoff">
   <Title msg="Minecraft VR" />
-	  <div class="squareoff">Minecraft VR is a fully immersive, 
+  <br />
+	 Minecraft VR is a fully immersive, 
       headset version of the sandbox game that already runs on computers, game consoles, and mobile devices. 
       It is called a "sandbox game" because it provides an independent environment in which 
       players can make their own structures and objects out of virtual, LEGO-like blocks.

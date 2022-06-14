@@ -22,6 +22,8 @@ import Monolith4 from './src/apps/Monolith4_Presence/hubs'
 import Monolith5 from './src/apps/Monolith5_Genres/hubs'
 import Monolith6 from './src/apps/Monolith6_Future/hubs'
 import Monolith7 from './src/apps/Monolith7_Privacy/hubs'
+
+//Genres
 import Alyx from './src/apps/Room5/Alyx/hubs'
 import Pokemon from './src/apps/Room5/Pokemon/hubs'
 import BeatSaber from './src/apps/Room5/BeatSaber/hubs'
@@ -32,6 +34,9 @@ import GamesBanner from './src/apps/Room5/GamesBanner/hubs'
 import ArtBanner from './src/apps/Room5/ArtBanner/hubs'
 import RecRoom from './src/apps/Room5/RecRoom/hubs'
 import Steam from './src/apps/Room5/Steam/hubs'
+import Ikea from './src/apps/Room5/Ikea/hubs'
+import Ted_medical from './src/apps/Room5/Ted_medical/hubs'
+import Omaha from './src/apps/Room5/Omaha/hubs'
 import GoogleLiveView from './src/apps/Room5/GoogleLiveView/hubs'
 import TheDayTheWorldChanged from './src/apps/Room5/TheDayTheWorldChanged/hubs'
 import CerneYArena from './src/apps/Room5/CerneYArena/hubs'
@@ -157,8 +162,11 @@ export {
     Label,Title,Label_lg,Label_bk,Label_vid,
     // Rotunda
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
+    
+    //Genres
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
-    RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena,
+    RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,
+    
     //what are AR VR
     Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,
 

@@ -1,8 +1,10 @@
 <template>
-  <div id="room" class="darkwall">
-  <div class="spacer">
+  <div id="room" class="lightwall">
+  <div class="shadowbox">
+  <div class="squareoff">
   <Title msg="Beat Saber" />
-	  <div class="squareoff">Beat Saber is a VR rhythm game 
+  <br />
+	  Beat Saber is a VR rhythm game 
       with a little Star Wars thrown in. The player uses lightsabers to keep the beat. 
     </div> 
   </div>

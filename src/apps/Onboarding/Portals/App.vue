@@ -11,7 +11,7 @@
   <br />
 <div class="squareoff">
   There are three kinds of portals:  <div style="padding: 5px 30px;">
-  <span style="color:#4A90E2; fontWeight:700;">Blue</span> portals transport you instanlty to nearby galleries.
+  <span style="color:#4A90E2; fontWeight:700;">Blue</span> portals transport you instantly to nearby galleries.
  <br/>
   <span style="color:#D0021B; fontWeight:700;">Red</span> portals also transport you to other galleries, but require you to choose your avatar and join again.<br/>
   <span style="color:#7ED321; fontWeight:700;">Green</span> portals transport you to our 2D webpage.
@@ -19,7 +19,7 @@
 </div>
   </div>
   </div>
-  </div> 
+  </div> z
 </template>
 
 <script setup>
