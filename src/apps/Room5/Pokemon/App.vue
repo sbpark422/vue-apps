@@ -1,8 +1,10 @@
 <template>
-  <div id="room" class="darkwall">
-  <div class="spacer">
+  <div id="room" class="lightwall">
+  <div class="shadowbox">
+  <div class="squareoff">
   <Title msg="Steam VR" />
-	  <div class="squareoff">Pokemon Go (2016) is perhaps still the best-known AR game. 
+  <br />
+	  Pokemon Go (2016) is perhaps still the best-known AR game. 
       
     </div> 
   </div>

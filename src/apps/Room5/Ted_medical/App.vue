@@ -1,14 +1,14 @@
 <template>
+  <div> 
   <div id="room" class="lightwall">
   <div class="shadowbox">
   <div class="squareoff">
-  <Title msg="Beat Saber" />
-  <br />
-	  Beat Saber is a VR rhythm game 
-      with a little Star Wars thrown in. The player uses lightsabers to keep the beat. 
-    </div> 
+  <Title msg="AR for Surgical Training" />
+  <br/>
+	In this Ted Talk, Justin Barad talks about new advances in augmented reality for surgical training.</div> 
   </div>
   </div>
+  </div> 
 </template>
 
 <script setup>
