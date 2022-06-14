@@ -1,6 +1,6 @@
 <template>
   <div> 
-  <div id="room" class="darkwall">
+  <div id="room" class="lightwall">
 
 	<div class="squareoff" style="fontWeight: 400; line-height: 1.6; fontStyle:italic">"In January 1896, an audience in a basement room of the Grand Café in 
 Paris attended one of the first public demonstrations of the Lumière brothers’ all-in-one camera and projector: the cinématographe. One of the films 

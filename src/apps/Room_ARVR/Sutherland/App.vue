@@ -1,14 +1,12 @@
 <template>
   <div> 
-  <div id="room" class="whitewall">
-  <br/>
+  <div id="room" class="lightwall">
+  <div class="shadowbox">
+  <div class="squareoff">
    <Title msg="Sword of Damocles
 " />
-  <div class="spacer-side">
- 
 <br />
-	<div class="squareoff">In the late 1960s, Ivan Sutherland constructed the first head-mounted system which is often considered the first VR headset. Today we would more accurately call it AR.</div> 
-  <br/>
+	In the late 1960s, Ivan Sutherland constructed the first head-mounted system which is often considered the first VR headset. Today we would more accurately call it AR.</div> 
   </div>
   </div>
   </div>
