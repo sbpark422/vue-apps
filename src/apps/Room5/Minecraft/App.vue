@@ -8,6 +8,9 @@
       headset version of the sandbox game that already runs on computers, game consoles, and mobile devices. 
       It is called a "sandbox game" because it provides an independent environment in which 
       players can make their own structures and objects out of virtual, LEGO-like blocks.
+      <br/><br/>
+      Explore the Minecraft-like world in 
+      <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://blocks.gatunes.com/" target="_blank">VRBlocks</a></span>
     </div> 
   </div>
   </div>

@@ -37,6 +37,10 @@ import Steam from './src/apps/Room5/Steam/hubs'
 import Ikea from './src/apps/Room5/Ikea/hubs'
 import Ted_medical from './src/apps/Room5/Ted_medical/hubs'
 import Omaha from './src/apps/Room5/Omaha/hubs'
+import MagicGarden from './src/apps/Room5/MagicGarden/hubs'
+import Makropol from './src/apps/Room5/Makropol/hubs'
+import ManOnSpire from './src/apps/Room5/ManonSpire/hubs'
+
 import GoogleLiveView from './src/apps/Room5/GoogleLiveView/hubs'
 import TheDayTheWorldChanged from './src/apps/Room5/TheDayTheWorldChanged/hubs'
 import CerneYArena from './src/apps/Room5/CerneYArena/hubs'
@@ -117,6 +121,8 @@ import TV_seeit from './src/apps/Room_ARVR/TV_seeit/hubs'
 import LaciotatVR from './src/apps/Room_ARVR/LaciotatVR/hubs'
 import Sutherland from './src/apps/Room_ARVR/Sutherland/hubs'
 import History_map_info from './src/apps/Room_ARVR/History_map_info/hubs'
+import Palmer from './src/apps/Room_ARVR/Palmer/hubs'
+import Lanier from './src/apps/Room_ARVR/Lanier/hubs'
 
 
 //Pit
@@ -165,10 +171,10 @@ export {
     
     //Genres
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
-    RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,
+    RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
     
     //what are AR VR
-    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,
+    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,Palmer,Lanier,
 
     //History
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
