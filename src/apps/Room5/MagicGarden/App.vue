@@ -2,10 +2,9 @@
   <div id="room" class="lightwall">
   <div class="shadowbox">
   <div class="squareoff">
-  <Title msg="Pokemon Go" />
-  <br />
-	  Pokemon Go (2016) is perhaps still the best-known AR game. 
-    It uses GPS and time to detect where and when you are in the game and make Pokémons appear around you which you can catch.
+  <Title msg="Klimt's Magic Garden" />
+  <br/>
+	 The VR artist and filmmaker Frederick Baker created an interactive cinematographic experiment with Klimt’s designs by using high-resolution digital photography. 
     </div> 
   </div>
   </div>

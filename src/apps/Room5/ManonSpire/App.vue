@@ -2,10 +2,9 @@
   <div id="room" class="lightwall">
   <div class="shadowbox">
   <div class="squareoff">
-  <Title msg="Pokemon Go" />
-  <br />
-	  Pokemon Go (2016) is perhaps still the best-known AR game. 
-    It uses GPS and time to detect where and when you are in the game and make Pokémons appear around you which you can catch.
+  <Title msg="Man on Spire" />
+  <br/>
+  Created by filmmaker Jimmy Chin, you can climb to the top of 1 World Trade Center in virtual reality with NYT VR.
     </div> 
   </div>
   </div>

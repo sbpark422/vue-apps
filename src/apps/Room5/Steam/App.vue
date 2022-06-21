@@ -1,9 +1,11 @@
 <template>
-  <div id="room" class="darkwall">
-  <div class="spacer">
-  <Title msg="Steam" />
+  <div id="room" class="lightwall">
+  <div class="shadowbox">
+    <div class="squareoff">
+  <Title msg="Steam VR" />
+  Steam is an online platform that offers thousands of games from major and indie game developers. In 2015, its company, Valve released an expansion called SteamVR which you can set up with your choice of VR headsets in order to play games from the SteamVR store.
   <br/>
-	  <div class="squareoff"></div> 
+	</div> 
   </div>
   </div>
 </template>

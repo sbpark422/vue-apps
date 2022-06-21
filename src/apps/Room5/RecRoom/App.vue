@@ -1,9 +1,10 @@
 <template>
-  <div id="room" class="darkwall">
-  <div class="spacer">
+  <div id="room" class="lightwall">
+  <div class="shadowbox">
+  <div class="squareoff">
   <Title msg="Rec Room" />
   <br/>
-	  <div class="squareoff">
+  Rec Room is a VR "social hangout game, where users meet up with friends to explore and create rooms, each containing a different experience."
     </div> 
   </div>
   </div>
