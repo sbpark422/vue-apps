@@ -124,6 +124,11 @@ import History_map_info from './src/apps/Room_ARVR/History_map_info/hubs'
 import Palmer from './src/apps/Room_ARVR/Palmer/hubs'
 import Lanier from './src/apps/Room_ARVR/Lanier/hubs'
 
+import Laciotat_banner from './src/apps/Room_ARVR/Laciotat_banner/hubs'
+import Left_banner from './src/apps/Room_ARVR/Left_banner/hubs'
+import Sutherland_banner from './src/apps/Room_ARVR/Sutherland_banner/hubs'
+import TV_banner from './src/apps/Room_ARVR/TV_banner/hubs'
+
 
 //Pit
 import Pit from './src/apps/Room_Pit/Pit/hubs'
@@ -174,7 +179,7 @@ export {
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
     
     //what are AR VR
-    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,Palmer,Lanier,
+    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,Palmer,Lanier,Laciotat_banner, Left_banner, Sutherland_banner, TV_banner,
 
     //History
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,

@@ -1,11 +1,10 @@
 <template>
-  <div> 
+  <div>
   <div id="room" class="lightwall">
   <div class="squareoff">
-  Film, television, VR and AR each remediate reality according to their characteristics and genres: offering a view of our world or a fictive world, in the present or past, and with or without user interaction."
+ <Title msg="Ivan Sutherland, Pioneer of CG and VR" />  </div>
+ </div>
   </div>
-  </div>
-  </div> 
 </template>
 
 <script setup>
