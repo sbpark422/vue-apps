@@ -1,14 +1,11 @@
 <template>
-  <div> 
-  <div id="room" class="whitewall shadowbox">
-  <div class="spacer-side">
-   <Title msg="Television"  style="text-align:left"/>
-<br />
-	<div class="squareoff"> Television 
-created imagined realities, as film did, but it also offered glimpses into the 
-social and physical manifestations of wars, crimes, political events, and natural disasters.</div> 
-  <br/>
-  </div>
+  <div>
+  <div id="room" class="lightwall">
+  <div class="squareoff">
+  <Title msg="Television" />
+  <br />
+Television created imagined realities, like film, but it also offered views into our current world, particular through news and sportscasts. Television's special claim to reality is that, unlike film, these views could be live, experienced in what we now call "real time." 
+ </div>
   </div>
   </div>
 </template>

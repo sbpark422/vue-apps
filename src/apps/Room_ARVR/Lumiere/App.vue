@@ -1,14 +1,7 @@
 <template>
   <div> 
   <div id="room" class="lightwall">
-
-	<div class="squareoff" style="fontWeight: 400; line-height: 1.6; fontStyle:italic">"In January 1896, an audience in a basement room of the Grand Café in 
-Paris attended one of the first public demonstrations of the Lumière brothers’ all-in-one camera and projector: the cinématographe. One of the films 
-shown was The Arrival of a Train at La Ciotat Station. All that happens 
-in the approximately fifty-second film is that a steam engine and several 
-passenger cars pull into the station and glide to a stop. As the train comes 
-closer, some in the audience panic. Imagining that the train is going to burst 
-out of the screen into the room, they leave their seats and rush for the door."</div> 
+	<div class="squareoff">As film historian Tom Gunning argues, the audience probably did not believe in the reality of the train. They were astonished, not fooled, because they had never seen a medium so real. Yet they still new they were experiencing a medium. This knowing astonishment is what we call the La Ciotat effect, and it is the effect  that each reality medium has. Each reality medium mediates and remediates. It offers a new representation of the world that we implicitly compare  to our experience of the world in itself, but also through other media.</div> 
   </div>
   </div>
 </template>
