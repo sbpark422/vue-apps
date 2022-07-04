@@ -6,7 +6,7 @@
 increasing acceptance in the larger art community. Virtual reality, 360-degree, and augmented 
 reality media art are exhibited at various galleries and museums across the world. Digital artists 
 still often exhibit in their own festivals, shows, or galleries, such as ISEA International or more 
-permanent collections such as at Ars Electronica in Linz, Austria</div> 
+permanent collections such as at Ars Electronica in Linz, Austria.</div> 
   </div>
   </div> 
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div>
   <div id="room" class="lightwall">
-   <Title msg="AR and VR Games" />
+   <Title msg=" Remediating Games for VR" />
   </div>
   </div>
 </template>
