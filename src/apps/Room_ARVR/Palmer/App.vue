@@ -2,9 +2,7 @@
   <div>
   <div id="room" class="lightwall">
   <div class="squareoff">
-  <Title msg="Palmer Lucky" />
-  <br>
-	Palmer Freeman Luckey is the founder of Oculus VR and designer of the Oculus Rift, a virtual reality head-mounted display. </div>  
+For decades enthusiasts promised that VR would become the next mass medium. Although consumer products began to show up in the 1990s and some game emporiums were offering customers the chance to put on a crude headset for a few minutes of play, VR remained a novelty. The breakthrough came with the Oculus headset in the 2010s. Now relatively inexpensive headsets are available for VR gaming and other applications, permitting VR to claim a significant place in our media economy.  </div>  
   </div>
 
   </div>
