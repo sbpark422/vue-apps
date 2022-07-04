@@ -123,11 +123,17 @@ import Sutherland from './src/apps/Room_ARVR/Sutherland/hubs'
 import History_map_info from './src/apps/Room_ARVR/History_map_info/hubs'
 import Palmer from './src/apps/Room_ARVR/Palmer/hubs'
 import Lanier from './src/apps/Room_ARVR/Lanier/hubs'
+import ARPortal from './src/apps/Room_ARVR/ARPortal/hubs'
+import Laciotat_info from './src/apps/Room_ARVR/Laciotat_info/hubs'
+import Laciotat_Portal_info from './src/apps/Room_ARVR/Laciotat_Portal_info/hubs'
+import Milgram from './src/apps/Room_ARVR/Milgram/hubs'
+import Oculus_info from './src/apps/Room_ARVR/Oculus_info/hubs'
 
 import Laciotat_banner from './src/apps/Room_ARVR/Laciotat_banner/hubs'
 import Left_banner from './src/apps/Room_ARVR/Left_banner/hubs'
 import Sutherland_banner from './src/apps/Room_ARVR/Sutherland_banner/hubs'
 import TV_banner from './src/apps/Room_ARVR/TV_banner/hubs'
+import Oculus_banner from './src/apps/Room_ARVR/Oculus_banner/hubs'
 
 
 //Pit
@@ -179,7 +185,7 @@ export {
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
     
     //what are AR VR
-    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,Palmer,Lanier,Laciotat_banner, Left_banner, Sutherland_banner, TV_banner,
+    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,
 
     //History
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
