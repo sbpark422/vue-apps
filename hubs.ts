@@ -53,6 +53,7 @@ import Social_banner from './src/apps/Room5/SocialPlatform_banner/hubs'
 import Threshold from './src/apps/Room5/Birnbaum/hubs'
 import VR_Art from './src/apps/Room5/VR_Art/hubs'
 import VR_Art2 from './src/apps/Room5/VR_Art2/hubs'
+import Art_banner from './src/apps/Room5/Art_banner/hubs'
 
 
 import GoogleLiveView from './src/apps/Room5/GoogleLiveView/hubs'
@@ -197,7 +198,7 @@ export {
     //Genres
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
-    three_banner, Birnbaum, Commercial_banner, Cultural_banner, Edu_banner,Game_banner,Nav_banner, Remediate_banner, Sandbox_banner,Social_banner,Threshold,VR_Art,VR_Art2,
+    three_banner, Birnbaum, Commercial_banner, Cultural_banner, Edu_banner,Game_banner,Nav_banner, Remediate_banner, Sandbox_banner,Social_banner,Threshold,VR_Art,VR_Art2,Art_banner,
     
     //what are AR VR
     Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,
