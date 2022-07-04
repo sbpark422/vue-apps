@@ -1,12 +1,13 @@
 <template>
   <div> 
   <div id="room" class="lightwall">
-  <div class="shadowbox">
   <div class="squareoff">
   <Title msg="IKEA Place" />
   <br/>
-	 IKEAhas been revolutionizing the way that customers can buy furniture. Before, customers had to cross their fingers and hope that their new furniture would both fit and look good in their home. Today, this is no longer a worry since they can 3D project it before making the purchase!</div> 
-  </div>
+	  IKEA’s AR app IKEA Place, which allows you to visualize furniture in your 
+living room before buying it, is one of a growing number of remediations of the catalog or 
+brochure that retailers have offered since the advent of consumerism in the late nineteenth 
+century.</div> 
   </div>
   </div> 
 </template>

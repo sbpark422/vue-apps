@@ -1,12 +1,10 @@
 <template>
   <div id="room" class="lightwall">
-  <div class="shadowbox">
   <div class="squareoff">
   <Title msg="Klimt's Magic Garden" />
   <br/>
 	 The VR artist and filmmaker Frederick Baker created an interactive cinematographic experiment with Klimt’s designs by using high-resolution digital photography. 
     </div> 
-  </div>
   </div>
 </template>
 

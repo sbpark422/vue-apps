@@ -1,6 +1,5 @@
 <template>
   <div id="room" class="lightwall">
-  <div class="shadowbox">
   <div class="squareoff">
   <Title msg="Minecraft VR" />
   <br />
@@ -12,7 +11,6 @@
       Explore the Minecraft-like world in 
       <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://blocks.gatunes.com/" target="_blank">VRBlocks</a></span>
     </div> 
-  </div>
   </div>
 </template>
 
