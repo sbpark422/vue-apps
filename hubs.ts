@@ -53,7 +53,7 @@ import Social_banner from './src/apps/Room5/SocialPlatform_banner/hubs'
 import Threshold from './src/apps/Room5/Birnbaum/hubs'
 import VR_Art from './src/apps/Room5/VR_Art/hubs'
 import VR_Art2 from './src/apps/Room5/VR_Art2/hubs'
-import Art_banner from './src/apps/Room5/Art_banner/hubs'
+import Art_banner from './src/apps/Room5/Art_Banner/hubs'
 
 
 import GoogleLiveView from './src/apps/Room5/GoogleLiveView/hubs'
