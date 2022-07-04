@@ -40,6 +40,20 @@ import Omaha from './src/apps/Room5/Omaha/hubs'
 import MagicGarden from './src/apps/Room5/MagicGarden/hubs'
 import Makropol from './src/apps/Room5/Makropol/hubs'
 import ManOnSpire from './src/apps/Room5/ManonSpire/hubs'
+import three_banner from './src/apps/Room5/360_banner/hubs'
+import Birnbaum from './src/apps/Room5/Birnbaum/hubs'
+import Commercial_banner from './src/apps/Room5/Commercial_banner/hubs'
+import Cultural_banner from './src/apps/Room5/Cultural_banner/hubs'
+import Edu_banner from './src/apps/Room5/Edu_banner/hubs'
+import Game_banner from './src/apps/Room5/Game_banner/hubs'
+import Nav_banner from './src/apps/Room5/Nav_banner/hubs'
+import Remediate_banner from './src/apps/Room5/Remediate_banner/hubs'
+import Sandbox_banner from './src/apps/Room5/Sandbox_banner/hubs'
+import Social_banner from './src/apps/Room5/SocialPlatform_banner/hubs'
+import Threshold from './src/apps/Room5/Birnbaum/hubs'
+import VR_Art from './src/apps/Room5/VR_Art/hubs'
+import VR_Art2 from './src/apps/Room5/VR_Art2/hubs'
+
 
 import GoogleLiveView from './src/apps/Room5/GoogleLiveView/hubs'
 import TheDayTheWorldChanged from './src/apps/Room5/TheDayTheWorldChanged/hubs'
@@ -183,6 +197,7 @@ export {
     //Genres
     Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
+    three_banner, Birnbaum, Commercial_banner, Cultural_banner, Edu_banner,Game_banner,Nav_banner, Remediate_banner, Sandbox_banner,Social_banner,Threshold,VR_Art,VR_Art2,
     
     //what are AR VR
     Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,

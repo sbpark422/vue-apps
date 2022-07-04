@@ -1,6 +1,5 @@
 <template>
   <div id="room" class="lightwall">
-  <div class="shadowbox">
   <div class="squareoff">
   <Title msg="Beat Saber" />
   <br />
@@ -9,7 +8,6 @@
     Play a similar VR rhythm game in the 
     <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://moonrider.xyz/" target="_blank">Moon Rider</a></span>
     </div> 
-  </div>
   </div>
 </template>
 

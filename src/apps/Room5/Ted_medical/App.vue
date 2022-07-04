@@ -1,14 +1,12 @@
 <template>
   <div> 
   <div id="room" class="lightwall">
-  <div class="shadowbox">
   <div class="squareoff">
   <Title msg="AR for Surgical Training" />
   <br/>
-	In this Ted Talk, Justin Barad talks about new advances in augmented reality for surgical training.</div> 
+	In this Ted Talk, Justine Barad discusses about new advances in augmented reality for surgical training.</div> 
   </div>
   </div>
-  </div> 
 </template>
 
 <script setup>

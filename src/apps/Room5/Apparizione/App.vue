@@ -1,6 +1,5 @@
 <template>
   <div id="room" class="lightwall">
-  <div class="shadowbox">
   <div class="squareoff">
   <Title msg="La Apparizione" />
   <br/>
@@ -8,7 +7,6 @@
       VR art emphasizes immersion as the feature that makes the experience 
       unique, as in a VR work by Christian Lemmerz entitled La Apparizione (2017).
     </div> 
-  </div>
   </div>
 </template>
 

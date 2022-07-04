@@ -1,13 +1,11 @@
 <template>
   <div id="room" class="lightwall">
-  <div class="shadowbox">
   <div class="squareoff">
   <Title msg="Pokemon Go" />
   <br />
 	  Pokemon Go (2016) is perhaps still the best-known AR game. 
     It uses GPS and time to detect where and when you are in the game and make Pokémons appear around you which you can catch.
     </div> 
-  </div>
   </div>
 </template>
 
