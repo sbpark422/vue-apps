@@ -1,7 +1,7 @@
 <template>
   <div>
   <div id="room" class="lightwall">
-   <Title msg="Game platforms" />
+   <Title msg="Game Platforms" />
   </div>
   </div>
 </template>

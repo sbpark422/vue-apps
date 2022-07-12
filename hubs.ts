@@ -31,7 +31,6 @@ import WalkingDead from './src/apps/Room5/WalkingDead/hubs'
 import Apparizione from './src/apps/Room5/Apparizione/hubs'
 import Minecraft from './src/apps/Room5/Minecraft/hubs'
 import GamesBanner from './src/apps/Room5/GamesBanner/hubs'
-import ArtBanner from './src/apps/Room5/ArtBanner/hubs'
 import RecRoom from './src/apps/Room5/RecRoom/hubs'
 import Steam from './src/apps/Room5/Steam/hubs'
 import Ikea from './src/apps/Room5/Ikea/hubs'
@@ -198,7 +197,7 @@ export {
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
     
     //Genres
-    Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
+    Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
     three_banner, Birnbaum, Commercial_banner, Cultural_banner, Edu_banner,Game_banner,Nav_banner, Remediate_banner, Sandbox_banner,Social_banner,Threshold,VR_Art,VR_Art2,Art_banner,
     
