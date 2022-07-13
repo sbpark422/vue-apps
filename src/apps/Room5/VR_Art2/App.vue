@@ -17,10 +17,13 @@ Shaw’s Legible City (1989),</a></span> which showed a 3-D city of words on a g
 </template>
 
 <script setup>
-import Title from '../../../components/CenterTitle.vue'
+import { inject } from 'vue'
 
+import Title from '../../../components/CenterTitle.vue'
 import "../../../assets/top.css"
 import "../../../assets/room.css"
+
+const linkClick = inject('linkClick')
 </script>
 
 <style scoped>
