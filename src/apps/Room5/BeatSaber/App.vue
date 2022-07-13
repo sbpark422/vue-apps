@@ -5,10 +5,9 @@
   <br />
 	  Beat Saber is a VR rhythm game with a little Star Wars thrown in. The player uses lightsabers to keep the beat. 
 
-    Play a similar VR rhythm game in the 
-    <div style="float:right">
-    <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://moonrider.xyz/" target="_blank">Moon Rider</a></span>
-    </div>
+    Play a similar VR rhythm game
+    <br/>
+    <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://moonrider.xyz/" target="_blank"> in the Moon Rider</a></span>
     </div> 
   </div>
 </template>
