@@ -3,7 +3,7 @@
   <div class="squareoff">
   <Title msg="Walking Dead: Our World" />
   <br/>
-	  In this AR version of the transmedia franchise
+	  In this AR version of the transmedia franchise,
       GPS is used to determine your location in the world. Your location 
       and the zombies appear in an enhanced Google Maps map on the phone screen.
     </div> 

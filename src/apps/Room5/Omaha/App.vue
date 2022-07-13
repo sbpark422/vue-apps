@@ -4,7 +4,7 @@
   <div class="squareoff">
   <Title msg="Omaha Beach" />
   <br/>
-	Omaha Beach, developed by Prof. Gunnar Liestøl and his team at Oslo University, is a augmented reality game built for IOS. It depicts the early part of D-Day on Easy Red and Fox Green beaches. It imerses the player by requiring them to first be at the actual location where the event occurred and then pull out their phone to see the battle occur from the palm of their hand.</div> 
+	Omaha Beach, developed by Prof. Gunnar Liestøl and his team at Oslo University, is a augmented reality game built for IOS. It depicts the early part of D-Day on Easy Red and Fox Green beaches. It immerses visitors in the location where the events occurred, permitting them to experience the battle through the phone in their hands.</div> 
   </div>
   </div> 
 </template>
