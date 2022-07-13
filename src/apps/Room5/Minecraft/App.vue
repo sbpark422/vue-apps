@@ -8,10 +8,10 @@
       It is called a "sandbox game" because it provides an independent environment in which 
       players can make their own structures and objects out of virtual, LEGO-like blocks.
       <br/><br/>
-      Explore the Minecraft-like world in 
-      <div style="float:right">
-      <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://blocks.gatunes.com/" target="_blank">VRBlocks</a></span>
-      </div> 
+      Explore the Minecraft-like world  
+      </br>
+      <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://blocks.gatunes.com/" target="_blank"> in VRBlocks</a></span>
+
   </div>
   </div>
 </template>
