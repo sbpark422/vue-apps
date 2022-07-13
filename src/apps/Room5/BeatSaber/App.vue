@@ -18,7 +18,13 @@ import Title from '../../../components/CenterTitle.vue'
 import "../../../assets/top.css"
 import "../../../assets/room.css"
 </script>
+import { inject } from 'vue'
 
+import Title from '../../../components/CenterTitle.vue'
+import "../../../assets/top.css"
+import "../../../assets/room.css"
+
+const linkClick = inject('linkClick')
 <style scoped>
 
 </style>
