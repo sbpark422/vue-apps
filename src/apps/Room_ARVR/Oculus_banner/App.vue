@@ -1,7 +1,7 @@
 <template>
   <div>
   <div id="room" class="lightwall">
-   <Title msg="Oculus: VR as a consumer technology." />
+   <Title msg="Oculus: VR as a consumer technology" />
   </div>
   </div>
 </template>
