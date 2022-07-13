@@ -7,8 +7,10 @@ the 1960s, the beginning of the postmodern era, when the scope of possible artis
 expanding to include video and audio technology, along with all sorts of mixed media and found 
 objects. In the late 1960s several well-known artists collaborated with engineers in a project 
 entitled Experiments in Art and Technology (E.A.T.), promoting the introduction of new media 
-technologies into the art world. VR art came later: one of the earliest examples was   <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.youtube.com/watch?v=s5wEuclfnN0" target="_blank">Jeffrey 
-Shaw’s Legible City (1989)</a></span>, which showed a 3-D city of words on a giant screen. </div> 
+technologies into the art world. VR art came later: one of the earliest examples was
+<div style="float:right">
+<span xr-layer @click="linkClick" class="xrlink alink"><a href="https://www.youtube.com/watch?v=s5wEuclfnN0" target="_blank">Jeffrey 
+Shaw’s Legible City (1989),</a></span></div> which showed a 3-D city of words on a giant screen. </div> 
   </div>
   </div> 
 </template>

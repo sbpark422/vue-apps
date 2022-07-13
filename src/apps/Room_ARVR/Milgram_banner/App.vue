@@ -1,7 +1,7 @@
 <template>
   <div>
-  <div id="room" class="darkwall center-mount">
-  <Title msg="Augmented to Reality" />
+  <div id="room" class="lightwall">
+   <Title msg="The Virtual Continuum" />
   </div>
   </div>
 </template>

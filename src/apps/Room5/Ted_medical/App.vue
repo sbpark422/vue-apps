@@ -4,7 +4,7 @@
   <div class="squareoff">
   <Title msg="AR for Surgical Training" />
   <br/>
-	In this Ted Talk, Justine Barad discusses about new advances in augmented reality for surgical training.</div> 
+	Justine Barad discusses advances in augmented reality for surgical training.</div> 
   </div>
   </div>
 </template>

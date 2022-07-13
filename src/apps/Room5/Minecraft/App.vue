@@ -9,8 +9,10 @@
       players can make their own structures and objects out of virtual, LEGO-like blocks.
       <br/><br/>
       Explore the Minecraft-like world in 
+      <div style="float:right">
       <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://blocks.gatunes.com/" target="_blank">VRBlocks</a></span>
-    </div> 
+      </div> 
+  </div>
   </div>
 </template>
 

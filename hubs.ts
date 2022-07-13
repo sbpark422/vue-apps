@@ -31,7 +31,6 @@ import WalkingDead from './src/apps/Room5/WalkingDead/hubs'
 import Apparizione from './src/apps/Room5/Apparizione/hubs'
 import Minecraft from './src/apps/Room5/Minecraft/hubs'
 import GamesBanner from './src/apps/Room5/GamesBanner/hubs'
-import ArtBanner from './src/apps/Room5/ArtBanner/hubs'
 import RecRoom from './src/apps/Room5/RecRoom/hubs'
 import Steam from './src/apps/Room5/Steam/hubs'
 import Ikea from './src/apps/Room5/Ikea/hubs'
@@ -53,6 +52,7 @@ import Social_banner from './src/apps/Room5/SocialPlatform_banner/hubs'
 import Threshold from './src/apps/Room5/Birnbaum/hubs'
 import VR_Art from './src/apps/Room5/VR_Art/hubs'
 import VR_Art2 from './src/apps/Room5/VR_Art2/hubs'
+import Art_banner from './src/apps/Room5/Art_Banner/hubs'
 
 
 import GoogleLiveView from './src/apps/Room5/GoogleLiveView/hubs'
@@ -126,13 +126,11 @@ import tree_vid from './src/apps/Room6/tree_vid_link/hubs'
 
 //What are AR VR
 import Lumiere from './src/apps/Room_ARVR/Lumiere/hubs'
-import MilgramSpectrum from './src/apps/Room_ARVR/Spectrum/hubs'
+import ARVR_table from './src/apps/Room_ARVR/ARVR_table/hubs'
 import ChainDiagram from './src/apps/Room_ARVR/Chain_Diagram/hubs'
 import PortalTable from './src/apps/Room_ARVR/Portal_Table/hubs'
-import ChainDiagramTitle from './src/apps/Room_ARVR/Chain_Diagram_Title/hubs'
 import PortalTableTitle from './src/apps/Room_ARVR/Portal_Table_Title/hubs'
 import TV_seeit from './src/apps/Room_ARVR/TV_seeit/hubs'
-import LaciotatVR from './src/apps/Room_ARVR/LaciotatVR/hubs'
 import Sutherland from './src/apps/Room_ARVR/Sutherland/hubs'
 import History_map_info from './src/apps/Room_ARVR/History_map_info/hubs'
 import Palmer from './src/apps/Room_ARVR/Palmer/hubs'
@@ -146,6 +144,9 @@ import Oculus_info from './src/apps/Room_ARVR/Oculus_info/hubs'
 import Laciotat_banner from './src/apps/Room_ARVR/Laciotat_banner/hubs'
 import Left_banner from './src/apps/Room_ARVR/Left_banner/hubs'
 import Sutherland_banner from './src/apps/Room_ARVR/Sutherland_banner/hubs'
+import Lanier_banner from './src/apps/Room_ARVR/Lanier_banner/hubs'
+import Milgram_banner from './src/apps/Room_ARVR/Milgram_banner/hubs'
+
 import TV_banner from './src/apps/Room_ARVR/TV_banner/hubs'
 import Oculus_banner from './src/apps/Room_ARVR/Oculus_banner/hubs'
 
@@ -195,12 +196,12 @@ export {
     Map, Center1, Center2, Center3, Center4, Center5, Center6, Center7, Monolith1, Monolith2, Monolith3, Monolith4, Monolith5, Monolith6, Monolith7,
     
     //Genres
-    Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, ArtBanner, 
+    Alyx, Pokemon, BeatSaber, WalkingDead, Minecraft, Apparizione, GamesBanner, 
     RecRoom, GoogleLiveView, Steam, TheDayTheWorldChanged, CerneYArena, Ikea, Ted_medical, Omaha,MagicGarden,Makropol,ManOnSpire,
-    three_banner, Birnbaum, Commercial_banner, Cultural_banner, Edu_banner,Game_banner,Nav_banner, Remediate_banner, Sandbox_banner,Social_banner,Threshold,VR_Art,VR_Art2,
+    three_banner, Birnbaum, Commercial_banner, Cultural_banner, Edu_banner,Game_banner,Nav_banner, Remediate_banner, Sandbox_banner,Social_banner,Threshold,VR_Art,VR_Art2,Art_banner,
     
     //what are AR VR
-    Lumiere,MilgramSpectrum,ChainDiagram,PortalTable,ChainDiagramTitle,PortalTableTitle,TV_seeit, Sutherland, LaciotatVR, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,
+    Lumiere,ARVR_table,ChainDiagram,PortalTable,PortalTableTitle,TV_seeit, Sutherland, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,Lanier_banner,Milgram_banner,
 
     //History
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,

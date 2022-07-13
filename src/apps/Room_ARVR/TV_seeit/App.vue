@@ -4,7 +4,7 @@
   <div class="squareoff">
   <Title msg="Television" />
   <br />
-Television created imagined realities, like film, but it also offered views into our current world, particular through news and sportscasts. Television's special claim to reality is that, unlike film, these views could be live, experienced in what we now call "real time." 
+Television created imagined realities, like film, but it also offered views into our current world, particularly through news and sportscasts. Television's special claim to reality is that, unlike film, these views could be live, experienced in what we now call "real time." 
  </div>
   </div>
   </div>
