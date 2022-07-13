@@ -13,6 +13,7 @@
       <span xr-layer @click="linkClick" class="xrlink alink"><a href="https://blocks.gatunes.com/" target="_blank">VRBlocks</a></span>
       </div> 
   </div>
+  </div>
 </template>
 
 <script setup>
