@@ -8,7 +8,7 @@
   <br/>
   
 <div class="squareoff">
-The forerunner of the camera, <span style="font-weight:bold; font-size:1.3rem;">camera obscura</span> is a darkened room with a small hole that admitted light to project the inverted image of the outside scene onto the opposite wall. This image was ephemeral until the development of modern chemistry that made another medium possible. 
+The <span style="font-weight:bold; font-size:1.3rem;">camera obscura</span> was originally a darkened room with a small hole that projected an inverted image of the outside scene on to the opposite wall. A later version (from the 17th century to the 19th) was a portable box, often with a lens to focus the light. The image produced was ephemeral until in the 19th century the image could be captured on a chemically treated surface: the camera obscura became the photographic camera. 
 </div>
 </div>
 	</div>
