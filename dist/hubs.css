@@ -1,4 +1,11 @@
 
+#edit[data-v-08f6e824] {
+  color: #bea7d1;
+}
+#edit.upclose[data-v-08f6e824] {
+  color: #cc0a0a;
+}
+
 button[data-v-1d144fe5] {
     width: 120px;
     color: -internal-light-dark(black, white);
@@ -17,13 +24,6 @@ button[data-v-1d144fe5] {
 .fakeButton[data-v-1d144fe5]:hover {
   color: #a78e06;
   background: #9803a5;
-}
-
-#edit[data-v-08f6e824] {
-  color: #bea7d1;
-}
-#edit.upclose[data-v-08f6e824] {
-  color: #cc0a0a;
 }
 
 .middle[data-v-6ca75dfe] {
