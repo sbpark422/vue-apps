@@ -10,10 +10,10 @@
   <br/>
   
 <div class="squareoff">
- The panorama conceived by English painter Robert Barker was one of the ways to represent reality at the end of the 18th century. Barker used perspective painting to create a panorama on a canvas stretched around the cylindrical surface. Viewers stood in the middle and experienced the scene in either direction. Therefore, the panoramas were fully immersive virtual environments consisting of a painted canvas.
+ Conceived by English painter Robert Barker, the panorama was an 18th-century reality medium. Barker used perspective techniques to create a panorama on a canvas stretched around the cylindrical surface. Standing on a raised platform in the middle, viewers had a  fully immersive experience. Panoramic exibitions showing cities, landscapes, and historical battles conitnued to be popular throughout the 19th century.
 <br />
 <br />
-* Go through the portal to view his paintings in the panorama building.
+* Go through the portal to experience Barker's London panorama.
 </div>
 </div>
 	</div>
