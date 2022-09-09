@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
-Linear perspective is a system developed by architects and painters to create an illusion of depth on a flat surface using the vanishing points. This technique resembles the way we see the world, as it imitates how rays of light reflects off objects in the world and could be focused on a surface.
+Linear perspective is a system developed by architects and painters to create an illusion of depth on a flat surface using vanishing points. This technique was thought to resemble the way we see the world, as it imitates how rays of light reflect off objects in the world and can be focused on a surface.
 </div>
 	</div>
   <br />
