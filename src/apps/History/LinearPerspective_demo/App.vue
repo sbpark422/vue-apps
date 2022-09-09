@@ -8,7 +8,7 @@
   <br/>
   
 <div class="squareoff">
-Around 1425, Italian Renaissance architect Filippo Brunelleschi demonstrated linear perspective with the help of a mirror. Using the technique of parallel lines converging in a single vanishing point and a mirror, he painted the Florence Baptistry. This is the first example of diminished reality, in which the real world is overlayed and obscured by the technology.
+Around 1425, the Florentine architect Filippo Brunelleschi demonstrated how linear perspective could make painting into a reality medium. Using his perspective technique, he painted the Florence Baptistry on a small wooden panel. Looking through a small hole in the panel, he could see the picture reflected in a mirror. When he took the mirror away, he could see the actual Baptistry. This procedure allowed him to measure his technique in relation to the building itself. 
 </div>
 </div>
 	</div>
