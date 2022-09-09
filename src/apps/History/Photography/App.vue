@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
-Photography was developed through mechanizing the process of linear perspective. Until today, photography is recognized as a medium that has a strong claim to reality.
+Joseph Nicéphore Niépce created the earliest surviving photograph in the 1820s, using a camera obscura to project an image onto a pewter plate. Photography was quickly recognized as a medium with a special claim to capturing the real. As the British pioneer Fox Talbot put in his illustrated essay <span style="font-style:italicss">The Pencil of Nature</span> (1844–1846), a photograph was an image “impressed by Nature’s hand.”
 </div>
 </div>
 	</div>
