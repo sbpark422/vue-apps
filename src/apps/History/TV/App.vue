@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
-Television filled in the gap that film had left open for a medium that presented moving images and sound "live". Up until the late 1950s, most television was broadcast live without the possibility of replay. As video recording technology improved, more and more primetime television was recorded. Even today, however, the quality of liveness is still adheres to two TV genres: news and sports coverage. With digital technology, film and television are available in various formats of broadcast and streaming, real-time and recorded, with various options for viewer participation and comment—all complicating the definiion of liveness.   
+Television filled in the gap that film had left open for a medium that presented moving images and sound "live". Up until the late 1950s, most television was broadcast live without the possibility of replay. As video recording technology improved, more and more primetime television was recorded. Even today, however, the quality of liveness is still adheres to two TV genres: news and sports coverage. With digital technology, film and television are available in various formats of broadcast and streaming, real-time and recorded, with various options for viewer participation and comment—all complicating the definition of liveness.   
 </div>
 </div>
 	</div>
