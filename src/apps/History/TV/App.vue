@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
-Television filled in the gap that film had left open for a medium that presented moving images and sound "live". Up until the late 1950s, most television was broadcast live. As video recording technology improved, more and more primetime television was recorded. However, still the quality of liveness is true to two TV generes: the news and the coverage of sports. Today, with the digital technology, film and television are diverging in hybrid formats.  
+Television filled in the gap that film had left open for a medium that presented moving images and sound "live". Up until the late 1950s, most television was broadcast live. As video recording technology improved, more and more primetime television was recorded. However, the quality of liveness is still true to two TV generes: the news and the coverage of sports. Today, with digital technology, film and television are diverging in hybrid formats.  
 </div>
 </div>
 	</div>
