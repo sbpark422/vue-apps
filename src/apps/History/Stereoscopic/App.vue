@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
-The stereoscope was first invented in 1832 by Charles Wheatstone. These handheld devices displayed separate drawings or photographs in each eye to achieve the illusion of depth. They were popular throughout the 19th century. Oliver Wendel Holmes created an inexpensive model in 1861 that remained popular for a century. The model on the dais is an approximate replica of the Holmes stereoscope.
+Invented in 1832 by Charles Wheatstone, the <span style="font-weight:bold; font-size:1.3rem;">stereoscope,</span> was handheld device that displayed separate drawings or photographs in each eye. As a reality medium, the stereoscope remediates the flat photograph in order to achieve the illusion of depth. Oliver Wendel Holmes created an inexpensive version in 1861 that remained popular for a century. The model on the dais is an approximate replica of the Holmes stereoscope. 
 </div>
 </div>
 	</div>
