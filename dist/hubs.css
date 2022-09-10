@@ -97,6 +97,11 @@ button[data-v-1d144fe5] {
 #example1[data-v-156a635a] {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+.img_Hover2[data-v-0cfb0fd4]:hover{
+outline: #333 solid 4px;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v4.0 | 20180602
    License: none (public domain)
@@ -397,11 +402,6 @@ a:hover {
   outline: #2370FD solid 2px;
 
 }
-.img_Hover2[data-v-0cfb0fd4]:hover{
-outline: #333 solid 4px;
-}
-
-
 .middle[data-v-12a4a6aa] {
   transition: .5s ease;
   opacity: 0;
@@ -419,20 +419,6 @@ outline: #333 solid 4px;
   padding: 16px 32px;
 }
 
-a[data-v-9ffe3f52] {
-  color: #b542b9;
-}
-button[data-v-9ffe3f52] {
-  width: 150px;
-}
-.fade[data-v-9ffe3f52] {
-  color: #9803a5;
-  /* transition: color 1s; */
-}
-.fade[data-v-9ffe3f52]:hover {
-  color: #06a71b;
-}
-
 a[data-v-06a9f319] {
   color: #b542b9;
 }
@@ -445,4 +431,18 @@ button[data-v-06a9f319] {
 }
 .fade[data-v-06a9f319]:hover {
   color: #a78e06;
+}
+
+a[data-v-9ffe3f52] {
+  color: #b542b9;
+}
+button[data-v-9ffe3f52] {
+  width: 150px;
+}
+.fade[data-v-9ffe3f52] {
+  color: #9803a5;
+  /* transition: color 1s; */
+}
+.fade[data-v-9ffe3f52]:hover {
+  color: #06a71b;
 }
