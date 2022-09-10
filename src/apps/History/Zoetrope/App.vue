@@ -7,8 +7,8 @@
   <hr class="history_hr2">
   <br/>
   
-<div class="squareoff">
-<span style="font-weight:bold; font-size:1.3rem;">Zoetrope</span> is one of the pre-film devices that produced the illusion of motion by displaying a sequence of drawing or photographs showing progressive phases of that motion. It is consisted of a cylinder with vertical slits along the side. The inner surface of the cylinder features a row of sequential images. When it rotates at a high speed, the user can see the rapid succession of images through one of the slits on the cylinder, which create the ilusion of motion. 
+<div class="squareoff"> 
+Dating from the 1830s, the <span style="font-weight:bold; font-size:1.3rem;">zoetrope</span> was one of the pre-filmic devices that produced the illusion of motion by displaying a sequence of drawing or photographs. It is consisted of a cylinder with vertical slits along the sides. The inner surface of the cylinder featured a row of sequential images. When the cylinder rotated at just the right speed, the viewer could look through one of the slits to experience the illusion of motion. 
 </div>
 </div>
 	</div>
