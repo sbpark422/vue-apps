@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
-The first fully dynamic reality media was seen in the 1980s, when the Lumière brothers created cinématographe, which is one of the first motion picture apparatus. With this device, they made 'The Arrival of a Train at La Ciotat Station', which showcased their success in reproducing a facet of reality that photography could not, by having motion and time. 
+The first fully dynamic reality media was seen in the 1890s, when the Lumière brothers created <span style="font-style:italic">cinématographe</span>. With this device, they made a series of early films, including 'The Arrival of a Train at La Ciotat Station', which showcased their success in reproducing a facet of reality that still photography could not, by using the persistence of vision phenonomenon to create the illusion of motion. 
 </div>
 </div>
 	</div>
