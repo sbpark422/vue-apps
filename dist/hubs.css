@@ -419,20 +419,6 @@ outline: #333 solid 4px;
   padding: 16px 32px;
 }
 
-a[data-v-06a9f319] {
-  color: #b542b9;
-}
-button[data-v-06a9f319] {
-  width: 150px;
-}
-.fade[data-v-06a9f319] {
-  color: #9803a5;
-  /* transition: color 1s; */
-}
-.fade[data-v-06a9f319]:hover {
-  color: #a78e06;
-}
-
 a[data-v-9ffe3f52] {
   color: #b542b9;
 }
@@ -445,4 +431,18 @@ button[data-v-9ffe3f52] {
 }
 .fade[data-v-9ffe3f52]:hover {
   color: #06a71b;
+}
+
+a[data-v-06a9f319] {
+  color: #b542b9;
+}
+button[data-v-06a9f319] {
+  width: 150px;
+}
+.fade[data-v-06a9f319] {
+  color: #9803a5;
+  /* transition: color 1s; */
+}
+.fade[data-v-06a9f319]:hover {
+  color: #a78e06;
 }
