@@ -10,7 +10,7 @@
   <br/>
   
 <div class="squareoff">
- With interactions engaging more than just sight, immersion was achieved in new ways with the advent of Morton Heilig's Sensorama. Now, audiences weren't only watching narratives, they were putting themselves into new worlds - riding a motorcycle with the wind blowing through their hair and over their body, all while the smells of the open road filled their nostrils. 
+ In 1962, the American media technologist and filmmaker, Morton Heilig, created the Sensorama, a unique prototype for immersive experiences. The device was a high-tech, multi-sensory nickelodeon, including video, stereo sound, tactile and even olfactory feedback. The user sat with their head in the viewport and could, for example, experience the sensations of riding a motorcycle, including the feel of the wind in their hair and the smells of the open road. Heilig's Sensorama was a remediation of cinema of the time, but it  was also an expression of the desire for fully immersive virtual reality, which the computing pioneer Ivan Sutherland was pursuing in that same decade (see the Sword of Damocles exhibit to your right) . 
 </div>
 </div>
 	</div>
