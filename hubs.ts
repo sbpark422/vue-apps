@@ -183,6 +183,11 @@ import Label_bk from './src/apps/Label_bk/hubs'
 import Label_lg from './src/apps/Label_lg_text/hubs'
 import Title from './src/apps/Title/hubs'
 
+//JP
+import JP_test from './src/apps/JP/JP_test/hubs'
+
+
+
 export {
     // for updating ethereal once per tick
     systemTick, initializeEthereal,
@@ -221,7 +226,10 @@ export {
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
-    hubsTest1, hubsTest2, hubsTest3}
+    hubsTest1, hubsTest2, hubsTest3,
+    //Jp
+    JP_test
+}
 
 
 
