@@ -23,6 +23,22 @@ import Monolith5 from './src/apps/Monolith5_Genres/hubs'
 import Monolith6 from './src/apps/Monolith6_Future/hubs'
 import Monolith7 from './src/apps/Monolith7_Privacy/hubs'
 
+//Future
+import Past from './src/apps/Future/Past/hubs'
+import Quote_01 from './src/apps/Future/Quote_01/hubs'
+import Speculative from './src/apps/Future/Speculative/hubs'
+import Probable_01 from './src/apps/Future/Probable_01/hubs'
+import Probable_02 from './src/apps/Future/Probable_02/hubs'
+import Probable_03 from './src/apps/Future/Probable_03/hubs'
+import Probable_04 from './src/apps/Future/Probable_04/hubs'
+import Plausible_01 from './src/apps/Future/Plausible_01/hubs'
+import Plausible_02 from './src/apps/Future/Plausible_02/hubs'
+import Plausible_03 from './src/apps/Future/Plausible_03/hubs'
+import Possible_01 from './src/apps/Future/Possible_01/hubs'
+import Possible_02 from './src/apps/Future/Possible_02/hubs'
+import Possible_03 from './src/apps/Future/Possible_03/hubs'
+import Possible_04 from './src/apps/Future/Possible_04/hubs'
+
 //Genres
 import Alyx from './src/apps/Room5/Alyx/hubs'
 import Pokemon from './src/apps/Room5/Pokemon/hubs'
@@ -183,6 +199,9 @@ import Label_bk from './src/apps/Label_bk/hubs'
 import Label_lg from './src/apps/Label_lg_text/hubs'
 import Title from './src/apps/Title/hubs'
 
+
+
+
 export {
     // for updating ethereal once per tick
     systemTick, initializeEthereal,
@@ -202,6 +221,10 @@ export {
     
     //what are AR VR
     Lumiere,ARVR_table,ChainDiagram,PortalTable,PortalTableTitle,TV_seeit, Sutherland, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,Lanier_banner,Milgram_banner,
+    
+    //future
+    Past, Speculative, Quote_01, Probable_01, Probable_02, Probable_03, Probable_04,
+    Plausible_01, Plausible_02, Plausible_03, Possible_01,Possible_02, Possible_03, Possible_04, 
 
     //History
     LinearPerspective, LinearPerspective_Demo, Panorama, CameraObscura, Photography, Film, TV, Equirectangular, Sensorama, ImmersiveRides, Theaters, Theater_dome, VR, AR, GoogleStreetView, Trompe, Stereoscopic,UltimateDisplay, VRCave, Zoetrope, Metaverse, Skybox,
@@ -221,7 +244,8 @@ export {
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
-    hubsTest1, hubsTest2, hubsTest3}
+    hubsTest1, hubsTest2, hubsTest3
+}
 
 
 
