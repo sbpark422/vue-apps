@@ -18,7 +18,7 @@
         <div class="dia_line2_1"></div>
     </div>
     <div class="future_content">
-	VR is a promising tool for motor rehabilitation as it encourages people to use their body parts to control the play and the motivation by providing engaging scenarios. Therefore, VR treatments that help patients to recover from the injury and trauma will continue to grow. 
+	VR is a promising technology for rehabilitation as it encourages patients to use their body to play in the engaging scenarios. Therefore, VR treatments that help patients to recover from the injury and trauma will continue to grow. 
    </div>
     </div> 
   </div>

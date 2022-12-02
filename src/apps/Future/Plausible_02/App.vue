@@ -18,7 +18,10 @@
         <div class="dia_line2_2"></div>
     </div>
     <div class="future_content">
-	It is plausible that AR glasses will become ubiquitous. Information can wait on the periphery and then float into your field of view as needed, based on your location or what you are working on, just as notifications pop up or slide down now on your computer screen or mobile device.
+	Machine learning will make it possible for people to do full real-time translation between languages. Therefore, people will be able to converse with foreigners easily in a virtual space and in a real world with AR. Moreover, with improved machine learning, AI avatars will eventually replace the menu-driven systems for interacting with businesses and organizations in VR. They will be able to understand and respond to a wide range of questions that consumers pose.
+   <br/><br/>
+Users will wear a VR headset on the street or in a home or office and still safely navigate the space around her, as VR will also be able to map the moving objects.
+
    </div>
     </div> 
   </div>

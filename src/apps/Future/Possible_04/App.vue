@@ -10,7 +10,7 @@
         <div class="line_3"></div>
     </div>
   </div>
-  <Title class="future_title possible" msg="Sports" />
+  <Title class="future_title possible" msg="Education" />
   <br/>
      <div class="GFG2">
         <div class="line_3"></div>
@@ -18,7 +18,7 @@
         <div class="dia_line2_3"></div>
     </div>
     <div class="future_content">
-	It is possible that a large number of people in the developed world choose to spend much of their time in a VR metaverse.
+AR and VR technologies are now used extensively in education. While most primary and secondary schooling is still in person, it is possible to get online degrees in higher education entirely in VR. Also, Virtual learning environments could become increasingly commonplace increasingly early in life.
    </div>
     </div> 
   </div>

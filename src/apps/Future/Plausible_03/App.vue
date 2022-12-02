@@ -18,8 +18,7 @@
         <div class="dia_line2_2"></div>
     </div>
     <div class="future_content">
-	AR will become a daily part of medical care. For example, in surgery, AR can provide information to the surgeon while allowing them to use both of their hands during the procedure.
-   </div>
+VR therapy will be a part of daily life for most people. With the AR glasses, people will be able to self-diagnose their physical health and share this information with the doctor.   </div>
     </div> 
   </div>
   </div> 

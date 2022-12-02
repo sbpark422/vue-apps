@@ -10,7 +10,7 @@
         <div class="line_1"></div>
     </div>
   </div>
-  <Title class="future_title probable" msg="Information" />
+  <Title class="future_title probable" msg="Entertainment" />
   <br/>
      <div class="GFG2">
         <div class="line_1"></div>
@@ -18,8 +18,7 @@
         <div class="dia_line2_1"></div>
     </div>
     <div class="future_content">
-	AR will continue to develop in the direction of providing peripheral information mainly through mobile device 
-   </div>
+With the advanced tracking technologies and lighter headset, the player will be able to experience richer gameplay. Also, VR will be adopted as a dominant platform for 3D computer games such as role-playing and FPS.    </div>
     </div> 
   </div>
   </div> 

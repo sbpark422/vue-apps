@@ -26,18 +26,33 @@ import Monolith7 from './src/apps/Monolith7_Privacy/hubs'
 //Future
 import Past from './src/apps/Future/Past/hubs'
 import Quote_01 from './src/apps/Future/Quote_01/hubs'
+import Creative_misuses from './src/apps/Future/Creative_misuses/hubs'
+import Current_Tech from './src/apps/Future/Current_Tech/hubs'
+import Pessimistic from './src/apps/Future/Pessimistic/hubs'
 import Speculative from './src/apps/Future/Speculative/hubs'
+import Speculative_02 from './src/apps/Future/Speculative_02/hubs'
+
 import Probable_01 from './src/apps/Future/Probable_01/hubs'
 import Probable_02 from './src/apps/Future/Probable_02/hubs'
 import Probable_03 from './src/apps/Future/Probable_03/hubs'
 import Probable_04 from './src/apps/Future/Probable_04/hubs'
+import Probable_05 from './src/apps/Future/Probable_05/hubs'
+import Probable_06 from './src/apps/Future/Probable_06/hubs'
+import Probable_07 from './src/apps/Future/Probable_07/hubs'
+import Probable_08 from './src/apps/Future/Probable_08/hubs'
 import Plausible_01 from './src/apps/Future/Plausible_01/hubs'
 import Plausible_02 from './src/apps/Future/Plausible_02/hubs'
 import Plausible_03 from './src/apps/Future/Plausible_03/hubs'
+import Plausible_04 from './src/apps/Future/Plausible_04/hubs'
+import Plausible_05 from './src/apps/Future/Plausible_05/hubs'
+import Plausible_06 from './src/apps/Future/Plausible_06/hubs'
 import Possible_01 from './src/apps/Future/Possible_01/hubs'
 import Possible_02 from './src/apps/Future/Possible_02/hubs'
 import Possible_03 from './src/apps/Future/Possible_03/hubs'
 import Possible_04 from './src/apps/Future/Possible_04/hubs'
+import Possible_05 from './src/apps/Future/Possible_05/hubs'
+import Possible_06 from './src/apps/Future/Possible_06/hubs'
+import Possible_07 from './src/apps/Future/Possible_07/hubs'
 
 //Genres
 import Alyx from './src/apps/Room5/Alyx/hubs'
@@ -223,7 +238,7 @@ export {
     Lumiere,ARVR_table,ChainDiagram,PortalTable,PortalTableTitle,TV_seeit, Sutherland, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,Lanier_banner,Milgram_banner,
     
     //future
-    Past, Speculative, Quote_01, Probable_01, Probable_02, Probable_03, Probable_04,
+    Past, Speculative, Quote_01, Probable_01, Probable_02, Probable_03, Probable_04,Creative_misuses, Current_Tech, Pessimistic, Speculative_02, Probable_05, Probable_06, Probable_07, Probable_08, Plausible_04, Plausible_05, Plausible_06, Possible_05, Possible_06, Possible_07,
     Plausible_01, Plausible_02, Plausible_03, Possible_01,Possible_02, Possible_03, Possible_04, 
 
     //History
