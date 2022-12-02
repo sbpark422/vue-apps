@@ -18,8 +18,7 @@
         <div class="dia_line2_2"></div>
     </div>
     <div class="future_content">
-	The plausible future is the space of what could likely happen. In entertainment, we envision that players will wear VR headsets and play shooter games in a large game space with physical obstacles to hide beyond.
-
+The plausible includes future developments that seem more likely to happen and reasonable. In the plausible future, headsets will become one way in which we access the world of digital information, not just for games and specialized forms of education, but in general. 
    </div>
     </div> 
   </div>

@@ -21,7 +21,7 @@
 	 In this gallery, we speculate about the futures of AR and VR technologies, following the classification strategy by Anthony Dunne and Fiona Raby (2013) in ‘Speculative Everything’, borrowed in turn from designer Stewart Candy. The futures in this context are not destinations we strive to arrive at but a medium we speculate with (Dunne and Raby, 2013). 
    <br/>
    <br/>
-   Take a look at the exhibitions for each of the three futures: Probable, Plausible, and Possible, and get a glimpse into how we envision the futures of AR and VR on some of the major subjects.'
+   Take a look at the exhibitions for each of the three futures: Probable, Plausible, and Possible, and get a glimpse into how we envision the futures of AR and VR on some of the major subjects.
    <br/>
    <br/>
    Dunne, A., & Raby, F. (2013). Speculative everything: design, fiction, and social dreaming. MIT press.

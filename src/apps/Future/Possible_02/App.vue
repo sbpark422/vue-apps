@@ -10,7 +10,7 @@
         <div class="line_3"></div>
     </div>
   </div>
-  <Title class="future_title possible" msg="Virtual Twin" />
+  <Title class="future_title possible" msg="Possible Future" />
   <br/>
      <div class="GFG2">
         <div class="line_3"></div>
@@ -18,8 +18,10 @@
         <div class="dia_line2_3"></div>
     </div>
     <div class="future_content">
-	It is possible that a digital twin or 3-D replica of the physical world in which every building, street, town, and the city is available and everyone can have their own version of it. Then, users could wear a VR headset on the street or in a home or office and still safely navigate the space around them. (mapping of the moving objects)
-   </div>
+In the possible future, everyone has a headset and uses it much of the time. The headset has become as indispensable for digital participation as the mouse and keyboard were in the 20th century. Not just gloves but whole haptic bodysuits are common. 
+
+In addition, AR and VR technologies have merged. High resolution screens on headsets are capable of switching modes from see-through augmentation to total computer graphic scenes without loss of resolution, so that the same headset can function for both. 
+    </div>
     </div> 
   </div>
   </div> 

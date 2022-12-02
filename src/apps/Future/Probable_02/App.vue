@@ -18,7 +18,7 @@
         <div class="dia_line2_1"></div>
     </div>
     <div class="future_content">
-	VR is praised for its ability to place users in a spatially simulated environment. This is especially useful for training purposes when creating real training environments that are difficult to achieve or could put the trainees in danger, as VR could provide safe training environments. For that reason, much research effort and applications in the market focus on training in the simulated world.
+	VR is praised for its ability to place users in a spatially simulated environment. This is especially useful for training purposes when creating real training environments that are difficult to achieve or could put the trainees in danger. For that reason, much research effort and applications in the near future will expand for training purposes. To illustrate, it is probable that sports players will practice in VR, going through different scenarios.
    </div>
     </div> 
   </div>
