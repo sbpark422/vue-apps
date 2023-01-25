@@ -206,6 +206,14 @@ import rotundaMap from './src/apps/Onboarding/rotundaMap/hubs'
 import Overview from './src/apps/Onboarding/Overview/hubs'
 import Back from './src/apps/Onboarding/Back/hubs'
 import Portals from './src/apps/Onboarding/Portals/hubs'
+
+//Citations
+import Cite_Genre from './src/apps/Citations/Citations_Genres/hubs'
+import Cite_Presence from './src/apps/Citations/Citations_PresAur/hubs'
+import Cite_What from './src/apps/Citations/Citations_WhatAreReality/hubs'
+
+
+
 //test
 import AudioPad from './src/apps/AudioPad/hubs'
 import Label from './src/apps/Label/hubs'
@@ -257,6 +265,9 @@ export {
     //Pit 
     Pit, PitInstruction, pitSign1,pitSign2,pitSign3,
     
+    //Citations
+    Cite_Genre, Cite_Presence, Cite_What,
+
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
