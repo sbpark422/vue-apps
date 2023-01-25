@@ -18,10 +18,9 @@
         <div class="dia_line2_1"></div>
     </div>
     <div class="future_content">
-It is probable that there will be a VR and AR fashion trend, as people will dress up for the AR and VR view. 
+We will likely see a new trend emerge in fashion. The increasing use of AR and VR in daily life will create a demand for clothing and accessories that are designed specifically for these virtual spaces. This could include clothing that enhances the appearance of avatars, or accessories that provide added functionality within the virtual world. Additionally, people may start to wear VR head-mounted displays and controllers as fashionable accessories, similar to how smartphones and smartwatches are worn today. 
 <br/><br/>
-Designers and architects will use VR and AR to better envisage a product and space and present to the clients. For instance, AR could help city planners to better understand and manage their cities.
-    </div> 
+It is probable that designers and architects will use VR and AR to gain a more accurate understanding of the final product while communicating their ideas more effectively to clients.    </div> 
     </div>
   </div>
   </div> 

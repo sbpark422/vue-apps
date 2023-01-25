@@ -18,7 +18,10 @@
         <div class="dia_line2_1"></div>
     </div>
     <div class="future_content">
-With the advanced tracking technologies and lighter headset, the player will be able to experience richer gameplay. Also, VR will be adopted as a dominant platform for 3D computer games such as role-playing and FPS.    </div>
+It is probable that VR will alter the way we watch movies and television. Audiences will have the ability to experience the film or show in an immersive way, similar to being physically present in the scene. This will also apply to live sports, fans will be able to watch live games as if they are on the field with the players, providing an entirely new level of engagement and excitement. Over time, it's expected that VR will become a dominant platform for visual media consumption, offering a new and exciting way for audiences to experience entertainment.
+
+
+ </div>
     </div> 
   </div>
   </div> 

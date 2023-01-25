@@ -18,10 +18,9 @@
         <div class="dia_line2_2"></div>
     </div>
     <div class="future_content">
-	Machine learning will make it possible for people to do full real-time translation between languages. Therefore, people will be able to converse with foreigners easily in a virtual space and in a real world with AR. Moreover, with improved machine learning, AI avatars will eventually replace the menu-driven systems for interacting with businesses and organizations in VR. They will be able to understand and respond to a wide range of questions that consumers pose.
-   <br/><br/>
-Users will wear a VR headset on the street or in a home or office and still safely navigate the space around her, as VR will also be able to map the moving objects.
-
+Advances in machine learning will make it possible for people to do full real-time translations between languages. This will be particularly beneficial in VR environments, where people from all over the world can easily converse with each other. Similarly, in the real world, AR-based translation tools will facilitate communication and understanding between people speaking different languages.
+<br/><br/>
+Moreover, AI avatars will become more capable of handling more complex interactions, including conversation, beyond the traditional menu-driven systems. 
    </div>
     </div> 
   </div>

@@ -18,7 +18,7 @@
         <div class="dia_line2_3"></div>
     </div>
     <div class="future_content">
-	The possible future comprises every conceivable advance in VR and AR hardware and software: whatever has the remotest chance of occurring, the most utopian or dystopian predictions of how the technology will develop and be used. It should be scientifically possible, which means that there should be a path from the present moment to the envisioned scenario. This is where creative misuses and abuses abound. In the realm of the possible, which includes the probable and the plausible, we can imagine that VR has reached a very high state of social acceptance. 
+The possible future comprises every conceivable advance in VR and AR hardware and software, including both utopian and dystopian predictions of how the technology will develop and be used. It includes any scenario that is scientifically possible, which means that there should be a path from the current state of technology to the envisioned scenario. In this realm of the possible, we can imagine that VR and AR have reached high social acceptance and have become integrated into various aspects of life. It's also important to note that the possible future is where creative misuses and abuses abound.
    </div>
     </div> 
   </div>
