@@ -18,12 +18,10 @@
         <div class="dia_line2"></div>
     </div>
     <div class="future_content">
-	We should be aware of the creative misuses of new media technologies when we envision the futures of AR and VR because they are one of the characteristics of the most successful media technologies since the nineteenth century:
+	As we look into how AR and VR could shape our futures, it is crucial to consider the potential for these technologies to be misused. Creative misuse is a characteristic of many successful media technologies throughout history, including YouTube and Facebook:
    <br/>
    <br/>
 YouTube was originally envisioned as a site for posting short amateur videos, and Facebook, its range of uses and misuses has grown in unpredictable ways. 
-
-
    </div>
     </div> 
   </div>

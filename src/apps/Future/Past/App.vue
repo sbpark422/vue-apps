@@ -18,7 +18,7 @@
         <div class="dia_line2"></div>
     </div>
     <div class="future_content">
-	Past media is filled with creative yet sometimes outlandish future predictions. In this snapshot from the silent SF movie ‘metropolis1927’, you can get a glimpse of the future imagined by the film director, German expressionist Fritz Lang; air transportation, androids, human cloning, and video calling, some of which are possible in the present moment.
+The 1927 film "Metropolis" directed by Fritz Lang is considered a classic of the science fiction genre and is known for its imaginative depiction of a technologically advanced future world. The film's portrayal of air transportation, androids, and video calling present how Lang's imagination was able to anticipate real-world technological advancements. 
    </div>
     </div> 
   </div>

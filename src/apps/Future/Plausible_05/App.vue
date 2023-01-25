@@ -18,7 +18,7 @@
         <div class="dia_line2_2"></div>
     </div>
     <div class="future_content">
-Online courses and degrees offered by universities will be mediated with 3D technologies. Also, it is plausible that VR educational intervention such as virtual field trips will be part of the school curriculum. 
+Online courses and degrees offered by universities will be mediated with 3D technologies. Also, it is plausible that VR educational interventions such as virtual field trips to historical sites, scientific research stations, or even other countries and cultures will be part of the school curriculum. 
     </div> 
     </div> 
   </div>

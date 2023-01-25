@@ -31,6 +31,7 @@ import Current_Tech from './src/apps/Future/Current_Tech/hubs'
 import Pessimistic from './src/apps/Future/Pessimistic/hubs'
 import Speculative from './src/apps/Future/Speculative/hubs'
 import Speculative_02 from './src/apps/Future/Speculative_02/hubs'
+import Speculative_03 from './src/apps/Future/Speculative_03/hubs'
 
 import Probable_01 from './src/apps/Future/Probable_01/hubs'
 import Probable_02 from './src/apps/Future/Probable_02/hubs'
@@ -205,6 +206,14 @@ import rotundaMap from './src/apps/Onboarding/rotundaMap/hubs'
 import Overview from './src/apps/Onboarding/Overview/hubs'
 import Back from './src/apps/Onboarding/Back/hubs'
 import Portals from './src/apps/Onboarding/Portals/hubs'
+
+//Citations
+import Cite_Genre from './src/apps/Citations/Citations_Genres/hubs'
+import Cite_Presence from './src/apps/Citations/Citations_PresAur/hubs'
+import Cite_What from './src/apps/Citations/Citations_WhatAreReality/hubs'
+
+
+
 //test
 import AudioPad from './src/apps/AudioPad/hubs'
 import Label from './src/apps/Label/hubs'
@@ -238,7 +247,7 @@ export {
     Lumiere,ARVR_table,ChainDiagram,PortalTable,PortalTableTitle,TV_seeit, Sutherland, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,Lanier_banner,Milgram_banner,
     
     //future
-    Past, Speculative, Quote_01, Probable_01, Probable_02, Probable_03, Probable_04,Creative_misuses, Current_Tech, Pessimistic, Speculative_02, Probable_05, Probable_06, Probable_07, Probable_08, Plausible_04, Plausible_05, Plausible_06, Possible_05, Possible_06, Possible_07,
+    Past, Speculative, Speculative_02, Speculative_03, Quote_01, Probable_01, Probable_02, Probable_03, Probable_04,Creative_misuses, Current_Tech, Pessimistic, Probable_05, Probable_06, Probable_07, Probable_08, Plausible_04, Plausible_05, Plausible_06, Possible_05, Possible_06, Possible_07,
     Plausible_01, Plausible_02, Plausible_03, Possible_01,Possible_02, Possible_03, Possible_04, 
 
     //History
@@ -256,6 +265,9 @@ export {
     //Pit 
     Pit, PitInstruction, pitSign1,pitSign2,pitSign3,
     
+    //Citations
+    Cite_Genre, Cite_Presence, Cite_What,
+
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests

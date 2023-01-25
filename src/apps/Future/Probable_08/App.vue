@@ -18,8 +18,7 @@
         <div class="dia_line2_1"></div>
     </div>
     <div class="future_content">
-All of the changes will lead to more sophisticated and surveillance capitalism, capturing and monetizing more data from users and their public and private spaces.
-    </div> 
+All of the changes could lead to surveillance capitalism, capturing and monetizing personal data from users. With the growing use of VR and AR, this could include capturing data on users' virtual interactions, movements, and preferences, in both public and private spaces.    </div> 
   </div>
   </div> 
   </div>

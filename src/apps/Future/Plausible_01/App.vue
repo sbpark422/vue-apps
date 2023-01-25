@@ -18,8 +18,7 @@
         <div class="dia_line2_2"></div>
     </div>
     <div class="future_content">
-The plausible includes future developments that seem more likely to happen and reasonable. In the plausible future, headsets will become one way in which we access the world of digital information, not just for games and specialized forms of education, but in general. 
-   </div>
+The plausible include future developments that seem more likely to happen and reasonable. In the plausible future, headsets will become one way in which we access the world of digital information, not just for games and specialized forms of education, but in general.    </div>
     </div> 
   </div>
   </div> 

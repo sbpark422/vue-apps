@@ -18,7 +18,8 @@
         <div class="dia_line2_2"></div>
     </div>
     <div class="future_content">
-Some people will have a virtual marriage.    </div> 
+It is plausible that we will see more people engaging in virtual activities such as virtual marriages, where couples create a virtual ceremony that mimics a real-life wedding and invites virtual guests. The use of VR in this context could also provide a new way for people to connect, and experience life events together, regardless of their physical location.
+</div> 
   </div>
   </div> 
   </div> 

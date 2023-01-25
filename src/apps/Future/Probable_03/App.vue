@@ -18,8 +18,9 @@
         <div class="dia_line2_1"></div>
     </div>
     <div class="future_content">
-	VR is a promising technology for rehabilitation as it encourages patients to use their body to play in the engaging scenarios. Therefore, VR treatments that help patients to recover from the injury and trauma will continue to grow. 
-   </div>
+VR is a promising technology for rehabilitation as it encourages patients to use their bodies to play in engaging scenarios. Therefore, VR treatments that help patients to recover from injury and trauma will continue to grow. 
+
+As for AR, it is likely that it will become a common part of medical care. During surgical procedures, for example, AR could provide surgeons with necessary information while allowing them to use both hands to perform the procedure.    </div>
     </div> 
   </div>
   </div> 
