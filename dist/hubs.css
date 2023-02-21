@@ -170,6 +170,25 @@ footer, header, hgroup, main, menu, nav, section {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 #room {
     font-family: 'Roboto Flex', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -407,9 +426,10 @@ a:hover {
 /* ########################### */
 /* future */
 #room.future {
-  background: #FFFFFF;
+  background: transparent;
   color:#000000;
-  font-family: 'Roboto', serif;
+  font-family: 'Source Sans Pro', serif;
+
   border-radius: 0;
 }
 .future_content{
@@ -433,7 +453,8 @@ a:hover {
 
 #room h2.future_title {
   text-align: left;
-  font-size: 2rem;
+  font-weight: 700;
+  font-size: 2.3rem;
   padding-bottom: 10px;
   text-align: center;
   padding:0;
@@ -453,6 +474,7 @@ a:hover {
   color:#aa97ff;
 }
 
+/*
 .GFG .line {
   width: 10px;
   height: 20px;
@@ -482,7 +504,7 @@ a:hover {
   border-top: 2px solid #938d8b;
 }
 
-/* // */
+
 .GFG .line_1 {
   width: 10px;
   height: 20px;
@@ -512,7 +534,7 @@ a:hover {
   border-top: 2px solid #00DEFE;
 }
 
-/*  */
+  
 .GFG .line_2 {
   width: 10px;
   height: 20px;
@@ -542,7 +564,6 @@ a:hover {
   border-top: 2px solid #4af0a4;
 }
 
-/*  */
 .GFG .line_3 {
   width: 10px;
   height: 20px;
@@ -571,6 +592,8 @@ a:hover {
   left: -10px;
   border-top: 2px solid #aa97ff;
 }
+
+*/
 .middle[data-v-12a4a6aa] {
   transition: .5s ease;
   opacity: 0;
