@@ -10,8 +10,7 @@
         <div class="line"></div>
     </div>
   </div>
-  <Title class="future_title" msg="Predictions in the Past" />
-  <br/>
+  <Title class="future_title present" msg="Predictions in the Past" />
      <div class="GFG2">
         <div class="line"></div>
         <div class="dia_line"></div>
