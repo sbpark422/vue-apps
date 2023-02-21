@@ -10,8 +10,8 @@
         <div class="line"></div>
     </div>
   </div>
-    <div class="future_content oblique">
-	“VR will continue to construct special realities, apart from the everyday. VR worlds will continue to be metaphoric worlds”
+    <div class="future_content oblique" style="font-size: 1.5rem;">
+	“VR will continue to construct special realities, apart from the everyday. VR worlds will continue to be metaphoric worlds.”
    </div>
 
     </div> 

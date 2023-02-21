@@ -11,7 +11,6 @@
     </div>
   </div>
   <Title class="future_title probable" msg="Entertainment" />
-  <br/>
      <div class="GFG2">
         <div class="line_1"></div>
         <div class="dia_line_1"></div>

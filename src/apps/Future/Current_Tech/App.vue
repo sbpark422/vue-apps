@@ -11,7 +11,6 @@
     </div>
   </div>
   <Title class="future_title present" msg="Current AR and VR Technologies" />
-  <br/>
      <div class="GFG2">
         <div class="line"></div>
         <div class="dia_line"></div>

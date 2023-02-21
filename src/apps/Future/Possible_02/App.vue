@@ -10,15 +10,8 @@
         <div class="line_3"></div>
     </div>
   </div>
-  <Title class="future_title possible" msg="Possible Future" />
-  <br/>
-     <div class="GFG2">
-        <div class="line_3"></div>
-        <div class="dia_line_3"></div>
-        <div class="dia_line2_3"></div>
-    </div>
     <div class="future_content">
-In the possible future, everyone has a headset and uses it much of the time. The headset has become as indispensable for digital participation as the mouse and keyboard were in the 20th century. Not just gloves but whole haptic bodysuits are common. 
+<span style="font-size:1.8rem; font-weight:700;color:#aa97ff;">In the possible future,</span> everyone has a headset and uses it much of the time. The headset has become as indispensable for digital participation as the mouse and keyboard were in the 20th century. Not just gloves but whole haptic bodysuits are common. 
 <br/><br/>
 In addition, AR and VR technologies have merged. High resolution screens on headsets are capable of switching modes from see-through augmentation to total computer graphic scenes without loss of resolution, so that the same headset can function for both. 
     </div>

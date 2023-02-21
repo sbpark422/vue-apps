@@ -11,14 +11,15 @@
     </div>
   </div>
   <Title class="future_title possible" msg="Possible Future" />
-  <br/>
      <div class="GFG2">
         <div class="line_3"></div>
         <div class="dia_line_3"></div>
         <div class="dia_line2_3"></div>
     </div>
     <div class="future_content">
-The possible future comprises every conceivable advance in VR and AR hardware and software, including both utopian and dystopian predictions of how the technology will develop and be used. It includes any scenario that is scientifically possible, which means that there should be a path from the current state of technology to the envisioned scenario. In this realm of the possible, we can imagine that VR and AR have reached high social acceptance and have become integrated into various aspects of life. It's also important to note that the possible future is where creative misuses and abuses abound.
+The possible future comprises every conceivable advance in VR and AR hardware and software, including both utopian and dystopian predictions of how the technology will develop and be used. It includes any scenario that is scientifically possible, which means that there should be a path from the current state of technology to the envisioned scenario. 
+<br><br>
+In this realm of the possible, we can imagine that VR and AR have reached high social acceptance and have become integrated into various aspects of life. It's also important to note that the possible future is where creative misuses and abuses abound.
    </div>
     </div> 
   </div>

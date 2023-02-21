@@ -11,7 +11,6 @@
     </div>
   </div>
   <Title class="future_title possible" msg="Virtual Twin" />
-  <br/>
      <div class="GFG2">
         <div class="line_3"></div>
         <div class="dia_line_3"></div>
