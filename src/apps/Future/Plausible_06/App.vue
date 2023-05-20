@@ -2,23 +2,12 @@
   <div> 
   <div id="room" class="future">
   <div class="squareoff">
-  <div class="clearfix">
-     <div class="GFG">
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-    </div>
-  </div>
   <Title class="future_title plausible" msg="Social" />
-     <div class="GFG2">
-        <div class="line_2"></div>
-        <div class="dia_line_2"></div>
-        <div class="dia_line2_2"></div>
-    </div>
+     <div class="future_line line_plausible" style="width:140px"></div>
+
     <div class="future_content">
-It is plausible that we will see more people engaging in virtual activities such as virtual marriages, where couples create a virtual ceremony that mimics a real-life wedding and invites virtual guests. The use of VR in this context could also provide a new way for people to connect, and experience life events together, regardless of their physical location.
-</div> 
+It is plausible that we will see more people engaging in virtual activities such as virtual marriages, where couples create a virtual ceremony that mimics a real-life wedding and invites virtual guests. The use of VR in this context could also provide a new way for people to connect, and experience life events together, regardless of their physical location.<br/><br/>
+In the realm of AR, overlaying virtual filters or visualizations can offer individuals a unique way to express their emotions and thoughts visually. Moreover, AR technology will enable users to simulate the sensory experiences of others, such as seeing through the eyes of a person with color blindness. This could foster understanding and empathy. Additionally, AI-powered AR assistants could analyze speech patterns and facial expressions of others, enabling them to detect emotional states and provide valuable support during conversations and interactions. </div> 
   </div>
   </div> 
   </div> 

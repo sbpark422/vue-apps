@@ -2,20 +2,9 @@
   <div> 
   <div id="room" class="future">
   <div class="squareoff">
-  <div class="clearfix">
-     <div class="GFG">
-        <div class="line_3"></div>
-        <div class="line_3"></div>
-        <div class="line_3"></div>
-        <div class="line_3"></div>
-    </div>
-  </div>
   <Title class="future_title possible" msg="Possible Future" />
-     <div class="GFG2">
-        <div class="line_3"></div>
-        <div class="dia_line_3"></div>
-        <div class="dia_line2_3"></div>
-    </div>
+   <div class="future_line line_possible" style="width:350px"></div>
+
     <div class="future_content">
 The possible future comprises every conceivable advance in VR and AR hardware and software, including both utopian and dystopian predictions of how the technology will develop and be used. It includes any scenario that is scientifically possible, which means that there should be a path from the current state of technology to the envisioned scenario. 
 <br><br>
