@@ -2,23 +2,13 @@
   <div> 
   <div id="room" class="future">
   <div class="squareoff">
-  <div class="clearfix">
-     <div class="GFG">
-        <div class="line_1"></div>
-        <div class="line_1"></div>
-        <div class="line_1"></div>
-        <div class="line_1"></div>
-    </div>
-  </div>
   <Title class="future_title probable" msg="Education" />
-     <div class="GFG2">
-        <div class="line_1"></div>
-        <div class="dia_line_1"></div>
-        <div class="dia_line2_1"></div>
-    </div>
-    <div class="future_content">
-It is probable that AR technology also finds its way into classrooms, enhancing the learning experience for students. Through the use of interactive 3D simulations, visual aids, and other engaging features, students will be able to gain a better understanding and retention of the material being taught. 
+     <div class="future_line line_probable" style="width:210px"></div>
 
+    <div class="future_content">
+VR educational interventions are expected to become an integral component of the school curriculum. Virtual field trips to historical sites, scientific research stations, and various countries and cultures will offer students immersive experiences that were beyond their reach.
+<br /><br />
+On the other hand, AR can greatly enhance learning experience by providing real-time language translation capabilities, powered by AI. Through AR interfaces, students can effortlessley read foreign books or listen to spoken translations of foreign languages.
 </div>
     </div> 
   </div>

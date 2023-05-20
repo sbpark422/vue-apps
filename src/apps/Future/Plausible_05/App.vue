@@ -2,23 +2,13 @@
   <div> 
   <div id="room" class="future">
   <div class="squareoff">
-  <div class="clearfix">
-     <div class="GFG">
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-    </div>
-  </div>
   <Title class="future_title plausible" msg="Education" />
-     <div class="GFG2">
-        <div class="line_2"></div>
-        <div class="dia_line_2"></div>
-        <div class="dia_line2_2"></div>
-    </div>
+   <div class="future_line line_plausible" style="width:220px"></div>
+
     <div class="future_content">
-Online courses and degrees offered by universities will be mediated with 3D technologies. Also, it is plausible that VR educational interventions such as virtual field trips to historical sites, scientific research stations, or even other countries and cultures will be part of the school curriculum. 
-    </div> 
+AI-powered virtual tutors are anticipated to play a significant role in education. In virtual spaces, these intelligent tutors will provide personalized instruction, guidance, and feedback to students. By adapting to individual learning styles and needs, virtual tutors can enhance the effectiveness of online education, catering to the unique requirements of each student.
+<br/><br/>
+Furthermore, multi-sensory experiences will revolutionize subjects like biology and chemistry. Through VR, students will have the opportunity to explore and interact with virtual organisms, molecules, and chemical reactions. By engaging multiple senses, including touch, hearing, and even smell or taste, students can deepen their understanding and memory of scientific concepts, creating impactful learning experiences.    </div> 
     </div> 
   </div>
   </div> 

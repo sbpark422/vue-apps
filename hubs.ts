@@ -34,6 +34,7 @@ import Speculative_02 from './src/apps/Future/Speculative_02/hubs'
 import Speculative_03 from './src/apps/Future/Speculative_03/hubs'
 
 import Probable_01 from './src/apps/Future/Probable_01/hubs'
+import Probable_01_2 from './src/apps/Future/Probable_01_2/hubs'
 import Probable_02 from './src/apps/Future/Probable_02/hubs'
 import Probable_03 from './src/apps/Future/Probable_03/hubs'
 import Probable_04 from './src/apps/Future/Probable_04/hubs'
@@ -247,7 +248,7 @@ export {
     Lumiere,ARVR_table,ChainDiagram,PortalTable,PortalTableTitle,TV_seeit, Sutherland, History_map_info,Palmer,Lanier,Laciotat_banner,Oculus_info, ARPortal,Laciotat_info, Laciotat_Portal_info, Milgram, Left_banner, Sutherland_banner, TV_banner, Oculus_banner,Lanier_banner,Milgram_banner,
     
     //future
-    Past, Speculative, Speculative_02, Speculative_03, Quote_01, Probable_01, Probable_02, Probable_03, Probable_04,Creative_misuses, Current_Tech, Pessimistic, Probable_05, Probable_06, Probable_07, Probable_08, Plausible_04, Plausible_05, Plausible_06, Possible_05, Possible_06, Possible_07,
+    Past, Speculative, Speculative_02, Speculative_03, Quote_01, Probable_01, Probable_01_2, Probable_02, Probable_03, Probable_04,Creative_misuses, Current_Tech, Pessimistic, Probable_05, Probable_06, Probable_07, Probable_08, Plausible_04, Plausible_05, Plausible_06, Possible_05, Possible_06, Possible_07,
     Plausible_01, Plausible_02, Plausible_03, Possible_01,Possible_02, Possible_03, Possible_04, 
 
     //History

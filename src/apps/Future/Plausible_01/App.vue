@@ -2,26 +2,15 @@
   <div> 
   <div id="room" class="future">
   <div class="squareoff">
-  <div class="clearfix">
-     <div class="GFG">
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-        <div class="line_2"></div>
-    </div>
-  </div>
   <Title class="future_title plausible" msg="Plausible Future" />
-     <div class="GFG2">
-        <div class="line_2"></div>
-        <div class="dia_line_2"></div>
-        <div class="dia_line2_2"></div>
-    </div>
+   <div class="future_line line_plausible" style="width:360px"></div>
+
     <div class="future_content">
-The plausible include future developments that seem more likely to happen and reasonable. In the plausible future, headsets will become one way in which we access the world of digital information, not just for games and specialized forms of education, but in general.   
+The plausible include future developments that seem more likely to happen and reasonable. In the plausible future, advances in machine learning will enable AI systems to understand and respond to user inputs in a more intuitive manner. Rather than relying on traditional menu-driven systems, AI in AR and VR will leverage machine learning techniques to handle more complex interactions including conversation.
 <br/><br/>
-Advances in machine learning will make it possible for people to do full real-time translations between languages. This will be particularly beneficial in VR environments, where people from all over the world can easily converse with each other. Similarly, in the real world, AR-based translation tools will facilitate communication and understanding between people speaking different languages.
-<br/><br/>
-Moreover, AI avatars will become more capable of handling more complex interactions, including conversation, beyond the traditional menu-driven systems. 
+Another plausible future scenario is that VR headsets will become one way in which we access the world of digital information, not just for games and specialized forms of education, but in general.   
+
+
  </div>
     </div> 
   </div>

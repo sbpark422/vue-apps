@@ -2,22 +2,15 @@
   <div> 
   <div id="room" class="future">
   <div class="squareoff">
-  <div class="clearfix">
-     <div class="GFG">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
-  </div>
   <Title class="future_title present" msg="Predictions in the Past" />
-     <div class="GFG2">
-        <div class="line"></div>
-        <div class="dia_line"></div>
-        <div class="dia_line2"></div>
-    </div>
+   <div class="future_line" style="width:490px"></div>
     <div class="future_content">
-The 1927 film "Metropolis" directed by Fritz Lang is considered a classic of the science fiction genre and is known for its imaginative depiction of a technologically advanced future world. The film's portrayal of air transportation, androids, and video calling present how Lang's imagination was able to anticipate real-world technological advancements. 
+The 1927 film "Metropolis" directed by Fritz Lang is considered a classic of the science fiction genre and is known for its imaginative depiction of a technologically advanced future world. The film's portrayal of air transportation, androids, and video calling present how Lang's imagination was able to anticipate real-world technological advancements.
+<br /> <br /> 
+   <div class="ref" style="width:110px;">
+    <span class="author">Fritz Lang.</span> (1927).
+    <br/> Metropolis 
+   </div>
    </div>
     </div> 
   </div>
