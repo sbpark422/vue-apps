@@ -361,6 +361,7 @@ a:hover {
   font-weight: 600;
 }
 
+/*
 .future_line{
   width: 170px;
 	height: 10px;
@@ -369,6 +370,7 @@ a:hover {
 	background: black;
 }
 
+
 .future_line{
   width: 170px;
 	height: 10px;
@@ -376,7 +378,7 @@ a:hover {
 	transform: skew(20deg);
 	background: black;
 }
-
+*/
 .line_probable{
   background: #00DEFE;
 }
