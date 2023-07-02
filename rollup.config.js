@@ -27,9 +27,9 @@ var serverPath
 if ((process.env.BUILD !== 'production')) {
   componentPath = ""
     // your ngrok host name for local testing
-    serverPath = "https://blair-vue-apps.ngrok.io";
+    serverPath = "https://jay-vue-apps.ngrok.io";
 } else {
-    serverPath = "https://resources.realitymedia.digital";
+    serverPath = "https://aloha062123.github.io";
 }
 var componentPath = serverPath + '/vue-apps/'
 export default [{//["HubsTest1", "HubsTest2"].map((name, index) => ({

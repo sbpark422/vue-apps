@@ -224,6 +224,8 @@ import Label_bk from './src/apps/Label_bk/hubs'
 import Label_lg from './src/apps/Label_lg_text/hubs'
 import Title from './src/apps/Title/hubs'
 
+import Chatbot from './src/apps/Chatbot/hubs'
+
 
 
 
@@ -272,7 +274,9 @@ export {
     // Portal titles
     PortalTitle, PortalSubtitle, GraphLabel,
     // Tests
-    hubsTest1, hubsTest2, hubsTest3
+    hubsTest1, hubsTest2, hubsTest3,
+
+    Chatbot,
 }
 
 
