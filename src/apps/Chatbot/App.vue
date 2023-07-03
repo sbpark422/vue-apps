@@ -3,8 +3,12 @@
     <div id="room" class="darkwall" :style="style">
       <div class="titleStyle">{{ title }}</div>
       <!-- <input v-model="content" type="text" placeholder="Ask something..." class="input" clear> -->
-      <input v-model="content" type="text" placeholder="Ask something..." class="input" clear>
-      <!-- <input v-model="content" type="text" placeholder="Ask something..." class="input" clear> -->
+      <!-- <input v-model="content" type="text" placeholder="Ask something..." class="input" readonly> -->
+      <div class="input-area"> 
+        <input v-model="content" type="text" placeholder="Ask something..." class="input">
+        <button class="input-button">{{ content }}</button>
+      </div>
+
       <div class="button-block">
         <button type="button" @click="askAi" class="btn">
           <strong>{{ btnText }}</strong>
@@ -18,6 +22,19 @@
         </button>
         <!-- <button xr-layer @click="shared.increment">count is: {{ shared.state.count }}</button> -->
       </div>
+
+
+      
+      <!-- <input v-model="content" type="text" placeholder="Ask something..." class="input" clear> -->
+
+            <!-- Add the keyboard interface here -->
+      <div class="keyboard">
+        <button v-for="char in alphabet" :key="char" @click="addCharacter(char)">{{ char }}</button>
+        <button @click="addCharacter(' ')">Space</button>
+        <button @click="deleteCharacter()">Delete</button>
+        <button @click="clearContent()">Clear</button>
+      </div>
+
       <div class="card">
         <pre class="answer">{{ res }}</pre>
       </div>
@@ -29,6 +46,32 @@
 </template>
 
 <style scoped>
+.input-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Makes the container take up full width */
+}
+
+.input-area .input,
+.input-area .input-button {
+  width: 100%; /* Makes children take up full width */
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  margin: 0 auto; /* Add this line */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.keyboard button {
+  flex: 1 0 30px;
+  margin: 1px;
+  height: 30px;
+}
+
 .card {
   height: 600px;
   max-height: 200px; /* Adjust the maximum height as needed */
@@ -43,6 +86,22 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-size: 0.5em; /* Adjust the font size as needed */
+}
+
+.input-button {
+  display: none; /* This will hide the button */
+  padding: 5px;
+  width: 100%;
+  font-size: 1em;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: text; /* changes the cursor to be similar to input fields */
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis; /* handle long texts */
+  white-space: nowrap;
 }
 </style>
 
@@ -69,15 +128,8 @@ const BTN_TEXT = 'Submit 🚀'
 const res = ref('✅ The answer will be displayed here.')
 const btnText = ref(BTN_TEXT)
 
-// const askAi = () => {
-//   res.value = 'What is Reality Media?';
-//   //content.value; // Display the user's input in the answer section
-//   //content.value = ''; // Clear the input field
-//   btnText.value = BTN_TEXT; // Reset the button text
-// }
-
-
 console.log(import.meta.env)
+
 const askAi = () => {
   btnText.value = 'Thinking...🤔'
   fetch('https://api.openai.com/v1/chat/completions', {
@@ -107,6 +159,24 @@ const askAi = () => {
     .finally(() => {
       btnText.value = BTN_TEXT
     })
+}
+
+
+// Add data for the keyboard interface
+let alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+
+// Add methods for the keyboard interface
+const addCharacter = (char) => {
+  content.value += char;
+  shared.setContent(content.value);
+}
+const deleteCharacter = () => {
+  content.value = content.value.slice(0, -1);
+  shared.setContent(content.value);
+}
+const clearContent = () => {
+  content.value = '';
+  shared.setContent(content.value);
 }
 
 </script>
